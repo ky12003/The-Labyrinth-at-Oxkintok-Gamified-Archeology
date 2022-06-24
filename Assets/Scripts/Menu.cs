@@ -15,11 +15,10 @@ public class Menu : MonoBehaviour
        
     }
 
-    public void Sound()
+    public void instructions()
     {
         index = 2;
         load();
-
     }
 
 
@@ -28,6 +27,8 @@ public class Menu : MonoBehaviour
         index = 3;
         load();
     }
+
+
 
     public void Quit()
     {
