@@ -22,6 +22,13 @@ public class Menu : MonoBehaviour
 
     }
 
+
+    public void option()
+    {
+        index = 3;
+        load();
+    }
+
     public void Quit()
     {
         Application.Quit();
