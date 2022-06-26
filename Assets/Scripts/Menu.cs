@@ -28,6 +28,12 @@ public class Menu : MonoBehaviour
         load();
     }
 
+    public void credits()
+    {
+        index = 4;
+        load();
+    }
+
 
 
     public void Quit()
