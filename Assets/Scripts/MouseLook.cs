@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MouseLook : MonoBehaviour
 {
-    // from tutorial: https://www.youtube.com/watch?v=_QajrabyTJc
+    // from tutorial (for regular looking with mouse): https://www.youtube.com/watch?v=_QajrabyTJc
     
     // for how much/how fast camera moves in correlation with mouse movement
     public float mouseSensitivity = 100f;
@@ -14,6 +14,32 @@ public class MouseLook : MonoBehaviour
 
     // amount to rotate about the x-axis (so rotation vertically when facing forward)
     float xRotation = 0f;
+
+    // function for doing rightward rotation with button
+    void rotRight(float currAngle) {
+        if (currAngle >= 270) {
+            playerBody.rotation = Quaternion.Euler(0f, 0f, 0f);
+        } else if (currAngle >= 180) {
+            playerBody.rotation = Quaternion.Euler(0f, 270f, 0f);
+        } else if (currAngle >= 90) {
+            playerBody.rotation = Quaternion.Euler(0f, 180f, 0f);
+        } else {
+            playerBody.rotation = Quaternion.Euler(0f, 90f, 0f);
+        }
+    }
+
+    // function for doing leftward rotation with button
+    void rotLeft(float currAngle) {
+        if (currAngle > 0 && currAngle <= 90) {
+            playerBody.rotation = Quaternion.Euler(0f, 0f, 0f);
+        } else if (currAngle <= 180) {
+            playerBody.rotation = Quaternion.Euler(0f, 90f, 0f);
+        } else if (currAngle <= 270) {
+            playerBody.rotation = Quaternion.Euler(0f, 180f, 0f);
+        } else {
+            playerBody.rotation = Quaternion.Euler(0f, 270f, 0f);
+        }
+    }
     
     void Start()
     {
@@ -24,6 +50,9 @@ public class MouseLook : MonoBehaviour
 
     void Update()
     {
+        /*-----
+        Options for mouse
+        ------*/
         // get mouse input about horizontal/vertical axis
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
@@ -38,5 +67,17 @@ public class MouseLook : MonoBehaviour
 
         // rotate about y axis (horizontally)
         playerBody.Rotate(Vector3.up * mouseX);
+
+        /*-----
+        Options for key press
+        ------*/
+        // get current rotational position (in degrees)
+        float currRotation = Camera.main.transform.eulerAngles.y;
+        // turn left with "J" key, turn right with "L" key
+        if (Input.GetKeyDown(KeyCode.J)) {
+            rotLeft(currRotation);
+        } else if (Input.GetKeyDown(KeyCode.L)) {
+            rotRight(currRotation);
+        }
     }
 }
