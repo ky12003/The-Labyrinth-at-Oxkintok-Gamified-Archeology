@@ -34,6 +34,12 @@ public class Menu : MonoBehaviour
         load();
     }
 
+    public void newPlayer()
+    {
+        index = 5;
+        load();
+    }
+
 
 
     public void Quit()
