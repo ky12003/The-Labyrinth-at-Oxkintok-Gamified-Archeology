@@ -4,14 +4,28 @@ using UnityEngine;
 
 public class showmenu : MonoBehaviour
 {
-    public GameObject Menu; // Assign in inspector
+     // Assign in inspector
     private bool isShowing;
-
-    void Update()
+    private GameObject Menu;
+    void hide()
     {
-       
-            
-            Menu.SetActive(true);
+        gameObject.SetActive(false);
+
+    }
+
+    void update()
+    {
+        gameObject.SetActive(false);
+    }
+    
+
+    void show()
+    {
         
+
+        
+        
+             gameObject.SetActive(true);//If so, then activate it
+         
     }
 }
