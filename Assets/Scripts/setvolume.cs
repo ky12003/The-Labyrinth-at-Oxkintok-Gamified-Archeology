@@ -7,6 +7,6 @@ public class setvolume : MonoBehaviour
 {
     // Start is called before the first frame update
     public AudioMixer am;
-    public void setVolume(float v) { am.SetFloat("volume", Mathf.Log10(v)*20); }
+    public void setVolume(float v){ am.SetFloat("volume", Mathf.Log10(v)*20); }
 
 }
