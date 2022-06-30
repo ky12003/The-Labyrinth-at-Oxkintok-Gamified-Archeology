@@ -11,4 +11,7 @@ public class SetVolume : MonoBehaviour
     {
         mixer.SetFloat("MusicVol", Mathf.Log10(sliderValue) * 20);
     }
+
+
+   
 }
