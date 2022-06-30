@@ -8,15 +8,6 @@ public class Menu : MonoBehaviour
     // Start is called before the first frame update
 
     private int index;
-    Camera[] cam = new Camera[4];
-    void Start()
-    {
-        //Get Main Camera
-        
-    }
-
-    
-
     public void Play()
     {
         index = 1;
