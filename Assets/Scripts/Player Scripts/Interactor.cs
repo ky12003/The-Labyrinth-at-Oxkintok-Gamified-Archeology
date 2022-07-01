@@ -20,6 +20,7 @@ public class Interactor : MonoBehaviour
         // send ray from camera to check for interactable object
         RaycastHit hit; 
 
+        Debug.DrawRay(Camera.main.transform.position, Camera.main.transform.forward);
         // (refer to documentation for Physics.Raycast: https://docs.unity3d.com/ScriptReference/Physics.Raycast.html)
         // send raycast from origin (the center of the camera) torward where they are looking (forward). Output to "hit" variable. Max distance is 1. Make sure it hits an interactable.  
         if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, 3, interactableLayermask)) {

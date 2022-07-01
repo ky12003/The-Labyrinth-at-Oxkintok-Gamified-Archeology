@@ -15,8 +15,44 @@ public class MouseLook : MonoBehaviour
     // amount to rotate about the x-axis (so rotation vertically when facing forward)
     float xRotation = 0f;
 
+    // for checking if player is using a popup item or not
+    PopupToggle popupToggle;
+    [SerializeField] GameObject uiInteractor;
+
+    // control speed
+    public float speed = 4f;
+
+    void Awake() {
+        popupToggle = uiInteractor.GetComponent<PopupToggle>();
+    }
+    
+    void Start()
+    {
+        // keep cursor inside the game (prevent user from getting mouse cursor outside the game window, default setting)
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+
+
+    void Update()
+    {
+
+        if (Input.GetKey(KeyCode.Tab) || popupToggle.popupIsOpen) {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+            useMouseForUI();
+        } else {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+            useMouseForCamera();
+        }
+    }
+
+    /*-------
+    Helper functions
+    -------*/
     // function for doing rightward rotation with button
-    void rotRight(float currAngle) {
+    void rotRight(float currAngle) 
+    {
         if (currAngle >= 270) {
             playerBody.rotation = Quaternion.Euler(0f, 0f, 0f);
         } else if (currAngle >= 180) {
@@ -29,7 +65,8 @@ public class MouseLook : MonoBehaviour
     }
 
     // function for doing leftward rotation with button
-    void rotLeft(float currAngle) {
+    void rotLeft(float currAngle) 
+    {
         if (currAngle > 0 && currAngle <= 90) {
             playerBody.rotation = Quaternion.Euler(0f, 0f, 0f);
         } else if (currAngle <= 180) {
@@ -40,15 +77,9 @@ public class MouseLook : MonoBehaviour
             playerBody.rotation = Quaternion.Euler(0f, 270f, 0f);
         }
     }
-    
-    void Start()
-    {
-        // keep cursor inside the game (prevent user from getting mouse cursor outside the game window)
-        Cursor.lockState = CursorLockMode.Locked;
-    }
 
-
-    void Update()
+    // function for using mouse control/buttons for camera movement
+    void useMouseForCamera() 
     {
         /*-----
         Options for mouse
@@ -72,12 +103,18 @@ public class MouseLook : MonoBehaviour
         Options for key press
         ------*/
         // get current rotational position (in degrees)
-        float currRotation = Camera.main.transform.eulerAngles.y;
+        float currRotation = GetComponent<Camera>().transform.eulerAngles.y;
         // turn left with "J" key, turn right with "L" key
         if (Input.GetKeyDown(KeyCode.J)) {
             rotLeft(currRotation);
         } else if (Input.GetKeyDown(KeyCode.L)) {
             rotRight(currRotation);
         }
+    }
+
+    // function for using mouse control for interaction with UI
+    void useMouseForUI() 
+    {
+        // nothing for now, may add stuff later
     }
 }
