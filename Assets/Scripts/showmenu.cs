@@ -4,7 +4,10 @@ using System.IO;
 using UnityEngine.UI;
 using UnityEngine;
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 public class showmenu : MonoBehaviour
 {
     // Start is called before the first frame update
