@@ -11,7 +11,7 @@ public class gotomenu : MonoBehaviour
     {
 
 
-        if (Event.current.Equals(Event.KeyboardEvent("return")))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             Cursor.lockState = CursorLockMode.None;
             Menu.SetActive(true);
