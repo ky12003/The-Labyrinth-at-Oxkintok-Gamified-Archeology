@@ -1153,8 +1153,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1556131292}
-        m_TargetAssemblyTypeName: gotomenu, Assembly-CSharp
+      - m_Target: {fileID: 680399014}
+        m_TargetAssemblyTypeName: continueplaying, Assembly-CSharp
         m_MethodName: playing
         m_Mode: 1
         m_Arguments:
@@ -1414,7 +1414,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &680399010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1475,7 +1475,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_TargetDisplay: 1
+  m_TargetDisplay: 0
 --- !u!224 &680399013
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1509,10 +1509,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82ba841831a640549be3005d8d2ceaad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Menu: {fileID: 400080375}
+  Menu: {fileID: 680399009}
   play: {fileID: 1556131288}
   instructions: {fileID: 281588361}
-  c: {fileID: 0}
+  c: {fileID: 1612465043}
 --- !u!1 &782191803
 GameObject:
   m_ObjectHideFlags: 0

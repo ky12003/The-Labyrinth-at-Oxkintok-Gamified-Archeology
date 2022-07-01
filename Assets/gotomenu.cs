@@ -13,8 +13,9 @@ public class gotomenu : MonoBehaviour
 
         if (Event.current.Equals(Event.KeyboardEvent("return")))
         {
+            Cursor.lockState = CursorLockMode.None;
             Menu.SetActive(true);
-            
+            Playing.SetActive(false);
         }
     }
 }
