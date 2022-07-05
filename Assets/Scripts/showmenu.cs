@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine.UI;
 using UnityEngine;
+using TMPro;
 
 
-public class showmenu : MonoBehaviour
+public class ShowMenu : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject Menu;
@@ -13,12 +14,16 @@ public class showmenu : MonoBehaviour
     public GameObject instructions;
     public GameObject options;
     public GameObject credits;
+    public TextMeshProUGUI playtext;
+
     int active=0;
    
 
 
     public void playing() {
+        playtext.text = "Continue";
         showing(1);
+        
         
     
     }
@@ -41,9 +46,11 @@ public class showmenu : MonoBehaviour
         g[2] = instructions;
         g[3] = options;
         g[4] = credits;
+        
         g[active].SetActive(false);
         g[i].SetActive(true);
         active = i;
+        if (i != 0) { Menu.SetActive(false); }
 
     
     
