@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InventoryUI : MonoBehaviour
+public class PuzzleF1P1 : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -14,7 +14,5 @@ public class InventoryUI : MonoBehaviour
     void Update()
     {
         
-        
     }
-    
 }
