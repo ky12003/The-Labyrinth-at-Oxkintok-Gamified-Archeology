@@ -6,8 +6,7 @@ using UnityEngine;
 // used for activating popup menus (includes notebook and puzzles)
 public class PopupToggle : MonoBehaviour
 {
-    // using documentation: https://docs.unity3d.com/ScriptReference/Events.UnityEvent.AddListener.html
-    // [SerializeField] UnityEvent MyEvent = new UnityEvent();
+    // for events if needed: https://docs.unity3d.com/ScriptReference/Events.UnityEvent.AddListener.html
 
     // check if another popup menu is currently open (currently set to false since there are no popups implemented yet)
     public bool popupIsOpen = false;
@@ -15,12 +14,8 @@ public class PopupToggle : MonoBehaviour
     // variables for UI elements (main UI, notebook, & puzzles)
     [SerializeField] GameObject mainUI;
     [SerializeField] GameObject notebook;
-    [SerializeField] GameObject puzzle;
-
-    // void Start() 
-    // {
-    //     MyEvent.AddListener(activatePopup);
-    // }
+    [SerializeField] GameObject puzzleUIF1P1;
+    [SerializeField] GameObject puzzleUIF1P2;
 
     void Update()
     {
@@ -37,7 +32,4 @@ public class PopupToggle : MonoBehaviour
         popupIsOpen = isOpen;
     }
 
-    // void activatePopup() {
-
-    // }
 }
