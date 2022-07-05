@@ -11,6 +11,9 @@ public class Option : MonoBehaviour
     {
 
         SceneManager.LoadScene(0);
+        
 
     }
+
+    
 }

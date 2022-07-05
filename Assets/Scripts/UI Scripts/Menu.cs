@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class Menu : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -25,6 +26,18 @@ public class Menu : MonoBehaviour
     public void option()
     {
         index = 3;
+        load();
+    }
+
+    public void credits()
+    {
+        index = 4;
+        load();
+    }
+
+    public void newPlayer()
+    {
+        index = 5;
         load();
     }
 
