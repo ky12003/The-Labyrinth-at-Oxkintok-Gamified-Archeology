@@ -17,9 +17,6 @@ public class PopupToggle : MonoBehaviour
     [SerializeField] GameObject notebook;
     [SerializeField] GameObject puzzle;
 
-    // UI object
-    Canvas canvasObj;
-
     // void Start() 
     // {
     //     MyEvent.AddListener(activatePopup);
