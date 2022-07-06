@@ -9,12 +9,11 @@ public class PlaySound : MonoBehaviour
 
 
     // Update is called once per frame
-   bool On=true;
+    static public bool On=true;
 
     public void playSound()
     {
         On = !On;
-        
         
         if (On)
         {
@@ -24,6 +23,12 @@ public class PlaySound : MonoBehaviour
 
 
 
+
+
+    }
+
+    private void Update() {
+        Debug.Log(On);
 
     }
 }

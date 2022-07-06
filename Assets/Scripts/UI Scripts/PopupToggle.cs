@@ -14,6 +14,7 @@ public class PopupToggle : MonoBehaviour
     // variables for UI elements (main UI, notebook, & puzzles)
     [SerializeField] GameObject mainUI;
     [SerializeField] GameObject notebook;
+    [SerializeField] GameObject pauseMenu;
     [SerializeField] GameObject puzzleUIF1P1;
     [SerializeField] GameObject puzzleUIF1P2;
 
@@ -24,7 +25,11 @@ public class PopupToggle : MonoBehaviour
             popupIsOpen = true;
             notebook.SetActive(true);
             mainUI.SetActive(false);
-        } 
+        } else if ((Input.GetKeyDown(KeyCode.Escape)) && !popupIsOpen) {
+            popupIsOpen = true;
+            pauseMenu.SetActive(true);
+            mainUI.SetActive(false);
+        }   
     }
 
     public void setPopupOpen(bool isOpen) 

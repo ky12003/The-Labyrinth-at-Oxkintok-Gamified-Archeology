@@ -65,6 +65,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 6537865498263537515}
+  uiInteractor: {fileID: 0}
   speed: 8
 --- !u!1 &6537865499736134557
 GameObject:
@@ -166,6 +167,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseSensitivity: 100
   playerBody: {fileID: 6537865498263537512}
+  uiInteractor: {fileID: 0}
+  speed: 4
 --- !u!114 &6537865499736134550
 MonoBehaviour:
   m_ObjectHideFlags: 0
