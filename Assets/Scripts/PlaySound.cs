@@ -10,17 +10,19 @@ public class PlaySound : MonoBehaviour
 
     // Update is called once per frame
    bool On=true;
+   public static AudioSource aud;
 
     public void playSound()
     {
         On = !On;
-        
-        
+        aud = GetComponent<AudioSource>();
+
+
         if (On)
         {
-            GetComponent<AudioSource>().Play();
+            aud.Play();
         }
-        else GetComponent<AudioSource>().Stop();
+        else aud.Stop();
 
 
 
