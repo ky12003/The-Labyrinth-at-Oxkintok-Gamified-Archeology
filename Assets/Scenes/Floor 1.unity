@@ -270,50 +270,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8338853859091374287, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
   m_PrefabInstance: {fileID: 8199793580062226400}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &271717261
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 271717263}
-  - component: {fileID: 271717262}
-  m_Layer: 0
-  m_Name: testObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &271717262
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 271717261}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b1b7ced60cf84d40ae864d3f6dee1fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &271717263
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 271717261}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &435480899
 GameObject:
   m_ObjectHideFlags: 0
@@ -887,7 +843,7 @@ PrefabInstance:
     - target: {fileID: 9009235059399407123, guid: a5b294bcd3e4e10498633e1775803d4e, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 8975194438134653706, guid: bae504bd54da39b47b9953286850d86a, type: 3}
+      objectReference: {fileID: 939610025}
     - target: {fileID: 9009235059399407123, guid: a5b294bcd3e4e10498633e1775803d4e, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
@@ -1315,8 +1271,8 @@ MonoBehaviour:
   mainUI: {fileID: 939610025}
   notebook: {fileID: 805406410}
   pauseMenu: {fileID: 1091621511}
-  puzzleUIF1P1: {fileID: 206859413}
-  puzzleUIF1P2: {fileID: 0}
+  puzzleUI1: {fileID: 206859413}
+  puzzleUI2: {fileID: 0}
 --- !u!4 &1887987935 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9071309102937798422, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
@@ -1430,6 +1386,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Menu components
       objectReference: {fileID: 0}
+    - target: {fileID: 3068592034635071367, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7054708588398665161, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1457,6 +1417,18 @@ PrefabInstance:
     - target: {fileID: 7054708588398665161, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8620978457515614366, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8620978457515614366, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8620978457515614366, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9071309102937798422, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_RootOrder
@@ -1567,6 +1539,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6537865499736134550, guid: bfe23471fc3acd24b8b4775988e9e664, type: 3}
+      propertyPath: uiEvents
+      value: 
+      objectReference: {fileID: 1860796897}
     - target: {fileID: 6537865499736134553, guid: bfe23471fc3acd24b8b4775988e9e664, type: 3}
       propertyPath: uiInteractor
       value: 

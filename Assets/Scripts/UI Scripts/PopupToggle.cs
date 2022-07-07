@@ -15,8 +15,8 @@ public class PopupToggle : MonoBehaviour
     [SerializeField] GameObject mainUI;
     [SerializeField] GameObject notebook;
     [SerializeField] GameObject pauseMenu;
-    [SerializeField] GameObject puzzleUIF1P1;
-    [SerializeField] GameObject puzzleUIF1P2;
+    [SerializeField] GameObject puzzleUI1;
+    [SerializeField] GameObject puzzleUI2;
 
     void Update()
     {
