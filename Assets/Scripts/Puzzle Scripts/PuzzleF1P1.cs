@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 // mini notes
@@ -14,6 +15,8 @@ public class PuzzleF1P1 : MonoBehaviour
     [SerializeField] GameObject mainUI;
     [SerializeField] GameObject puzzleUIF1P1;
     [SerializeField] GameObject userInput;
+    [SerializeField] GameObject questionObj;
+    [SerializeField] GameObject answerPromptObj;
 
     // images:
     // [SerializeField] Image numberOne;
@@ -23,15 +26,21 @@ public class PuzzleF1P1 : MonoBehaviour
     // other:
     [SerializeField] GameObject puzzleObject;
 
+    public Sprite[] puzzleQuestions;
+    public Sprite[] puzzlePrompts;
+
     // -----Private variables-----
     bool puzzleIsDone = false; // for noting down if the puzzle is complete
     bool answerSubmitted = false; // for checking if an answer has been submitted
     int playerAnswer;
     int currStep = 1; // current step
-    int finStep = 5; // final step
+    int finStep; // final step
     // used documentation: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/single-dimensional-arrays
-    int[] answerList = new int[] { 5, 6, 7, 8, 9 }; // stores answers for steps
+    int[] answerList = new int[] { 5, 7, 0 }; // stores answers for steps
 
+    void Awake() {
+        finStep = puzzleQuestions.Length;
+    }
 
     void Update() {
         // if user reached the end
@@ -89,42 +98,8 @@ public class PuzzleF1P1 : MonoBehaviour
 
     // update UI for steps
     void loadStep(int step) {
-        switch (step)
-        {
-            case 2:
-                loadStepTwo();
-                break;          
-            case 3:
-                loadStepThree();
-                break;
-            case 4:
-                loadStepFour();
-                break;
-            case 5:
-                loadStepFive();
-                break;
-        }
-    }
-
-    // TODO: make updates for UI
-    // step 2
-    void loadStepTwo() {
-
-    }
-
-    // step 3
-    void loadStepThree() {
-        
-    }
-
-    // step 4
-    void loadStepFour() {
-        
-    }
-
-    // step 5
-    void loadStepFive() {
-        
+        questionObj.GetComponent<Image>().sprite = puzzleQuestions[step-1];
+        answerPromptObj.GetComponent<Image>().sprite = puzzlePrompts[step-1];
     }
 
     // -----SETTERS/GETTERS-----
@@ -137,8 +112,6 @@ public class PuzzleF1P1 : MonoBehaviour
     }
 
     public void setPlayerAnswer() {
-        Debug.Log("TEST: " + userInput.GetComponent<TMP_InputField>().text);
         int.TryParse(userInput.GetComponent<TMP_InputField>().text, out playerAnswer);
-        Debug.Log("TEST2: " + playerAnswer);
     }
 }
