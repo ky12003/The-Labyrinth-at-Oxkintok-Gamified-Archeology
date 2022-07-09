@@ -15,7 +15,7 @@ public class PlaySound : MonoBehaviour
 
 
 
-    private void Update()
+  /**  private void Update()
     {
         if (On)
         {
@@ -26,7 +26,7 @@ public class PlaySound : MonoBehaviour
 
 
 
-    }
+    }**/
 
 
 
