@@ -852,7 +852,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2521180715174639566, guid: a5b294bcd3e4e10498633e1775803d4e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -413.73843
+      value: -413.96
       objectReference: {fileID: 0}
     - target: {fileID: 2521180715174639566, guid: a5b294bcd3e4e10498633e1775803d4e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1008,7 +1008,7 @@ Transform:
   - {fileID: 22646311}
   - {fileID: 1013476961}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1013476961 stripped
 Transform:
@@ -1080,7 +1080,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1091621511 stripped
 GameObject:
@@ -1462,41 +1462,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 818102963}
     m_Modifications:
-    - target: {fileID: 442348129851080787, guid: 7b8b082f7b7afbe4a9eafbf8dec8389c, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 615.24
-      objectReference: {fileID: 0}
-    - target: {fileID: 442348129851080787, guid: 7b8b082f7b7afbe4a9eafbf8dec8389c, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 26
-      objectReference: {fileID: 0}
-    - target: {fileID: 442348129851080787, guid: 7b8b082f7b7afbe4a9eafbf8dec8389c, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 442348129851080787, guid: 7b8b082f7b7afbe4a9eafbf8dec8389c, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -25.1348
-      objectReference: {fileID: 0}
     - target: {fileID: 966335809659000761, guid: 7b8b082f7b7afbe4a9eafbf8dec8389c, type: 3}
       propertyPath: m_Name
       value: Puzzle Trivia F1P1
-      objectReference: {fileID: 0}
-    - target: {fileID: 966335809659000761, guid: 7b8b082f7b7afbe4a9eafbf8dec8389c, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3104829568148818083, guid: 7b8b082f7b7afbe4a9eafbf8dec8389c, type: 3}
-      propertyPath: m_text
-      value: 'Congrats! Here''s a fun fact:'
-      objectReference: {fileID: 0}
-    - target: {fileID: 3104829568148818083, guid: 7b8b082f7b7afbe4a9eafbf8dec8389c, type: 3}
-      propertyPath: m_fontSize
-      value: 26
-      objectReference: {fileID: 0}
-    - target: {fileID: 3104829568148818083, guid: 7b8b082f7b7afbe4a9eafbf8dec8389c, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 5354519908358109101, guid: 7b8b082f7b7afbe4a9eafbf8dec8389c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1506,22 +1474,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 939610025}
-    - target: {fileID: 7167698639675953754, guid: 7b8b082f7b7afbe4a9eafbf8dec8389c, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 500
-      objectReference: {fileID: 0}
-    - target: {fileID: 7167698639675953754, guid: 7b8b082f7b7afbe4a9eafbf8dec8389c, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 53
-      objectReference: {fileID: 0}
-    - target: {fileID: 7167698639675953754, guid: 7b8b082f7b7afbe4a9eafbf8dec8389c, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7167698639675953754, guid: 7b8b082f7b7afbe4a9eafbf8dec8389c, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -54.07
-      objectReference: {fileID: 0}
+    - target: {fileID: 5354519908358109101, guid: 7b8b082f7b7afbe4a9eafbf8dec8389c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 4378113}
     - target: {fileID: 7522745371659366823, guid: 7b8b082f7b7afbe4a9eafbf8dec8389c, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -2095,7 +2051,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8704615709831436441, guid: a65ccdaec43c10c4abbbeedd9d146f30, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8704615709831436441, guid: a65ccdaec43c10c4abbbeedd9d146f30, type: 3}
       propertyPath: m_LocalPosition.x
