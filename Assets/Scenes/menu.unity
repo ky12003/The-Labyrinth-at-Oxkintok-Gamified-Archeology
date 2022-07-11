@@ -1179,7 +1179,6 @@ GameObject:
   m_Component:
   - component: {fileID: 917362889}
   - component: {fileID: 917362888}
-  - component: {fileID: 917362887}
   - component: {fileID: 917362890}
   m_Layer: 0
   m_Name: Sound
@@ -1187,15 +1186,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!81 &917362887
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 917362886}
-  m_Enabled: 1
+  m_IsActive: 1
 --- !u!82 &917362888
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1205,7 +1196,7 @@ AudioSource:
   m_GameObject: {fileID: 917362886}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 85c86b46469c8cc428682802c06e6f84, type: 2}
   m_audioClip: {fileID: 8300000, guid: 386078a4c16b8ea41920802fe4e42440, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1

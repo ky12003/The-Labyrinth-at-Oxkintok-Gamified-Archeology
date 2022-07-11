@@ -11,12 +11,11 @@ public class PuzzleF1P1 : MonoBehaviour
 {
     // -----Serialized variables-----
     // UI elements:
-    [SerializeField] GameObject uiEvents;
-    [SerializeField] GameObject mainUI;
     [SerializeField] GameObject puzzleUIF1P1;
     [SerializeField] GameObject userInput;
     [SerializeField] GameObject questionObj;
     [SerializeField] GameObject answerPromptObj;
+    [SerializeField] GameObject triviaUI;
 
     // images:
     // [SerializeField] Image numberOne;
@@ -25,6 +24,7 @@ public class PuzzleF1P1 : MonoBehaviour
 
     // other:
     [SerializeField] GameObject puzzleObject;
+    [SerializeField] GameObject doorObject;
 
     public Sprite[] puzzleQuestions;
     public Sprite[] puzzlePrompts;
@@ -85,10 +85,10 @@ public class PuzzleF1P1 : MonoBehaviour
     void handlePuzzleCompletion() {
         // TODO: disable "Interactable" layer for this puzzle (make completed puzzle non-interactable)
 
-        // close puzzle
-        uiEvents.GetComponent<PopupToggle>().popupIsOpen = false;
-        mainUI.SetActive(true);
+        // close puzzle & activate trivia popup
         puzzleUIF1P1.SetActive(false);
+        triviaUI.SetActive(true);
+        doorObject.SetActive(false);
 
         // smite the door (basically let player enter next room)
 

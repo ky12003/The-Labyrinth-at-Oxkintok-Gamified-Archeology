@@ -2,25 +2,33 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
+using UnityEngine.Audio;
 
 public class PlaySound : MonoBehaviour
 {
-    // Start is called before the first frame update
-
-
-    // Update is called once per frame
-    static public bool On=true;
+    static public bool On=true; // boolean for enabling/disabling volume
+    static public float lastVol = 0;// last volume before pressing mute button
+    public AudioMixer audioMixer;
 
     public void playSound()
     {
-        On = !On;
+        
+        On = !On; // toggle for mute/unmute
         
         if (On)
         {
-            GetComponent<AudioSource>().Play();
+            audioMixer.SetFloat("MusicVol", lastVol);
+            // GetComponent<AudioSource>().Play();
+            
         }
-        else GetComponent<AudioSource>().Stop();
-
+        else 
+        {
+            // store last volume setting
+            audioMixer.GetFloat("MusicVol", out lastVol);
+            audioMixer.SetFloat("MusicVol", -80);
+            // GetComponent<AudioSource>().Stop();
+            
+        }
 
 
 
