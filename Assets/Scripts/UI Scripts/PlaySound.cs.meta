@@ -3,7 +3,8 @@ guid: b5af981871b77244eb65bffdc9fa2093
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - audioMixer: {fileID: 24100000, guid: 85c86b46469c8cc428682802c06e6f84, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
