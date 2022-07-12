@@ -4,34 +4,30 @@ using UnityEngine;
 
 public class NotebookUI : MonoBehaviour
 {
-    // // partly referencing tutorial: (https://www.youtube.com/watch?v=JivuXdrIHK0)
+    /*----
+    VARIABLES
+    ----*/
+    //-----serialized variables-----
 
-    // public static bool GameIsPaused = false;
+    //-----public variables-----
+    public GameObject[] pageObjects; // game objects representing each page in the notebook
 
-    // // Update is called once per frame
-    // void Update()
-    // {
-    //     if (Input.GetKeyDown(KeyCode.Escape))
-    //     {
-    //         if (GameIsPaused)
-    //         {
-    //             Resume();
-    //         }
-    //         else
-    //         {
-    //             Pause();
-    //         } 
-    //     }
+    //-----private variables-----
+    static int currPage = 1; // stores current page that the user is on
+
+
+    /*----
+    METHODS
+    ----*/
+    //-----unity methods-----
+
+    //-----public class methods-----
+
+    // set the number of pages available in the notebook
+    public void setNumPages(int numPages) {
         
-    // }
+    }
 
-    // void Resume() 
-    // {
+    //-----private class methods-----
 
-    // }
-
-    // void Pause()
-    // {
-
-    // }
 }

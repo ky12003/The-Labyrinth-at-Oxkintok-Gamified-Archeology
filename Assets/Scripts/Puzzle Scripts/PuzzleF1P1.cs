@@ -16,6 +16,7 @@ public class PuzzleF1P1 : MonoBehaviour
     [SerializeField] GameObject questionObj;
     [SerializeField] GameObject answerPromptObj;
     [SerializeField] GameObject triviaUI;
+    [SerializeField] GameObject pageObject;
 
     // images:
     // [SerializeField] Image numberOne;
@@ -32,14 +33,15 @@ public class PuzzleF1P1 : MonoBehaviour
     // -----Private variables-----
     bool puzzleIsDone = false; // for noting down if the puzzle is complete
     bool answerSubmitted = false; // for checking if an answer has been submitted
-    int playerAnswer;
+    int playerAnswer; // stores player's answer submission
     int currStep = 1; // current step
     int finStep; // final step
-    // used documentation: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/single-dimensional-arrays
-    int[] answerList = new int[] { 5, 7, 0 }; // stores answers for steps
+    int[] answerList = new int[] { 5, 7, 0, 16, 19 }; // stores answers for steps (used documentation: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/single-dimensional-arrays)
+    PageUpdate pageUpdate; // for updating page (in this case, page 1)
 
     void Awake() {
-        finStep = puzzleQuestions.Length;
+        finStep = answerList.Length;
+        pageUpdate = pageObject.GetComponent<PageUpdate>();
     }
 
     void Update() {
@@ -65,18 +67,23 @@ public class PuzzleF1P1 : MonoBehaviour
         // if the answer was correct
         if (answerList[currStep-1] == playerAnswer) 
         {
-            // TODO: make popup for correct answer
+            // update page
+            pageUpdate.updatePart(currStep);
+
+            // TODO: play sound for correct answer
 
             // load next step and update step
             currStep++;
             loadStep(currStep);
 
-            Debug.Log("CURRSTEP: " + currStep);
+
+            Debug.Log("Correct, CURRSTEP: " + currStep);
         }
         // otherwise, it's wrong, display stuff to denote that
         else
         {
-            // TODO: make popup for wrong answer
+            // TODO: play sound for wrong answer
+            
             Debug.Log("WRONG");
         }
     }
