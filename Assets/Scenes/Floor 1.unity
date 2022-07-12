@@ -1831,9 +1831,37 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 791935672}
     - target: {fileID: 8199793580062226402, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+      propertyPath: pageObject
+      value: 
+      objectReference: {fileID: 8620535568385196333}
+    - target: {fileID: 8199793580062226402, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: puzzleObject
       value: 
       objectReference: {fileID: 4378113}
+    - target: {fileID: 8199793580062226402, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+      propertyPath: puzzlePrompts.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8199793580062226402, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+      propertyPath: puzzleQuestions.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8199793580062226402, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+      propertyPath: puzzlePrompts.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: 9f142980d5cb2f845afef780ee34c5c8, type: 3}
+    - target: {fileID: 8199793580062226402, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+      propertyPath: puzzlePrompts.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: de58ff44ed2c21e42afd9b43123f289e, type: 3}
+    - target: {fileID: 8199793580062226402, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+      propertyPath: puzzleQuestions.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: 9f142980d5cb2f845afef780ee34c5c8, type: 3}
+    - target: {fileID: 8199793580062226402, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+      propertyPath: puzzleQuestions.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: de58ff44ed2c21e42afd9b43123f289e, type: 3}
     - target: {fileID: 8338853859091374287, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: m_Name
       value: Puzzle UI F1P1
@@ -2032,12 +2060,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Notebook
       objectReference: {fileID: 0}
-    - target: {fileID: 8620535569190602721, guid: 32a1757096276a34fa3d61783a993235, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32a1757096276a34fa3d61783a993235, type: 3}
+--- !u!1 &8620535568385196333 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1923686588892697461, guid: 32a1757096276a34fa3d61783a993235, type: 3}
+  m_PrefabInstance: {fileID: 8620535568385196331}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8708153169496249170
 PrefabInstance:
   m_ObjectHideFlags: 0
