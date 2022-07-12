@@ -12,16 +12,18 @@ public class PuzzleF1P1 : MonoBehaviour
     // -----Serialized variables-----
     // UI elements:
     [SerializeField] GameObject puzzleUIF1P1;
+    [SerializeField] GameObject player;
     [SerializeField] GameObject userInput;
     [SerializeField] GameObject questionObj;
     [SerializeField] GameObject answerPromptObj;
     [SerializeField] GameObject triviaUI;
     [SerializeField] GameObject pageObject;
 
-    // images:
-    // [SerializeField] Image numberOne;
-    // [SerializeField] Image numberFour;
-    // [SerializeField] Image numberFive;
+    // sounds:
+    [SerializeField] AudioSource audioSource;
+    [SerializeField] AudioClip correctSound;
+    [SerializeField] AudioClip incorrectSound;
+    [SerializeField] AudioClip completionSound;
 
     // other:
     [SerializeField] GameObject puzzleObject;
@@ -69,13 +71,15 @@ public class PuzzleF1P1 : MonoBehaviour
         {
             // update page
             pageUpdate.updatePart(currStep);
-
-            // TODO: play sound for correct answer
-
+            
             // load next step and update step
             currStep++;
             loadStep(currStep);
 
+            // play sound for correct answer
+            if (currStep <= finStep) {
+                audioSource.PlayOneShot(correctSound, 0.1f);
+            }
 
             Debug.Log("Correct, CURRSTEP: " + currStep);
         }
@@ -83,14 +87,16 @@ public class PuzzleF1P1 : MonoBehaviour
         else
         {
             // TODO: play sound for wrong answer
-            
+            audioSource.PlayOneShot(incorrectSound, 0.1f);
+
             Debug.Log("WRONG");
         }
     }
 
     // handle completion of the full puzzle
     void handlePuzzleCompletion() {
-        // TODO: disable "Interactable" layer for this puzzle (make completed puzzle non-interactable)
+        // play completion sound (from player to handle cases where certain objects are deactivated) 
+        player.GetComponent<AudioSource>().PlayOneShot(completionSound, 0.1f);
 
         // close puzzle & activate trivia popup
         puzzleUIF1P1.SetActive(false);
