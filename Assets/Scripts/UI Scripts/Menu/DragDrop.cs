@@ -2,7 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PuzzleF1P1 : MonoBehaviour
+
+// from tutorial: https://www.youtube.com/watch?v=BGr-7GZJNXg
+public class DragDrop : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()

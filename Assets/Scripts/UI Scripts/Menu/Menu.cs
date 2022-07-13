@@ -9,6 +9,8 @@ public class Menu : MonoBehaviour
     // Start is called before the first frame update
 
     private int index;
+    static public int test = 4;
+
     public void Play()
     {
         index = 1;
@@ -51,5 +53,12 @@ public class Menu : MonoBehaviour
     public void load()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + index);
+    }
+
+    private void Update() {
+        if (Input.GetKeyDown(KeyCode.M)) {
+            test++;
+        }
+        Debug.Log(test);
     }
 }
