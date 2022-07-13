@@ -6,7 +6,7 @@ using UnityEngine;
 using TMPro;
 
 
-public class showmenu : MonoBehaviour
+public class ShowMenu : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject Menu;

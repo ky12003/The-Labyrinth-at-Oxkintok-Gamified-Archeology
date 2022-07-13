@@ -1995,6 +1995,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5af981871b77244eb65bffdc9fa2093, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioMixer: {fileID: 0}
 --- !u!1 &417791484
 GameObject:
   m_ObjectHideFlags: 0
@@ -7726,8 +7727,9 @@ MonoBehaviour:
   popupIsOpen: 0
   mainUI: {fileID: 939610025}
   notebook: {fileID: 805406410}
-  puzzleUIF1P1: {fileID: 0}
-  puzzleUIF1P2: {fileID: 0}
+  pauseMenu: {fileID: 0}
+  puzzleUI1: {fileID: 0}
+  puzzleUI2: {fileID: 0}
 --- !u!4 &1860796899
 Transform:
   m_ObjectHideFlags: 0
@@ -8831,6 +8833,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669769679}
     m_Modifications:
+    - target: {fileID: 833092029, guid: 32a1757096276a34fa3d61783a993235, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 497213454880900671, guid: 32a1757096276a34fa3d61783a993235, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2124373169658932581, guid: 32a1757096276a34fa3d61783a993235, type: 3}
       propertyPath: m_Color.a
       value: 0.5882353
@@ -8846,6 +8856,10 @@ PrefabInstance:
     - target: {fileID: 2124373169658932581, guid: 32a1757096276a34fa3d61783a993235, type: 3}
       propertyPath: m_Color.r
       value: 0.11320752
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896119480163605101, guid: 32a1757096276a34fa3d61783a993235, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8620535568436568476, guid: 32a1757096276a34fa3d61783a993235, type: 3}
       propertyPath: m_SizeDelta.y
