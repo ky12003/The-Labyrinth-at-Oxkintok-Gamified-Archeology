@@ -9,13 +9,13 @@ public class PlaySound : MonoBehaviour
 
 
     // Update is called once per frame
-   public static bool On;
+   public static bool On=true;
    public static AudioSource aud;
  
 
 
 
-  /**  private void Update()
+    private void Update()
     {
         if (On)
         {
@@ -26,7 +26,7 @@ public class PlaySound : MonoBehaviour
 
 
 
-    }**/
+    }
 
 
 

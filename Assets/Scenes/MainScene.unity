@@ -918,8 +918,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 782191805}
-        m_TargetAssemblyTypeName: ShowMenu, Assembly-CSharp
+      - m_Target: {fileID: 400080380}
+        m_TargetAssemblyTypeName: showmenu, Assembly-CSharp
         m_MethodName: showoptions
         m_Mode: 1
         m_Arguments:
@@ -1128,8 +1128,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 782191805}
-        m_TargetAssemblyTypeName: ShowMenu, Assembly-CSharp
+      - m_Target: {fileID: 400080380}
+        m_TargetAssemblyTypeName: showmenu, Assembly-CSharp
         m_MethodName: quit
         m_Mode: 1
         m_Arguments:
@@ -1737,6 +1737,7 @@ GameObject:
   - component: {fileID: 400080378}
   - component: {fileID: 400080377}
   - component: {fileID: 400080376}
+  - component: {fileID: 400080380}
   m_Layer: 5
   m_Name: CanvasMenu
   m_TagString: Untagged
@@ -1826,6 +1827,24 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &400080380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 400080375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0586ab28dc62e5439be665ca2bf43f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Menu: {fileID: 400080375}
+  play: {fileID: 2021200852}
+  instructions: {fileID: 281588361}
+  options: {fileID: 2006196221}
+  credits: {fileID: 1681618392}
+  playtext: {fileID: 1530799082}
 --- !u!1 &400146891
 GameObject:
   m_ObjectHideFlags: 0
@@ -3456,12 +3475,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0586ab28dc62e5439be665ca2bf43f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Menu: {fileID: 782191803}
-  play: {fileID: 2021200852}
-  instructions: {fileID: 281588361}
-  options: {fileID: 2006196221}
-  credits: {fileID: 1681618392}
-  playtext: {fileID: 1530799082}
+  Menu: {fileID: 0}
+  play: {fileID: 0}
+  instructions: {fileID: 0}
+  options: {fileID: 0}
+  credits: {fileID: 0}
+  playtext: {fileID: 0}
 --- !u!1 &784367518
 GameObject:
   m_ObjectHideFlags: 0
@@ -3546,8 +3565,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 782191805}
-        m_TargetAssemblyTypeName: ShowMenu, Assembly-CSharp
+      - m_Target: {fileID: 400080380}
+        m_TargetAssemblyTypeName: showmenu, Assembly-CSharp
         m_MethodName: backtomenu
         m_Mode: 1
         m_Arguments:
@@ -3892,8 +3911,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 782191805}
-        m_TargetAssemblyTypeName: ShowMenu, Assembly-CSharp
+      - m_Target: {fileID: 400080380}
+        m_TargetAssemblyTypeName: showmenu, Assembly-CSharp
         m_MethodName: backtomenu
         m_Mode: 1
         m_Arguments:
@@ -6011,8 +6030,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 782191805}
-        m_TargetAssemblyTypeName: ShowMenu, Assembly-CSharp
+      - m_Target: {fileID: 400080380}
+        m_TargetAssemblyTypeName: showmenu, Assembly-CSharp
         m_MethodName: playing
         m_Mode: 1
         m_Arguments:
@@ -6685,8 +6704,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 782191805}
-        m_TargetAssemblyTypeName: ShowMenu, Assembly-CSharp
+      - m_Target: {fileID: 400080380}
+        m_TargetAssemblyTypeName: showmenu, Assembly-CSharp
         m_MethodName: showcredits
         m_Mode: 1
         m_Arguments:
@@ -7355,8 +7374,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 782191805}
-        m_TargetAssemblyTypeName: ShowMenu, Assembly-CSharp
+      - m_Target: {fileID: 400080380}
+        m_TargetAssemblyTypeName: showmenu, Assembly-CSharp
         m_MethodName: backtomenu
         m_Mode: 1
         m_Arguments:
@@ -8350,8 +8369,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 782191805}
-        m_TargetAssemblyTypeName: ShowMenu, Assembly-CSharp
+      - m_Target: {fileID: 400080380}
+        m_TargetAssemblyTypeName: showmenu, Assembly-CSharp
         m_MethodName: showinstructions
         m_Mode: 1
         m_Arguments:
