@@ -86,7 +86,7 @@ public class PuzzleF1P1 : MonoBehaviour
         // otherwise, it's wrong, display stuff to denote that
         else
         {
-            // TODO: play sound for wrong answer
+            // play sound for wrong answer
             audioSource.PlayOneShot(incorrectSound, 0.1f);
 
             Debug.Log("WRONG");
