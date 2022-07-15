@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8975194436547566701}
   - component: {fileID: 8975194436547566702}
   m_Layer: 0
-  m_Name: Setting icon
+  m_Name: Pause icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35,10 +35,10 @@ RectTransform:
   m_Father: {fileID: 8975194438134653705}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 776.79944, y: 165.00003}
-  m_SizeDelta: {x: 46.4011, y: -543.4628}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -30.976013, y: -29.896973}
+  m_SizeDelta: {x: 61.953, y: 59.789}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8975194436547566700
 CanvasRenderer:
@@ -337,7 +337,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Sett
+  m_text: 'Paus
 
     (esc)'
   m_isRightToLeft: 0
@@ -443,10 +443,10 @@ RectTransform:
   m_Father: {fileID: 8975194438134653705}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 23.200989, y: 165}
-  m_SizeDelta: {x: 46.4011, y: -543.4628}
+  m_AnchoredPosition: {x: 28.304016, y: -35.581055}
+  m_SizeDelta: {x: 56.61, y: 71.171}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8975194437657877361
 CanvasRenderer:
@@ -584,7 +584,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8975194438134653705
 RectTransform:
   m_ObjectHideFlags: 0
@@ -644,7 +644,7 @@ MonoBehaviour:
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96

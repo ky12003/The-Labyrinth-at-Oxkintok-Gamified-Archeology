@@ -7,6 +7,8 @@ public class Interactable : MonoBehaviour
 {
     // store specific event for when interactable is interacted with (edited within unity)
     public UnityEvent onInteract;
+    public UnityEvent onLook;
+    public UnityEvent onNoInteraction;
     // Start is called before the first frame update
     void Start()
     {

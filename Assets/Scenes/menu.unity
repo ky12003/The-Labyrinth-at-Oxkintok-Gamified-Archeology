@@ -1179,7 +1179,6 @@ GameObject:
   m_Component:
   - component: {fileID: 917362889}
   - component: {fileID: 917362888}
-  - component: {fileID: 917362887}
   - component: {fileID: 917362890}
   m_Layer: 0
   m_Name: Sound
@@ -1188,14 +1187,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &917362887
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 917362886}
-  m_Enabled: 1
 --- !u!82 &917362888
 AudioSource:
   m_ObjectHideFlags: 0
