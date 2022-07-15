@@ -13,7 +13,7 @@ public class Interactor : MonoBehaviour
     UnityEvent onNoInteraction;
     GameObject prevHit; // the previously hit game object
     public LayerMask interactableLayermask;
-    int raycastRange = 4;
+    int raycastRange = 6;
 
     // Start is called before the first frame update
     void Start()
@@ -38,8 +38,6 @@ public class Interactor : MonoBehaviour
             onInteract = hit.collider.GetComponent<Interactable>().onInteract;
 
             prevHit = hit.collider.gameObject;
-
-            Debug.Log(prevHit.name);
 
             // do action when user looks at interactable
             onLook.Invoke();

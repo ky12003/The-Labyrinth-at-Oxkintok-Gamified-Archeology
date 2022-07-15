@@ -18,7 +18,6 @@ public class NotebookUI : MonoBehaviour
     static int currPage = 1; // stores current page that the user is on 
     static int numPages = 1; // stores the number of pages in the notebook
 
-
     /*----
     METHODS
     ----*/
