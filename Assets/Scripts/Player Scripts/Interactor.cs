@@ -46,9 +46,9 @@ public class Interactor : MonoBehaviour
             if (Input.GetMouseButtonDown(0)) {
                 onInteract.Invoke();
             }
-        } else {
+        }/** else {
             onNoInteraction = prevHit.GetComponent<Interactable>().onNoInteraction;
             onNoInteraction.Invoke();
-        }
+        }**/
     }
 }
