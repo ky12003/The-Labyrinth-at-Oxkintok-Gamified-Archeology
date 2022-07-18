@@ -7,6 +7,7 @@ public class PageUpdate : MonoBehaviour
     /*----
     VARIABLES
     ----*/
+
     //-----serialized variables-----
 
     //-----public variables-----
