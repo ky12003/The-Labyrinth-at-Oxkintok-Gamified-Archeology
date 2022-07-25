@@ -10,18 +10,18 @@ public class PopupToggle : MonoBehaviour
 
     // check if another popup menu is currently open (currently set to false since there are no popups implemented yet)
     public bool popupIsOpen = false;
+    // check if the player should be able to open the notebook (since notebook is not allowed to be opened until
+    public bool notebookIsActive = false;
 
     // variables for UI elements (main UI, notebook, & puzzles)
     [SerializeField] GameObject mainUI;
     [SerializeField] GameObject notebook;
     [SerializeField] GameObject pauseMenu;
-    [SerializeField] GameObject puzzleUI1;
-    [SerializeField] GameObject puzzleUI2;
 
     void Update()
     {
         // Check for button press, do corresponding actions (E key: open notebook)
-        if ((Input.GetKeyDown(KeyCode.E)) && !popupIsOpen) {
+        if ((Input.GetKeyDown(KeyCode.E)) && !popupIsOpen && notebookIsActive) {
             popupIsOpen = true;
             notebook.SetActive(true);
             mainUI.SetActive(false);
@@ -37,4 +37,8 @@ public class PopupToggle : MonoBehaviour
         popupIsOpen = isOpen;
     }
 
+    public void activateNotebook()
+    {
+        notebookIsActive = true;
+    }
 }
