@@ -1289,6 +1289,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1860796897}
     - target: {fileID: 1155479452, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+      propertyPath: DayAnswer
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 1155479452, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+      propertyPath: monthAnswer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1155479452, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: mainPlayerUI
       value: 
       objectReference: {fileID: 939610025}
@@ -1323,6 +1331,13 @@ PrefabInstance:
     - target: {fileID: 1266895386, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: m_LocalScale.z
       value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069980891716275741, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+      propertyPath: m_text
+      value: 'Ancestors past gather once a year, to walk among the living, who celebrate
+        the memory of their lives.
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 5525427151025868655, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -6993,6 +7008,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1860796897}
     - target: {fileID: 1155479452, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+      propertyPath: monthAnswer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1155479452, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: mainPlayerUI
       value: 
       objectReference: {fileID: 939610025}
@@ -7027,6 +7046,11 @@ PrefabInstance:
     - target: {fileID: 1266895386, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: m_LocalScale.z
       value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069980891716275741, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+      propertyPath: m_text
+      value: "Among humanity, one stood above them all; the greatest of their rulers,
+        whose name meant \u201Cshield\u201D."
       objectReference: {fileID: 0}
     - target: {fileID: 5525427151025868655, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -12741,6 +12765,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1860796897}
     - target: {fileID: 1155479452, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+      propertyPath: DayAnswer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1155479452, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+      propertyPath: monthAnswer
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1155479452, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: mainPlayerUI
       value: 
       objectReference: {fileID: 939610025}
@@ -12775,6 +12807,11 @@ PrefabInstance:
     - target: {fileID: 1266895386, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: m_LocalScale.z
       value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069980891716275741, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+      propertyPath: m_text
+      value: To nurture all within this world, pots must be shattered so that the
+        gods may hear pleas for rain.
       objectReference: {fileID: 0}
     - target: {fileID: 5525427151025868655, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -22986,6 +23023,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1860796897}
     - target: {fileID: 1155479452, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+      propertyPath: DayAnswer
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1155479452, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+      propertyPath: monthAnswer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1155479452, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: mainPlayerUI
       value: 
       objectReference: {fileID: 939610025}
@@ -22993,6 +23038,11 @@ PrefabInstance:
       propertyPath: puzzleObject
       value: 
       objectReference: {fileID: 376870201}
+    - target: {fileID: 4069980891716275741, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+      propertyPath: m_text
+      value: Their creations, made from the meal of maize and shaped by their divine
+        hands, were ready to walk the earth.
+      objectReference: {fileID: 0}
     - target: {fileID: 5525427151025868655, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -23004,6 +23054,10 @@ PrefabInstance:
     - target: {fileID: 8338853859091374287, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: m_Name
       value: Floor 2 puzzle 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8338853859091374287, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8924964685692023682, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: m_Pivot.x
@@ -23273,6 +23327,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985696792}
     m_Modifications:
+    - target: {fileID: 3432146428074237943, guid: 478463afb4f9acb4f8ab8805ca4340a8, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575879149829069215, guid: 478463afb4f9acb4f8ab8805ca4340a8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575879149829069215, guid: 478463afb4f9acb4f8ab8805ca4340a8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -73.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575879149829069215, guid: 478463afb4f9acb4f8ab8805ca4340a8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 42.79
+      objectReference: {fileID: 0}
     - target: {fileID: 3910269108978843952, guid: 478463afb4f9acb4f8ab8805ca4340a8, type: 3}
       propertyPath: m_Layer
       value: 9
@@ -24723,6 +24793,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1860796897}
     - target: {fileID: 1155479452, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+      propertyPath: DayAnswer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1155479452, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+      propertyPath: monthAnswer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1155479452, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: mainPlayerUI
       value: 
       objectReference: {fileID: 939610025}
@@ -24757,6 +24835,11 @@ PrefabInstance:
     - target: {fileID: 1266895386, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: m_LocalScale.z
       value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069980891716275741, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+      propertyPath: m_text
+      value: "All things, even the very world, must eventually end. And yet what
+        is the end for one is also the beginning of another\u2026"
       objectReference: {fileID: 0}
     - target: {fileID: 5525427151025868655, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -25612,7 +25695,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3068592034635071367, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4110708502960458347, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_fontSize
@@ -25878,22 +25961,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 116.14105
       objectReference: {fileID: 0}
-    - target: {fileID: 8318570888190894070, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
-      propertyPath: m_fontSize
-      value: 48
-      objectReference: {fileID: 0}
-    - target: {fileID: 8318570888190894070, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 48
-      objectReference: {fileID: 0}
-    - target: {fileID: 8592692026639253131, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
-      propertyPath: m_fontSize
-      value: 48
-      objectReference: {fileID: 0}
-    - target: {fileID: 8592692026639253131, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 48
-      objectReference: {fileID: 0}
     - target: {fileID: 8128357925282395221, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_text
       value: 'Coach: Corly Huang
@@ -25911,6 +25978,22 @@ PrefabInstance:
         Sound Designer: Theodore Gigstad
 
 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8318570888190894070, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+      propertyPath: m_fontSize
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 8318570888190894070, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 8592692026639253131, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+      propertyPath: m_fontSize
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 8592692026639253131, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 8595075113106561089, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_SizeDelta.x
