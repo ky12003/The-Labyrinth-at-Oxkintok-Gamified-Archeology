@@ -25416,6 +25416,7 @@ PrefabInstance:
     - target: {fileID: 7770330392034431907, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -50.69928
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 8128357925282395221, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_text
@@ -25434,6 +25435,8 @@ PrefabInstance:
         Sound Designer: Theodore Gigstad
 
 '
+=======
+>>>>>>> parent of 1d3664a (changes on friday)
       objectReference: {fileID: 0}
     - target: {fileID: 8595075113106561089, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_SizeDelta.x
