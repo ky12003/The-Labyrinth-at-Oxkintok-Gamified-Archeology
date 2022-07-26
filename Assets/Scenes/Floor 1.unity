@@ -25184,6 +25184,7 @@ PrefabInstance:
     - target: {fileID: 3068592034635071367, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_IsActive
       value: 1
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 4622699719988643955, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_AnchorMax.y
@@ -25228,6 +25229,8 @@ PrefabInstance:
     - target: {fileID: 6570025243060031511, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -6.9011
+=======
+>>>>>>> parent of da77345 (testing)
       objectReference: {fileID: 0}
     - target: {fileID: 7054708588398665161, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
