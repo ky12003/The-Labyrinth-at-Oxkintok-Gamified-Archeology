@@ -57,6 +57,7 @@ public class NotebookUI : MonoBehaviour
     }
 
     // turn to the next page
+    // TODO: UPDATE TO ACCOUNT FOR NEW PAGE SYSTEM
     public void turnToNextPage() {
         pageObjects[currPage-1].SetActive(false);
         pageObjects[newNextPage-1].SetActive(true);

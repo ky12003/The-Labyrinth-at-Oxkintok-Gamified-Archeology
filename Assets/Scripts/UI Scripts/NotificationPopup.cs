@@ -14,7 +14,7 @@ public class NotificationPopup : MonoBehaviour
     void Update()
     {
         // make text more transparent over time (simulate "fade")
-        trancparencyNum -= 0.05f * speedNum * Time.deltaTime;
+        trancparencyNum -= 0.0001f * speedNum;
         speedNum += 0.05f;
         notifUIGroup.alpha = trancparencyNum;
         // set the notification popup inactive if it gets too transparent
