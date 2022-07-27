@@ -18,7 +18,7 @@ public class PlaySound : MonoBehaviour
         if (On)
         {
             audioMixer.SetFloat("MusicVol", lastVol);
-            // GetComponent<AudioSource>().Play();
+           
             
         }
         else 
@@ -26,7 +26,7 @@ public class PlaySound : MonoBehaviour
             // store last volume setting
             audioMixer.GetFloat("MusicVol", out lastVol);
             audioMixer.SetFloat("MusicVol", -80);
-            // GetComponent<AudioSource>().Stop();
+           
             
         }
 
