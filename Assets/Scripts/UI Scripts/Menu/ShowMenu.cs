@@ -14,6 +14,7 @@ public class ShowMenu : MonoBehaviour
     public GameObject instructions;
     public GameObject options;
     public GameObject credits;
+    public GameObject mainsound;
     public TextMeshProUGUI playtext;
 
     int active=0;
@@ -50,7 +51,7 @@ public class ShowMenu : MonoBehaviour
         g[active].SetActive(false);
         g[i].SetActive(true);
         active = i;
-        if (i != 0) { Menu.SetActive(false); }
+      //  if (i != 0) { Menu.SetActive(false); }
 
     
     
