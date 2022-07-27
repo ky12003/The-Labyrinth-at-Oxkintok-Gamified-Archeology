@@ -13,7 +13,7 @@ public class Interactor : MonoBehaviour
     UnityEvent onNoInteraction;
     GameObject prevHit; // the previously hit game object
     public LayerMask interactableLayermask;
-    public int raycastRange = 20;
+    int raycastRange = 6;
 
     // Start is called before the first frame update
     void Start()
@@ -46,9 +46,9 @@ public class Interactor : MonoBehaviour
             if (Input.GetMouseButtonDown(0)) {
                 onInteract.Invoke();
             }
-        } else {
+        }/**else /**{
             onNoInteraction = prevHit.GetComponent<Interactable>().onNoInteraction;
             onNoInteraction.Invoke();
-        }
+        }**/
     }
 }
