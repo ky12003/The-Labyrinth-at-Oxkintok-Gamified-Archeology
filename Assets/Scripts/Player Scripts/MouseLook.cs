@@ -55,11 +55,15 @@ public class MouseLook : MonoBehaviour
     {
         if (currAngle >= 270) {
             playerBody.rotation = Quaternion.Euler(0f, 0f, 0f);
+            //animateRotation(currAngle, 360.01f, true);
         } else if (currAngle >= 180) {
+            //animateRotation(currAngle, 270, true);
             playerBody.rotation = Quaternion.Euler(0f, 270f, 0f);
         } else if (currAngle >= 90) {
+            //animateRotation(currAngle, 180, true);
             playerBody.rotation = Quaternion.Euler(0f, 180f, 0f);
         } else {
+            //animateRotation(currAngle, 90, true);
             playerBody.rotation = Quaternion.Euler(0f, 90f, 0f);
         }
     }
@@ -69,14 +73,46 @@ public class MouseLook : MonoBehaviour
     {
         if (currAngle > 0 && currAngle <= 90) {
             playerBody.rotation = Quaternion.Euler(0f, 0f, 0f);
+            //animateRotation(currAngle, 0.01f, false);
         } else if (currAngle <= 180) {
+            //animateRotation(currAngle, 90f, false);
             playerBody.rotation = Quaternion.Euler(0f, 90f, 0f);
         } else if (currAngle <= 270) {
+            //animateRotation(currAngle, 180f, false);
             playerBody.rotation = Quaternion.Euler(0f, 180f, 0f);
         } else {
+            //animateRotation(currAngle, 270f, false);
             playerBody.rotation = Quaternion.Euler(0f, 270f, 0f);
         }
     }
+
+    // function for animating the rotation (start: starting angle, end: ending angle, clockwise: boolean to check if turning clockwise or not
+    //void animateRotation(float start, float end, bool clockwise)
+    //{
+    //    // increments in which the angle changes.
+    //    float increments = 0.1f;
+
+    //    if (clockwise)
+    //    {
+    //        while (start < end-1)
+    //         {
+    //            playerBody.rotation = Quaternion.Euler(0f, start, 0f);
+
+    //            start += increments * Time.deltaTime;
+    //        }
+    //        playerBody.rotation = Quaternion.Euler(0f, end, 0f);
+    //    } 
+    //    else
+    //    {
+    //        while (start > end + 1)
+    //        {
+    //            playerBody.rotation = Quaternion.Euler(0f, end, 0f);
+
+    //            end -= increments * Time.deltaTime;
+    //        }
+    //        playerBody.rotation = Quaternion.Euler(0f, start, 0f);
+    //    }        
+    //}
 
     // function for using mouse control/buttons for camera movement
     void useMouseForCamera() 
@@ -105,9 +141,9 @@ public class MouseLook : MonoBehaviour
         // get current rotational position (in degrees)
         float currRotation = GetComponent<Camera>().transform.eulerAngles.y;
         // turn left with "J" key, turn right with "L" key
-        if (Input.GetKeyDown(KeyCode.J)) {
+        if (Input.GetKeyDown(KeyCode.Q)) {
             rotLeft(currRotation);
-        } else if (Input.GetKeyDown(KeyCode.L)) {
+        } else if (Input.GetKeyDown(KeyCode.R)) {
             rotRight(currRotation);
         }
     }
