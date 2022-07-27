@@ -25404,7 +25404,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[9].m_TargetAssemblyTypeName
       value: PopupToggle, Assembly-CSharp
       objectReference: {fileID: 0}
-<<<<<<< HEAD
     - target: {fileID: 7770330392034431907, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_SizeDelta.x
       value: 277.5386
@@ -25458,8 +25457,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -94.49457
       objectReference: {fileID: 0}
-=======
->>>>>>> parent of 8822520 (Credits fixed)
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
 --- !u!1001 &7248721988506462259
