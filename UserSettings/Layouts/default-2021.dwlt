@@ -19,7 +19,11 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
+<<<<<<< HEAD
   m_Title: Hierarchy
+=======
+  m_Title: Game
+>>>>>>> parent of 9574393 (test)
   m_RootView: {fileID: 9}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -540,7 +544,11 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< HEAD
       m_ExpandedIDs: 38fbffff
+=======
+      m_ExpandedIDs: f6eaffff36f1ffff1cf4ffff38fbffffbe53000016540000
+>>>>>>> parent of 9574393 (test)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
