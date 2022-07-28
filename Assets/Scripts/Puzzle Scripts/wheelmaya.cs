@@ -32,11 +32,12 @@ public class wheelmaya : MonoBehaviour
 
     // other:
     [SerializeField] GameObject uiEvents;
+    [SerializeField] GameObject puzzleStorage;
     [SerializeField] GameObject puzzleObject;
     [SerializeField] GameObject player;
 
     // -----Private variables-----
-    int userChoiceDay = 0; // stores user's choice for the "Day"
+    int userChoiceDay = 1; // stores user's choice for the "Day"
     int userChoiceMonth = 1; // stores user's choice for the "month"
     int dayChoices = 20; // number of choices on left wheel
     int monthChoices = 19; // number of choices on right wheel
@@ -72,7 +73,7 @@ public class wheelmaya : MonoBehaviour
         else
         {
             // play sound for wrong answer
-            audioSource.PlayOneShot(incorrectSound, 0.1f);
+            audioSource.PlayOneShot(incorrectSound, 0.5f);
 
             Debug.Log("WRONG");
         }
@@ -165,31 +166,31 @@ public class wheelmaya : MonoBehaviour
     {
         // basically update the current choice to be the choice before/after it on the wheel
 
-        // going in reverse (counting sequentially downwards: 3, 2, 1, ...)
+        // going forward (counting sequentially upwards: 1, 2, 3, ...)
         if (reverse)
         {
-            // reset to the end if the end of the wheel's choices are reached (since the choices are circular)
-            if (userChoiceDay - 1 < 0)
-            {
-                userChoiceDay = dayChoices;
-            }
-            else
-            {
-                userChoiceDay--;
-            }
-        }
-
-        // going forward (counting sequentially upwards: 1, 2, 3, ...)
-        else
-        {
             // reset to the start if the end of the wheel's choices are reached (since the choices are circular)
-            if (userChoiceDay + 1 > dayChoices)
+            if (userChoiceDay + 1 > dayChoices - 1)
             {
                 userChoiceDay = 0;
             }
             else
             {
                 userChoiceDay++;
+            }
+        }
+
+        // going in reverse (counting sequentially downwards: 3, 2, 1, ...)
+        else
+        {
+            // reset to the end if the end of the wheel's choices are reached (since the choices are circular)
+            if (userChoiceDay - 1 < 0)
+            {
+                userChoiceDay = dayChoices - 1;
+            }
+            else
+            {
+                userChoiceDay--;
             }
         }
 
@@ -200,7 +201,7 @@ public class wheelmaya : MonoBehaviour
     void handlePuzzleCompletion()
     {
         // play completion sound (from player to handle cases where certain objects are deactivated) 
-        player.GetComponent<AudioSource>().PlayOneShot(correctSound, 0.1f);
+        player.GetComponent<AudioSource>().PlayOneShot(correctSound, 0.5f);
 
         // close puzzle & activate main player UI
         gameObject.SetActive(false);
@@ -210,7 +211,8 @@ public class wheelmaya : MonoBehaviour
         // deactivate the puzzle object/don't let the player interact with it anymore (since it's not going to be used again if it's done)
         puzzleObject.layer = 0;
 
-
+        // let the event handler system know that this puzzle has been completed
+        puzzleStorage.GetComponent<FloorCompletion>().updateFloorTwoPuzzlesCompleted();
         Debug.Log("PUZZLE COMPLETE");
     }
 
