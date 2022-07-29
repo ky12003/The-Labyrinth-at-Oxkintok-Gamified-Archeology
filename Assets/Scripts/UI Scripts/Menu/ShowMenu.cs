@@ -62,11 +62,11 @@ public class ShowMenu : MonoBehaviour
         showing(0);
     }
 
-    
 
-    
+    /*
+     * for the intro (using guide: https://www.youtube.com/watch?v=p7iXEZGx2Mc AND documentation: https://docs.unity3d.com/ScriptReference/Video.VideoPlayer.html)
+     */
 
 
-    // Update is called once per frame
 
 }
