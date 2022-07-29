@@ -17,11 +17,10 @@ public class HandleIntro : MonoBehaviour
     */
     // -- public variables --
     public GameObject VideoOutputObject; // the player for the video
-    public GameObject VideoImageObject; // basically where the video plays within the UI canvas
+    public GameObject IntroUIContainer; // where stuff pertaining to the intro player are displayed in the UI
     public UnityEvent OnVideoEnd;
 
     // -- private variables --
-    bool introSkip = false;
 
 
     /*
@@ -34,20 +33,26 @@ public class HandleIntro : MonoBehaviour
     public void StartIntroSequence()
     {
         // activate the video
-        VideoImageObject.SetActive(true);
+        IntroUIContainer.SetActive(true);
         VideoOutputObject.SetActive(true);
 
         var videoPlayer = VideoOutputObject.GetComponent<VideoPlayer>();
 
+
         videoPlayer.loopPointReached += EndReached;
     }
 
-    public void SkipIntro()
+    public void SkipIntro(VideoPlayer vp)
     {
-
+        EndReached(vp);
     }
 
+
     // -- private functions -- 
+    void EndReached(VideoPlayer vp)
+    {
+        OnVideoEnd.Invoke();
+    }
 
     // -- unity functions --
 
@@ -57,9 +62,5 @@ public class HandleIntro : MonoBehaviour
         
     }
 
-    void EndReached(VideoPlayer vp)
-    {
-        Debug.Log("test");
-        OnVideoEnd.Invoke();
-    }
+
 }
