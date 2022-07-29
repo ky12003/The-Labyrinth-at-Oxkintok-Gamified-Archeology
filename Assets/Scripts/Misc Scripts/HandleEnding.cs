@@ -14,8 +14,9 @@ public class HandleEnding : MonoBehaviour
     */
     // -- public variables --
     public GameObject VideoOutputObject; // the player for the video
-    public GameObject EndingUIContainer; // where stuff pertaining to the intro player are displayed in the UI
-                                         //public UnityEvent OnVideoEnd;
+    public GameObject EndingUIContainer; // where stuff pertaining to the ending are displayed in the UI
+    public GameObject MainPlayerUI;
+    //public UnityEvent OnVideoEnd;
 
     /*
 
@@ -31,6 +32,7 @@ public class HandleEnding : MonoBehaviour
         // activate the video
         EndingUIContainer.SetActive(true);
         VideoOutputObject.SetActive(true);
+        MainPlayerUI.SetActive(false);
 
         var videoPlayer = VideoOutputObject.GetComponent<VideoPlayer>();
 
@@ -45,8 +47,12 @@ public class HandleEnding : MonoBehaviour
     }
 
     // -- unity functions -- 
-    void OnCollisionEnter(Collision collision)
+    void OnTriggerEnter(Collider other)
     {
-        StartEndingSequence();
+        if (other.gameObject.tag == "Player")
+        {
+            StartEndingSequence();
+        }
+        
     }
 }

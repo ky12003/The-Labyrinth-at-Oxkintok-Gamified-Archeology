@@ -17,7 +17,7 @@ public class HandleIntro : MonoBehaviour
     */
     // -- public variables --
     public GameObject VideoOutputObject; // the player for the video
-    public GameObject IntroUIContainer; // where stuff pertaining to the intro player are displayed in the UI
+    public GameObject IntroUIContainer; // where stuff pertaining to the intro are displayed in the UI
     public UnityEvent OnVideoEnd;
 
     // -- private variables --
