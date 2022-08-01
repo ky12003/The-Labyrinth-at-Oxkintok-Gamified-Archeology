@@ -4,6 +4,8 @@ using System.IO;
 using UnityEngine.UI;
 using UnityEngine;
 using TMPro;
+using UnityEngine.Audio;
+
 
 
 public class ShowMenu : MonoBehaviour
@@ -16,12 +18,14 @@ public class ShowMenu : MonoBehaviour
     public GameObject credits;
     public GameObject mainsound;
     public TextMeshProUGUI playtext;
+    public AudioSource audioData;
 
     int active=0;
    
 
 
     public void playing() {
+        
         playtext.text = "Continue";
         showing(1);
         
@@ -31,6 +35,7 @@ public class ShowMenu : MonoBehaviour
 
     public void showinstructions()
     {
+        
         showing(2);
     }
 
@@ -47,14 +52,15 @@ public class ShowMenu : MonoBehaviour
         g[2] = instructions;
         g[3] = options;
         g[4] = credits;
-        
-        g[active].SetActive(false);
+        audioData.Play();
+         g[active].SetActive(false);
         g[i].SetActive(true);
         active = i;
-      //  if (i != 0) { Menu.SetActive(false); }
+       // soundbutton.SetActive(false);
+        //  if (i != 0) { Menu.SetActive(false); }
 
-    
-    
+
+
     }
 
     public void backtomenu()
