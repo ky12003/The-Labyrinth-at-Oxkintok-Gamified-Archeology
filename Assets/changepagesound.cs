@@ -9,12 +9,13 @@ public class changepagesound : MonoBehaviour
     // Start is called before the first frame update
     public AudioSource soundpage, soundpageback;
     public void playthesound() {
-        soundpage.Play();
+        if(PlaySound.getOn())
+            soundpage.Play();
     }
 
     public void playsoundback()
     {
-
-        soundpageback.Play();
+        if(PlaySound.getOn())
+            soundpageback.Play();
     }
 }
