@@ -16,6 +16,8 @@ public class wheelmaya : MonoBehaviour
     public Sprite riddleImg; // stores the image for the riddle
     public int monthAnswer; // stores answer for the "month" portion of the answer
     public int DayAnswer; // stores answer dfor the "Day" portion of the answer
+    public Sprite[] daySprites;
+    public Sprite[] monthSprites;
 
     // -----Serialized variables-----
     // wheel elements
@@ -24,6 +26,8 @@ public class wheelmaya : MonoBehaviour
 
     // general UI elements:
     [SerializeField] GameObject mainPlayerUI;
+    [SerializeField] GameObject dayImageObject;
+    [SerializeField] GameObject monthImageObject;
 
     // sounds:
     [SerializeField] AudioSource audioSource;
@@ -158,6 +162,9 @@ public class wheelmaya : MonoBehaviour
             }
         }
 
+        // update image corresponding to chosen month
+        updateImageMonth(userChoiceMonth);
+
         Debug.Log("MONTH: " + userChoiceMonth);
     }
 
@@ -194,8 +201,24 @@ public class wheelmaya : MonoBehaviour
             }
         }
 
+        // update image corresponding to chosen day
+        updateImageDay(userChoiceDay);
+
         Debug.Log("DAY: " + userChoiceDay);
     }
+
+    // helper function for updating image for DAY (works slightly different from month since it counts from 0)
+    void updateImageDay(int choice)
+    {
+        dayImageObject.GetComponent<Image>().sprite = daySprites[choice];
+    }
+
+    // helper function for updating image for MONTH
+    void updateImageMonth(int choice)
+    {
+        monthImageObject.GetComponent<Image>().sprite = monthSprites[choice - 1];
+    }
+
 
     // handle completion of the full puzzle
     void handlePuzzleCompletion()
