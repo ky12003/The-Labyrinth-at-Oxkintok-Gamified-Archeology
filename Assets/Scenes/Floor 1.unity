@@ -2852,6 +2852,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 457328627}
     m_Modifications:
+    - target: {fileID: 627032759, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ba6eae93974ac054186cc9bd68a193ba, type: 3}
     - target: {fileID: 1019173031, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -2906,7 +2910,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1225218289, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -200
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1266895386, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: m_LocalScale.x
@@ -8676,6 +8680,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 457328627}
     m_Modifications:
+    - target: {fileID: 627032759, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ba6eae93974ac054186cc9bd68a193ba, type: 3}
     - target: {fileID: 1019173031, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -8726,7 +8734,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1225218289, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -200
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1266895386, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: m_LocalScale.x
@@ -14716,6 +14724,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 457328627}
     m_Modifications:
+    - target: {fileID: 627032759, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ba6eae93974ac054186cc9bd68a193ba, type: 3}
     - target: {fileID: 1019173031, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -14756,6 +14768,10 @@ PrefabInstance:
       propertyPath: puzzleStorage
       value: 
       objectReference: {fileID: 357620444}
+    - target: {fileID: 1225218288, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1225218289, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.5
@@ -14770,7 +14786,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1225218289, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -200
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1225218289, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -150
       objectReference: {fileID: 0}
     - target: {fileID: 1266895386, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: m_LocalScale.x
@@ -15261,7 +15281,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1091621511}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 85c86b46469c8cc428682802c06e6f84, type: 2}
   m_audioClip: {fileID: 8300000, guid: 386078a4c16b8ea41920802fe4e42440, type: 3}
@@ -20214,102 +20234,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8924964685692023682, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
   m_PrefabInstance: {fileID: 1329634356}
   m_PrefabAsset: {fileID: 0}
---- !u!82 &1155479452
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1155479444}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 85c86b46469c8cc428682802c06e6f84, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 3c1860328f0a7fd4cb5e06f88685d0c8, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &1158109301
 GameObject:
   m_ObjectHideFlags: 0
@@ -25131,6 +25055,11 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!1 &1165855022 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3346189783386244780, guid: a5b294bcd3e4e10498633e1775803d4e, type: 3}
+  m_PrefabInstance: {fileID: 1911728351}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1175292470
 GameObject:
   m_ObjectHideFlags: 0
@@ -25766,14 +25695,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1860796897}
     - target: {fileID: 1155479452, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
-      propertyPath: DayAnswer
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 1155479452, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
-      propertyPath: monthAnswer
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1155479452, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: mainPlayerUI
       value: 
       objectReference: {fileID: 939610025}
@@ -25785,11 +25706,6 @@ PrefabInstance:
       propertyPath: puzzleStorage
       value: 
       objectReference: {fileID: 357620444}
-    - target: {fileID: 4069980891716275741, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
-      propertyPath: m_text
-      value: Their creations, made from the meal of maize and shaped by their divine
-        hands, were ready to walk the earth.
-      objectReference: {fileID: 0}
     - target: {fileID: 5525427151025868655, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -28948,6 +28864,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 457328627}
     m_Modifications:
+    - target: {fileID: 627032759, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ba6eae93974ac054186cc9bd68a193ba, type: 3}
     - target: {fileID: 1019173031, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -28983,7 +28903,7 @@ PrefabInstance:
     - target: {fileID: 1155479452, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: puzzleObject
       value: 
-      objectReference: {fileID: 1410191443}
+      objectReference: {fileID: 1165855022}
     - target: {fileID: 1155479452, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: puzzleStorage
       value: 
@@ -29002,7 +28922,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1225218289, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -200
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1266895386, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: m_LocalScale.x
@@ -30398,6 +30318,22 @@ PrefabInstance:
     - target: {fileID: 7138332351932773350, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7178468855059275611, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7178468855059275611, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7178468855059275611, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7178468855059275611, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7178468855059275611, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
