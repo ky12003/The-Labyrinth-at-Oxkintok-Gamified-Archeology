@@ -602,7 +602,8 @@ Animation:
   m_Enabled: 1
   serializedVersion: 3
   m_Animation: {fileID: 7400000, guid: 7322c6efe0d7126468351cc8e29ce7d0, type: 2}
-  m_Animations: []
+  m_Animations:
+  - {fileID: 7400000, guid: 7322c6efe0d7126468351cc8e29ce7d0, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -1744,7 +1745,8 @@ Animation:
   m_Enabled: 1
   serializedVersion: 3
   m_Animation: {fileID: 7400000, guid: 7322c6efe0d7126468351cc8e29ce7d0, type: 2}
-  m_Animations: []
+  m_Animations:
+  - {fileID: 7400000, guid: 7322c6efe0d7126468351cc8e29ce7d0, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -9194,7 +9196,8 @@ Animation:
   m_Enabled: 1
   serializedVersion: 3
   m_Animation: {fileID: 7400000, guid: 7322c6efe0d7126468351cc8e29ce7d0, type: 2}
-  m_Animations: []
+  m_Animations:
+  - {fileID: 7400000, guid: 7322c6efe0d7126468351cc8e29ce7d0, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -25298,6 +25301,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3346189783386244780, guid: a5b294bcd3e4e10498633e1775803d4e, type: 3}
   m_PrefabInstance: {fileID: 1416140874}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1410191443 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3346189783386244780, guid: a5b294bcd3e4e10498633e1775803d4e, type: 3}
+  m_PrefabInstance: {fileID: 1911728351}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1416140874
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25614,7 +25622,8 @@ Animation:
   m_Enabled: 1
   serializedVersion: 3
   m_Animation: {fileID: 7400000, guid: 7322c6efe0d7126468351cc8e29ce7d0, type: 2}
-  m_Animations: []
+  m_Animations:
+  - {fileID: 7400000, guid: 7322c6efe0d7126468351cc8e29ce7d0, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -26646,7 +26655,8 @@ Animation:
   m_Enabled: 1
   serializedVersion: 3
   m_Animation: {fileID: 7400000, guid: 7322c6efe0d7126468351cc8e29ce7d0, type: 2}
-  m_Animations: []
+  m_Animations:
+  - {fileID: 7400000, guid: 7322c6efe0d7126468351cc8e29ce7d0, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -27445,8 +27455,6 @@ GameObject:
   - component: {fileID: 1725215396}
   - component: {fileID: 1725215398}
   - component: {fileID: 1725215397}
-  - component: {fileID: 1725215400}
-  - component: {fileID: 1725215399}
   m_Layer: 0
   m_Name: OpeningFootnote
   m_TagString: Untagged
@@ -27571,41 +27579,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1725215395}
   m_CullTransparentMesh: 1
---- !u!95 &1725215399
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1725215395}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: bd00a03c699dde440b737dd9685d5fe5, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!111 &1725215400
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1725215395}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 7322c6efe0d7126468351cc8e29ce7d0, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!1 &1732399606
 GameObject:
   m_ObjectHideFlags: 0
@@ -28192,7 +28165,7 @@ PrefabInstance:
     - target: {fileID: 1155479452, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: puzzleObject
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1410191443}
     - target: {fileID: 1155479452, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: puzzleStorage
       value: 
