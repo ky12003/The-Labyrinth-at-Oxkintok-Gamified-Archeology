@@ -8985,6 +8985,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1860796897}
     - target: {fileID: 1155479452, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+      propertyPath: DayAnswer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1155479452, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: monthAnswer
       value: 1
       objectReference: {fileID: 0}
@@ -31414,6 +31418,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669769679}
     m_Modifications:
+    - target: {fileID: 99682664, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 226163357588629597, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_SizeDelta.x
       value: 344.3919
