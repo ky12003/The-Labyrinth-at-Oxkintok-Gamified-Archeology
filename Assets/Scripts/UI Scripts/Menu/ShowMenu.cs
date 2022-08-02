@@ -25,7 +25,8 @@ public class ShowMenu : MonoBehaviour
 
 
     public void playing() {
-        
+        if (PlaySound.getOn())
+            audioData.Play();
         playtext.text = "Continue";
         showing(1);
         
@@ -47,13 +48,14 @@ public class ShowMenu : MonoBehaviour
 
     void showing(int i) {
         GameObject[] g = new GameObject[5];
+        if (PlaySound.getOn())
+            audioData.Play();
         g[0] = Menu;
         g[1] = play;
         g[2] = instructions;
         g[3] = options;
         g[4] = credits;
-        if(PlaySound.getOn())
-          audioData.Play();
+        
          g[active].SetActive(false);
         g[i].SetActive(true);
         active = i;
