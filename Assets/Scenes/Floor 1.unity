@@ -8993,6 +8993,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1860796897}
     - target: {fileID: 1155479452, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+      propertyPath: DayAnswer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1155479452, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: soundwheel
       value: 
       objectReference: {fileID: 1345453541}
