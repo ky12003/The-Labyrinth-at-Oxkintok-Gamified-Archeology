@@ -53,10 +53,6 @@ public class Interactor : MonoBehaviour
                 onNoInteraction = prevHit.GetComponent<Interactable>().onNoInteraction;
                 onNoInteraction.Invoke();
             }
-            
-
-           onNoInteraction = prevHit.GetComponent<Interactable>().onNoInteraction;
-            onNoInteraction.Invoke();
 
         }
     }
