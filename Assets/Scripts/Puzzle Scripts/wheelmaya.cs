@@ -14,7 +14,6 @@ public class wheelmaya : MonoBehaviour
     */
 
     // -----public variables-----
-    public Sprite riddleImg; // stores the image for the riddle
     public int monthAnswer; // stores answer for the "month" portion of the answer
     public int DayAnswer; // stores answer dfor the "Day" portion of the answer
     public Sprite[] daySprites;
@@ -40,6 +39,8 @@ public class wheelmaya : MonoBehaviour
     [SerializeField] GameObject uiEvents;
     [SerializeField] GameObject puzzleStorage;
     [SerializeField] GameObject puzzleObject;
+    [SerializeField] GameObject puzzleCompleteIndicator1;
+    [SerializeField] GameObject puzzleCompleteIndicator2;
     [SerializeField] GameObject player;
 
 
@@ -246,7 +247,7 @@ public class wheelmaya : MonoBehaviour
         puzzleObject.layer = 0;
 
         // let the event handler system know that this puzzle has been completed
-        puzzleStorage.GetComponent<FloorCompletion>().updateFloorTwoPuzzlesCompleted();
+        puzzleStorage.GetComponent<FloorCompletion>().updateFloorTwoPuzzlesCompleted(puzzleCompleteIndicator1, puzzleCompleteIndicator2);
         Debug.Log("PUZZLE COMPLETE");
     }
 
