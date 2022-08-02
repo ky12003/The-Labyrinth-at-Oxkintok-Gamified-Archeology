@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 // using UnityEngine.Events;
 
 // used for activating popup menus (includes notebook and puzzles)
@@ -17,6 +18,7 @@ public class PopupToggle : MonoBehaviour
     [SerializeField] GameObject mainUI;
     [SerializeField] GameObject notebook;
     [SerializeField] GameObject pauseMenu;
+    public AudioSource audioSource;
 
     void Update()
     {
@@ -34,6 +36,7 @@ public class PopupToggle : MonoBehaviour
 
     public void setPopupOpen(bool isOpen) 
     {
+        
         popupIsOpen = isOpen;
     }
 
