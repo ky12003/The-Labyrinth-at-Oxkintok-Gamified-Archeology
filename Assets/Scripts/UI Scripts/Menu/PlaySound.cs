@@ -9,9 +9,6 @@ public class PlaySound : MonoBehaviour
     static public bool On=true; // boolean for enabling/disabling volume
     static public float lastVol = 0;// last volume before pressing mute button
     public AudioMixer audioMixer;
-    public AudioSource soundmenubutton;
-    
-
 
     public void playSound()
     {
@@ -33,21 +30,10 @@ public class PlaySound : MonoBehaviour
             
         }
 
-        
+
 
 
     }
-
-
-    public static bool getOn()
-    {
-        return On;
-    }
-   
-
-
-
-
 
     private void Update() {
         Debug.Log(On);

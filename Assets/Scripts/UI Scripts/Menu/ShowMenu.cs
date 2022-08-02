@@ -52,8 +52,7 @@ public class ShowMenu : MonoBehaviour
         g[2] = instructions;
         g[3] = options;
         g[4] = credits;
-        if(PlaySound.getOn())
-          audioData.Play();
+       audioData.Play();
          g[active].SetActive(false);
         g[i].SetActive(true);
         active = i;
