@@ -13,9 +13,9 @@ public class changepagesound : MonoBehaviour
             soundpage.Play();
     }
 
-    public void playsoundback()
+    public void rewindpage()
     {
-        if(PlaySound.getOn())
+        if (PlaySound.getOn())
             soundpageback.Play();
     }
 }
