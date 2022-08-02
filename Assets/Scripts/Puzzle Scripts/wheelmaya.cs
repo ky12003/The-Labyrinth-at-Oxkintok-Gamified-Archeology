@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Audio;
 
 public class wheelmaya : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class wheelmaya : MonoBehaviour
     public int DayAnswer; // stores answer dfor the "Day" portion of the answer
     public Sprite[] daySprites;
     public Sprite[] monthSprites;
+    public AudioSource soundwheel;
 
     // -----Serialized variables-----
     // wheel elements
@@ -39,6 +41,7 @@ public class wheelmaya : MonoBehaviour
     [SerializeField] GameObject puzzleStorage;
     [SerializeField] GameObject puzzleObject;
     [SerializeField] GameObject player;
+
 
     // -----Private variables-----
     int userChoiceDay = 1; // stores user's choice for the "Day"
@@ -87,7 +90,7 @@ public class wheelmaya : MonoBehaviour
     public void handleLeftUpRotation()
     {
         // rotate the wheel counterclockwise
-        rotateWheel(wheelLeft, dayChoices);
+      /**  */   rotateWheel(wheelLeft, dayChoices);
         // (subtract from the current user's day "choice" *eg. if the selected day is 4, it would become 3);
         updateChoiceDay(true);
     }
@@ -95,6 +98,7 @@ public class wheelmaya : MonoBehaviour
     public void handleLeftDownRotation()
     {
         // rotate the wheel clockwise
+      
         rotateWheel(wheelLeft, -dayChoices);
         // (add to the current user's day "choice" *eg. if the selected day is 4, it would become 5);
         updateChoiceDay(false);
@@ -104,12 +108,14 @@ public class wheelmaya : MonoBehaviour
     public void handleRightUpRotation()
     {
         // rotate the wheel clockwise
+       
         rotateWheel(wheelRight, -monthChoices);
         // (subtract from the current user's month "choice" *eg. if the selected month is 4, it would become 3);
         updateChoiceMonth(true);
     }
     public void handleRightDownRotation()
     {
+       
         // rotate the wheel counterclockwise
         rotateWheel(wheelRight, monthChoices);
         // (add to the current user's month "choice" *eg. if the selected month is 4, it would become 5);
@@ -122,6 +128,11 @@ public class wheelmaya : MonoBehaviour
     void rotateWheel(GameObject wheel, float choices)
     {
         // process number of degrees to get from one choice to another on a wheel
+
+        if (PlaySound.getOn())
+        {
+            soundwheel.Play();
+        }
         float turnDegree = 360f / choices;
 
         // turn the wheel
