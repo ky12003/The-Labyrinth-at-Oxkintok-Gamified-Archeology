@@ -662,6 +662,40 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &97306974 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 833092028, guid: 32a1757096276a34fa3d61783a993235, type: 3}
+  m_PrefabInstance: {fileID: 8620535568385196331}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &97306979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97306974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 805406432}
+          m_TargetAssemblyTypeName: exitclose, Assembly-CSharp
+          m_MethodName: mouseover
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1001 &101183141
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -919,7 +953,6 @@ CanvasRenderer:
   m_GameObject: {fileID: 121891191}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 --- !u!1 &130759212 stripped
 GameObject:
@@ -1084,8 +1117,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-=======
->>>>>>> parent of dd504ea (On mouse over exit buttons sounds)
 --- !u!1 &138278141
 GameObject:
   m_ObjectHideFlags: 0
@@ -3843,6 +3874,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioData: {fileID: 965940310}
+  mouseonexit: {fileID: 0}
 --- !u!1 &703874733 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3346189783386244780, guid: a5b294bcd3e4e10498633e1775803d4e, type: 3}
@@ -3889,6 +3921,40 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &735331367 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3353056632795669486, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+  m_PrefabInstance: {fileID: 1062963601}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &735331372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735331367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 669769680}
+          m_TargetAssemblyTypeName: exitclose, Assembly-CSharp
+          m_MethodName: mouseover
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &751810640
 GameObject:
   m_ObjectHideFlags: 0
@@ -8960,7 +9026,6 @@ MonoBehaviour:
   soundpage: {fileID: 471135425}
   soundpageback: {fileID: 184834195}
 <<<<<<< HEAD
-<<<<<<< HEAD
   mouseonpage: {fileID: 138124909}
 =======
   mouseonpage: {fileID: 1648907625}
@@ -8979,8 +9044,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioData: {fileID: 0}
   mouseonexit: {fileID: 138124909}
-=======
->>>>>>> parent of dd504ea (On mouse over exit buttons sounds)
 --- !u!1 &805817736
 GameObject:
   m_ObjectHideFlags: 0
@@ -10623,6 +10686,40 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &986391586 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3353056632795669486, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+  m_PrefabInstance: {fileID: 1888667075}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &986391591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986391586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 669769680}
+          m_TargetAssemblyTypeName: exitclose, Assembly-CSharp
+          m_MethodName: mouseover
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &989622816
 GameObject:
   m_ObjectHideFlags: 0
@@ -16282,6 +16379,40 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2521180715174639566, guid: a5b294bcd3e4e10498633e1775803d4e, type: 3}
   m_PrefabInstance: {fileID: 1063964310}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1065373610 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3353056632795669486, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+  m_PrefabInstance: {fileID: 1329634356}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1065373615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065373610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 805406432}
+          m_TargetAssemblyTypeName: exitclose, Assembly-CSharp
+          m_MethodName: mouseover
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1001 &1068091081
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16415,6 +16546,40 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ad67968727e9224c8369021123b6f62, type: 3}
+--- !u!1 &1085339903 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3353056632795669486, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+  m_PrefabInstance: {fileID: 624614526}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1085339908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085339903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 669769680}
+          m_TargetAssemblyTypeName: exitclose, Assembly-CSharp
+          m_MethodName: mouseover
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1091621511 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3068592034635071367, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
@@ -29605,6 +29770,40 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7865688720083586020, guid: 91c6c230a091fc449a0ca3bf287a5d2b, type: 3}
   m_PrefabInstance: {fileID: 1651001231}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1660966323 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3353056632795669486, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+  m_PrefabInstance: {fileID: 895948907}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1660966328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660966323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 669769680}
+          m_TargetAssemblyTypeName: exitclose, Assembly-CSharp
+          m_MethodName: soundclose
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1701317506
 GameObject:
   m_ObjectHideFlags: 0
@@ -30084,14 +30283,11 @@ Transform:
   - {fileID: 965940309}
   - {fileID: 977452967}
   - {fileID: 191979905}
-<<<<<<< HEAD
   - {fileID: 138124908}
 <<<<<<< HEAD
 =======
   - {fileID: 1648907624}
 >>>>>>> parent of d205f8f (scene changed)
-=======
->>>>>>> parent of dd504ea (On mouse over exit buttons sounds)
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
