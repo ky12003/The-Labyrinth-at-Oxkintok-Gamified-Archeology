@@ -7,7 +7,7 @@ using UnityEngine.Audio;
 public class changepagesound : MonoBehaviour
 {
     // Start is called before the first frame update
-    public AudioSource soundpage, soundpageback;
+    public AudioSource soundpage, soundpageback, mouseonpage;
     public void playthesound() {
         if(PlaySound.getOn())
             soundpage.Play();
@@ -18,4 +18,6 @@ public class changepagesound : MonoBehaviour
         if (PlaySound.getOn())
             soundpageback.Play();
     }
+
+   
 }
