@@ -3269,6 +3269,7 @@ GameObject:
   m_PrefabInstance: {fileID: 939085287}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &564169558 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1175835604032150809, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
@@ -3305,6 +3306,8 @@ MonoBehaviour:
           m_CallState: 2
 =======
 >>>>>>> parent of 6e5b432 (Merge pull request #68 from ky12003/kenta)
+=======
+>>>>>>> parent of e5c5c21 (Updated prefabs for puzzles 1-3 and added note script)
 --- !u!1 &565947318
 GameObject:
   m_ObjectHideFlags: 0
@@ -21422,6 +21425,7 @@ Transform:
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &1127869499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21438,6 +21442,8 @@ MonoBehaviour:
   skipsound: {fileID: 191979906}
 =======
 >>>>>>> parent of 6e5b432 (Merge pull request #68 from ky12003/kenta)
+=======
+>>>>>>> parent of e5c5c21 (Updated prefabs for puzzles 1-3 and added note script)
 --- !u!1 &1155479444 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8338853859091374287, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
