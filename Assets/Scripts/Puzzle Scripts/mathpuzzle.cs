@@ -11,23 +11,25 @@ public class mathpuzzle : MonoBehaviour
 {
     // -----Serialized variables-----
     // UI elements:
-    [SerializeField] GameObject puzzleUIF1P1;
-    [SerializeField] GameObject player;
+    [SerializeField] GameObject puzzleUIF2P1;
     [SerializeField] GameObject userInput;
     [SerializeField] GameObject questionObj;
     [SerializeField] GameObject answerPromptObj;
-    [SerializeField] GameObject triviaUI;
-    [SerializeField] GameObject pageObject;
+    [SerializeField] GameObject mainPlayerUI;
 
     // sounds:
     [SerializeField] AudioSource audioSource;
     [SerializeField] AudioClip correctSound;
     [SerializeField] AudioClip incorrectSound;
-    [SerializeField] AudioClip completionSound;
 
     // other:
+    [SerializeField] GameObject uiEvents;
+    [SerializeField] GameObject puzzleStorage;
     [SerializeField] GameObject puzzleObject;
-    [SerializeField] GameObject doorObject;
+    [SerializeField] GameObject puzzleCompleteIndicator1;
+    [SerializeField] GameObject puzzleCompleteIndicator2;
+    [SerializeField] GameObject player;
+
 
     public Sprite[] puzzleQuestions;
     public Sprite[] puzzlePrompts;
@@ -38,12 +40,10 @@ public class mathpuzzle : MonoBehaviour
     int playerAnswer; // stores player's answer submission
     int currStep = 1; // current step
     int finStep; // final step
-    int[] answerList = new int[] { 5, 7, 0, 16, 19 }; // stores answers for steps (used documentation: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/single-dimensional-arrays)
-    PageUpdate pageUpdate; // for updating page (in this case, page 1)
+    int[] answerList = new int[] { 1, 2, 3 }; // stores answers for steps (used documentation: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/single-dimensional-arrays)
 
     void Awake() {
         finStep = answerList.Length;
-        pageUpdate = pageObject.GetComponent<PageUpdate>();
     }
 
     void Update() {
@@ -69,8 +69,6 @@ public class mathpuzzle : MonoBehaviour
         // if the answer was correct
         if (answerList[currStep-1] == playerAnswer) 
         {
-            // update page
-            pageUpdate.updatePart(currStep);
             
             // load next step and update step
             currStep++;
@@ -96,17 +94,20 @@ public class mathpuzzle : MonoBehaviour
     // handle completion of the full puzzle
     void handlePuzzleCompletion() {
         // play completion sound (from player to handle cases where certain objects are deactivated) 
-        player.GetComponent<AudioSource>().PlayOneShot(completionSound, 0.1f);
+        player.GetComponent<AudioSource>().PlayOneShot(correctSound, 0.1f);
 
-        // close puzzle & activate trivia popup
-        puzzleUIF1P1.SetActive(false);
-        triviaUI.SetActive(true);
-        doorObject.SetActive(false);
+        // close puzzle & activate main player UI
+        puzzleUIF2P1.SetActive(false);
+        mainPlayerUI.SetActive(true);
+        uiEvents.GetComponent<PopupToggle>().setPopupOpen(false);
 
-        // smite the door (basically let player enter next room)
+        // deactivate the puzzle object/don't let the player interact with it anymore (since it's not going to be used again if it's done)
+        puzzleObject.layer = 0;
 
-        // display congratulations popup
+        // let the event handler system know that this puzzle has been completed
+        puzzleStorage.GetComponent<FloorCompletion>().updateFloorTwoPuzzlesCompleted(puzzleCompleteIndicator1, puzzleCompleteIndicator2);
         Debug.Log("PUZZLE COMPLETE");
+
     }
 
     // update UI for steps
