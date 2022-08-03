@@ -2319,7 +2319,7 @@ GameObject:
   - component: {fileID: 1155479452}
   - component: {fileID: 8019476324016555714}
   m_Layer: 0
-  m_Name: UI Floor 2 puzzle 2
+  m_Name: Puzzle UI Template
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
