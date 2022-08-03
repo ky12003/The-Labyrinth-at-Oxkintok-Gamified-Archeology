@@ -2944,6 +2944,40 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 796291089, guid: 5ad67968727e9224c8369021123b6f62, type: 3}
   m_PrefabInstance: {fileID: 939085287}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &564169558 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1175835604032150809, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+  m_PrefabInstance: {fileID: 5224154956247748446}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &564169563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564169558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 781041993}
+          m_TargetAssemblyTypeName: ShowMenu, Assembly-CSharp
+          m_MethodName: mouseon
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &565947318
 GameObject:
   m_ObjectHideFlags: 0
@@ -26646,6 +26680,40 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7865688720083586020, guid: 91c6c230a091fc449a0ca3bf287a5d2b, type: 3}
   m_PrefabInstance: {fileID: 1424932808}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1425420815 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4644590090566986022, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+  m_PrefabInstance: {fileID: 5224154956247748446}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1425420820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425420815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 781041993}
+          m_TargetAssemblyTypeName: ShowMenu, Assembly-CSharp
+          m_MethodName: mouseon
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1001 &1428148166
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30696,6 +30764,40 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1985859785}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &2000495189 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5729146333852457177, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+  m_PrefabInstance: {fileID: 5224154956247748446}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2000495194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000495189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 781041993}
+          m_TargetAssemblyTypeName: ShowMenu, Assembly-CSharp
+          m_MethodName: mouseon
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &2003789023
 GameObject:
   m_ObjectHideFlags: 0
