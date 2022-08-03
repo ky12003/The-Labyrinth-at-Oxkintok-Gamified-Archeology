@@ -1464,7 +1464,7 @@ GameObject:
   - component: {fileID: 37807648743836835}
   - component: {fileID: 8199793580062226402}
   m_Layer: 0
-  m_Name: Old puzzle UI prefab
+  m_Name: UI Floor 2 puzzle 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

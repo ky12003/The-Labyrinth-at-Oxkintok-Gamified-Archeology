@@ -7,7 +7,7 @@ using TMPro;
 // mini notes
 // deactivate puzzle object (change layer to undefined) after puzzle is done
 
-public class PuzzleF1P1 : MonoBehaviour
+public class mathpuzzle : MonoBehaviour
 {
     // -----Serialized variables-----
     // UI elements:
