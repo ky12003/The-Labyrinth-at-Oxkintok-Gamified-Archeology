@@ -18,7 +18,7 @@ public class ShowMenu : MonoBehaviour
     public GameObject credits;
     public GameObject mainsound;
     public TextMeshProUGUI playtext;
-    public AudioSource audioData;
+    public AudioSource audioData, audiomouseon;
     
     int active=0;
    
@@ -72,7 +72,11 @@ public class ShowMenu : MonoBehaviour
     }
 
    
-
+ public void mouseon()
+    {
+        if (PlaySound.getOn())
+            audiomouseon.Play();
+    }
 
 
 }
