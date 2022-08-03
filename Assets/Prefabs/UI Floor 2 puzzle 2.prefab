@@ -1267,8 +1267,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "All things, even the very world, must eventually end. And yet what is
-    the end for one is also the beginning of another\u2026"
+  m_text: Their creations, made from the meal of maize and shaped by their divine
+    hands, were ready to walk the earth.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 106b8db6ca900e64ab586f775573f26c, type: 2}
   m_sharedMaterial: {fileID: 7671445276034303805, guid: 106b8db6ca900e64ab586f775573f26c, type: 2}
@@ -2458,8 +2458,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3ac86425c909e34baa70d7251ec827f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  monthAnswer: 14
-  DayAnswer: 3
+  monthAnswer: 1
+  DayAnswer: 16
   daySprites:
   - {fileID: 21300000, guid: 38c7a0ea03ebee44f8119956c018e3f1, type: 3}
   - {fileID: 21300000, guid: 6159ed16006bf024c8b203314c5672a2, type: 3}
