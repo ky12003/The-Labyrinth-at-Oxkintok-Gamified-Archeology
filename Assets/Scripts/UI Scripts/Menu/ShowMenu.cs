@@ -19,7 +19,7 @@ public class ShowMenu : MonoBehaviour
     public GameObject mainsound;
     public TextMeshProUGUI playtext;
     public AudioSource audioData;
-
+    
     int active=0;
    
 
@@ -70,6 +70,8 @@ public class ShowMenu : MonoBehaviour
     {
         showing(0);
     }
+
+   
 
 
 
