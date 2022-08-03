@@ -19,5 +19,5 @@ public class changepagesound : MonoBehaviour
             soundpageback.Play();
     }
 
-   public void mouseonchange() { mouseonpage.Play(); }
+   
 }
