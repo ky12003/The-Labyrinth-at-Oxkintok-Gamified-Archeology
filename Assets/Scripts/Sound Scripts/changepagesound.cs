@@ -18,4 +18,9 @@ public class changepagesound : MonoBehaviour
         if (PlaySound.getOn())
             soundpageback.Play();
     }
+<<<<<<< HEAD
+=======
+
+   
+>>>>>>> parent of ba14d1b (mouse on change page)
 }
