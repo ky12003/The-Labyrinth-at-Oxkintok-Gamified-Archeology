@@ -29809,11 +29809,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1374702260057248, guid: ad027ab4a6cca1341b30161217420047, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 766490297582726044, guid: ad027ab4a6cca1341b30161217420047, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5524404848466256553, guid: ad027ab4a6cca1341b30161217420047, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -29975,6 +29975,10 @@ PrefabInstance:
     - target: {fileID: 8285059156906565351, guid: e3a6bda1de5ffa14e84a9197b1cce032, type: 3}
       propertyPath: m_Name
       value: UI Floor 2 puzzle 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8285059156906565351, guid: e3a6bda1de5ffa14e84a9197b1cce032, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8833852550187716010, guid: e3a6bda1de5ffa14e84a9197b1cce032, type: 3}
       propertyPath: m_Pivot.x
@@ -30306,6 +30310,10 @@ PrefabInstance:
     - target: {fileID: 6597897605501407814, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
       propertyPath: m_Name
       value: UI Floor 2 puzzle 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597897605501407814, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7243966561255734758, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
