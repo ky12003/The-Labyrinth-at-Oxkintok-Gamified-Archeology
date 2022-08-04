@@ -4,9 +4,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-// mini notes
-// deactivate puzzle object (change layer to undefined) after puzzle is done
-
 public class mathpuzzle : MonoBehaviour
 {
     // -----Serialized variables-----
@@ -35,7 +32,7 @@ public class mathpuzzle : MonoBehaviour
     public Sprite[] puzzlePrompts;
 
     // -----Private variables-----
-    bool puzzleIsDone = false; // for noting down if the puzzle is complete
+    //bool puzzleIsDone = false; // for noting down if the puzzle is complete
     bool answerSubmitted = false; // for checking if an answer has been submitted
     int playerAnswer; // stores player's answer submission
     int currStep = 1; // current step
@@ -117,9 +114,9 @@ public class mathpuzzle : MonoBehaviour
     }
 
     // -----SETTERS/GETTERS-----
-    public void setPuzzleDone(bool isDone) {
-        puzzleIsDone = isDone;
-    }
+    //public void setPuzzleDone(bool isDone) {
+    //    puzzleIsDone = isDone;
+    //}
 
     public void setAnswerSubmitted(bool submitted) {
         answerSubmitted = submitted;
