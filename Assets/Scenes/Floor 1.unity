@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.00001851807, g: 0.000000033930043, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.000018518082, g: 0.000000033930043, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -251,6 +251,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioData: {fileID: 1025201725}
+  mouseon: {fileID: 0}
 --- !u!1 &58708621
 GameObject:
   m_ObjectHideFlags: 0
@@ -309,9 +310,9 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1072808797}
-          m_TargetAssemblyTypeName: VideoContainer, Assembly-CSharp
-          m_MethodName: skipvideo
+        - m_Target: {fileID: 1072808799}
+          m_TargetAssemblyTypeName: mouseskipbutton, Assembly-CSharp
+          m_MethodName: mouseonskip
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -2135,6 +2136,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 467099223}
+  - component: {fileID: 467099224}
   m_Layer: 0
   m_Name: Puzzles
   m_TagString: Untagged
@@ -2162,6 +2164,20 @@ Transform:
   m_Father: {fileID: 37874553}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &467099224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467099222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce549e3e237231240bc9a2fa0c32d80b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioData: {fileID: 1025201725}
+  mouseon: {fileID: 2100239712}
 --- !u!1 &469152025
 GameObject:
   m_ObjectHideFlags: 0
@@ -2292,6 +2308,7 @@ Transform:
   - {fileID: 783951193}
   - {fileID: 906965210}
   - {fileID: 2100239711}
+  - {fileID: 662533839}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7881,6 +7898,134 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 602430099}
   m_CullTransparentMesh: 1
+--- !u!1 &662533838
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 662533839}
+  - component: {fileID: 662533840}
+  m_Layer: 0
+  m_Name: onskip
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &662533839
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 662533838}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 487707745}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &662533840
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 662533838}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 85c86b46469c8cc428682802c06e6f84, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 0765cefb56e0f464b934f00d8cd25feb, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.39
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &666614360
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8853,7 +8998,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce549e3e237231240bc9a2fa0c32d80b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioData: {fileID: 0}
+  audioData: {fileID: 1025201725}
+  mouseon: {fileID: 2100239712}
 --- !u!114 &768846166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9469,9 +9615,9 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 37874554}
+        - m_Target: {fileID: 467099224}
           m_TargetAssemblyTypeName: exitclose, Assembly-CSharp
-          m_MethodName: mouseover
+          m_MethodName: mouserollon
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -9747,9 +9893,9 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 37874554}
+        - m_Target: {fileID: 467099224}
           m_TargetAssemblyTypeName: exitclose, Assembly-CSharp
-          m_MethodName: mouseover
+          m_MethodName: mouserollon
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -17471,6 +17617,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1072808798}
   - component: {fileID: 1072808797}
+  - component: {fileID: 1072808799}
   m_Layer: 0
   m_Name: Video Container
   m_TagString: Untagged
@@ -17490,8 +17637,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dcd036692eb9d349beaefe00bf4bce0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  videocontainer: {fileID: 1072808796}
-  skipsound: {fileID: 906965211}
 --- !u!4 &1072808798
 Transform:
   m_ObjectHideFlags: 0
@@ -17509,6 +17654,19 @@ Transform:
   m_Father: {fileID: 37874553}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1072808799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072808796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46e6d0c15fc3d0c44a271e717ba1177b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SoundSkip: {fileID: 662533840}
 --- !u!1001 &1123099608
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17783,9 +17941,9 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 37874554}
+        - m_Target: {fileID: 467099224}
           m_TargetAssemblyTypeName: exitclose, Assembly-CSharp
-          m_MethodName: mouseover
+          m_MethodName: mouserollon
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -23413,7 +23571,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 768846165}
           m_TargetAssemblyTypeName: exitclose, Assembly-CSharp
-          m_MethodName: mouseover
+          m_MethodName: mouserollon
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -23685,9 +23843,9 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 37874554}
+        - m_Target: {fileID: 467099224}
           m_TargetAssemblyTypeName: exitclose, Assembly-CSharp
-          m_MethodName: soundclose
+          m_MethodName: mouserollon
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -30627,7 +30785,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 768846165}
           m_TargetAssemblyTypeName: exitclose, Assembly-CSharp
-          m_MethodName: mouseover
+          m_MethodName: mouserollon
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
