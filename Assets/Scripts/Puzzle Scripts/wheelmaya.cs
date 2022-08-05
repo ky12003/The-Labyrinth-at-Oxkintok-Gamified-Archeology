@@ -18,7 +18,8 @@ public class wheelmaya : MonoBehaviour
     public int DayAnswer; // stores answer dfor the "Day" portion of the answer
     public Sprite[] daySprites;
     public Sprite[] monthSprites;
-    public AudioSource soundwheel;
+    public AudioSource soundwheel, onmouse, onsubmit;
+    
 
     // -----Serialized variables-----
     // wheel elements
@@ -250,5 +251,18 @@ public class wheelmaya : MonoBehaviour
         puzzleStorage.GetComponent<FloorCompletion>().updateFloorTwoPuzzlesCompleted(puzzleCompleteIndicator1, puzzleCompleteIndicator2);
         Debug.Log("PUZZLE COMPLETE");
     }
+
+    public void mouseon()
+    {
+        if (PlaySound.getOn())
+            onmouse.Play();
+    }
+
+    public void submiton()
+    {
+        if (PlaySound.getOn())
+            onsubmit.Play();
+    }
+
 
 }
