@@ -11,7 +11,6 @@ public class mathpuzzle : MonoBehaviour
     [SerializeField] GameObject puzzleUIF2P1;
     [SerializeField] GameObject userInput;
     [SerializeField] GameObject questionObj;
-    [SerializeField] GameObject answerPromptObj;
     [SerializeField] GameObject mainPlayerUI;
 
     // sounds:
@@ -29,7 +28,6 @@ public class mathpuzzle : MonoBehaviour
 
 
     public Sprite[] puzzleQuestions;
-    public Sprite[] puzzlePrompts;
 
     // -----Private variables-----
     //bool puzzleIsDone = false; // for noting down if the puzzle is complete
@@ -37,7 +35,7 @@ public class mathpuzzle : MonoBehaviour
     int playerAnswer; // stores player's answer submission
     int currStep = 1; // current step
     int finStep; // final step
-    int[] answerList = new int[] { 1, 2, 3 }; // stores answers for steps (used documentation: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/single-dimensional-arrays)
+    int[] answerList = new int[] { 6, 2, 25 }; // stores answers for steps (used documentation: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/single-dimensional-arrays)
 
     void Awake() {
         finStep = answerList.Length;
@@ -110,7 +108,6 @@ public class mathpuzzle : MonoBehaviour
     // update UI for steps
     void loadStep(int step) {
         questionObj.GetComponent<Image>().sprite = puzzleQuestions[step-1];
-        answerPromptObj.GetComponent<Image>().sprite = puzzlePrompts[step-1];
     }
 
     // -----SETTERS/GETTERS-----
