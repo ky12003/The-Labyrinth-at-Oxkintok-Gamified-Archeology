@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.00001851807, g: 0.000000033930043, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.000018518082, g: 0.000000033930043, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2555,17 +2555,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ee3cf17498cc8941a6d34274ab09f5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Notes: 'Puzzle 1: math puzzle
-
-    Puzzle 2: haab wheel puzzle
-
-    Puzzle 3: festival
-    day puzzle
-
-    Puzzle 4: identify calendar type puzzle
-
-    Puzzle 5: final
-    puzzle'
 --- !u!1 &469347880
 GameObject:
   m_ObjectHideFlags: 0
@@ -3481,6 +3470,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioData: {fileID: 965940310}
+  mouseon: {fileID: 0}
 --- !u!1 &703874733 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3346189783386244780, guid: a5b294bcd3e4e10498633e1775803d4e, type: 3}
@@ -30501,6 +30491,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669769679}
     m_Modifications:
+    - target: {fileID: 220974262395709890, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 0.7019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 220974262395709890, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 0.7019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 220974262395709890, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 0.8392157
+      objectReference: {fileID: 0}
     - target: {fileID: 226163357588629597, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_SizeDelta.x
       value: 344.3919
@@ -30528,6 +30530,30 @@ PrefabInstance:
     - target: {fileID: 373114620294787317, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 408857745165810837, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 0.7019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 408857745165810837, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 0.7019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 408857745165810837, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 0.8392157
+      objectReference: {fileID: 0}
+    - target: {fileID: 751996157484413299, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 0.7019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 751996157484413299, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 0.7019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 751996157484413299, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 0.8392157
       objectReference: {fileID: 0}
     - target: {fileID: 751996157484413299, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -30588,6 +30614,18 @@ PrefabInstance:
     - target: {fileID: 1744253960084585487, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_fontSizeBase
       value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 1834278236530306074, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 0.7019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 1834278236530306074, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 0.7019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 1834278236530306074, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 0.8392157
       objectReference: {fileID: 0}
     - target: {fileID: 2410085988382263887, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_AnchorMax.x
@@ -30724,6 +30762,18 @@ PrefabInstance:
     - target: {fileID: 7043343543230526762, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: playSound
+      objectReference: {fileID: 0}
+    - target: {fileID: 7054708588398665161, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 0.7019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 7054708588398665161, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 0.7019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 7054708588398665161, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 0.8392157
       objectReference: {fileID: 0}
     - target: {fileID: 7054708588398665161, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -30867,15 +30917,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7178468855059275611, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_Colors.m_HighlightedColor.b
-      value: 1
+      value: 0.70021355
       objectReference: {fileID: 0}
     - target: {fileID: 7178468855059275611, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_Colors.m_HighlightedColor.g
-      value: 1
+      value: 0.70021355
       objectReference: {fileID: 0}
     - target: {fileID: 7178468855059275611, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_Colors.m_HighlightedColor.r
-      value: 1
+      value: 0.8396226
       objectReference: {fileID: 0}
     - target: {fileID: 7178468855059275611, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
