@@ -591,6 +591,7 @@ GameObject:
   - component: {fileID: 1588985771761034719}
   - component: {fileID: 4986975337443083976}
   - component: {fileID: 5525427151025868655}
+  - component: {fileID: 1990288223}
   m_Layer: 5
   m_Name: Exit button
   m_TagString: Untagged
@@ -737,6 +738,47 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1990288223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3353056632795669486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: exitclose, Assembly-CSharp
+          m_MethodName: mouserollon
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &4681573434774321992
 GameObject:
   m_ObjectHideFlags: 0
@@ -939,8 +981,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8199793580062226402}
-        m_TargetAssemblyTypeName: PuzzleF1P1, Assembly-CSharp
+      - m_Target: {fileID: 541975990}
+        m_TargetAssemblyTypeName: mathpuzzle, Assembly-CSharp
         m_MethodName: setAnswerSubmitted
         m_Mode: 6
         m_Arguments:
@@ -986,8 +1028,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 100}
-  m_SizeDelta: {x: 500, y: 350}
+  m_AnchoredPosition: {x: 0.0000076293945, y: -0.0000076293945}
+  m_SizeDelta: {x: 657.8812, y: 331.6975}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &113872524039579169
 CanvasRenderer:
@@ -1017,7 +1059,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9ce686574547d544c935a824f0edf593, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6a706a3dd86b9a84da65af7930b54eca, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1462,7 +1504,7 @@ GameObject:
   - component: {fileID: 546802690257417128}
   - component: {fileID: 4607115975944579261}
   - component: {fileID: 37807648743836835}
-  - component: {fileID: 8199793580062226402}
+  - component: {fileID: 541975990}
   m_Layer: 0
   m_Name: UI Floor 2 puzzle 1
   m_TagString: Untagged
@@ -1591,7 +1633,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &8199793580062226402
+--- !u!114 &541975990
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1600,13 +1642,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8338853859091374287}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cdc1f94e0526cf48822198c815bd9f3, type: 3}
+  m_Script: {fileID: 11500000, guid: 58b7c56e6b6bdb744a1e77c4fc3d2ea5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   puzzleUIF2P1: {fileID: 8338853859091374287}
   userInput: {fileID: 2938056299446289801}
   questionObj: {fileID: 5241370685722219156}
-  answerPromptObj: {fileID: 8573239601347890286}
   mainPlayerUI: {fileID: 0}
   audioSource: {fileID: 1788156263}
   correctSound: {fileID: 8300000, guid: 73df8b00878d80343b4abfbbb996fd65, type: 3}
@@ -1618,13 +1659,9 @@ MonoBehaviour:
   puzzleCompleteIndicator2: {fileID: 0}
   player: {fileID: 0}
   puzzleQuestions:
-  - {fileID: 21300000, guid: 9ce686574547d544c935a824f0edf593, type: 3}
-  - {fileID: 21300000, guid: 0240748a1384adc4f965646c87bc312d, type: 3}
-  - {fileID: 21300000, guid: 491d8062bd804ed46815bd1e65e179fa, type: 3}
-  puzzlePrompts:
-  - {fileID: 21300000, guid: 48ad18ddbb6948c48a0255b34fbf9ece, type: 3}
-  - {fileID: 21300000, guid: 215f0a69c1b9a08499718f45d6e92aaa, type: 3}
-  - {fileID: 21300000, guid: d8e399bdb06915f4cb7d2a865dcb5e74, type: 3}
+  - {fileID: 21300000, guid: 6a706a3dd86b9a84da65af7930b54eca, type: 3}
+  - {fileID: 21300000, guid: ce35d5be34ab8a54da65bc2f9fd753ea, type: 3}
+  - {fileID: 21300000, guid: bd1ab69825ec8e440b8034a0c5667719, type: 3}
 --- !u!1 &8550166402313325162
 GameObject:
   m_ObjectHideFlags: 0
@@ -1656,7 +1693,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4342761441380497274}
-  - {fileID: 3182034149829634228}
   m_Father: {fileID: 4981663830074915290}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1695,82 +1731,6 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!1 &8573239601347890286
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3182034149829634228}
-  - component: {fileID: 2233989381887623795}
-  - component: {fileID: 6481707284073509292}
-  m_Layer: 0
-  m_Name: Answer Prompt
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &3182034149829634228
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8573239601347890286}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 23565157645395376}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -100}
-  m_SizeDelta: {x: 500, y: 350}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &2233989381887623795
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8573239601347890286}
-  m_CullTransparentMesh: 1
---- !u!114 &6481707284073509292
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8573239601347890286}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 48ad18ddbb6948c48a0255b34fbf9ece, type: 3}
-  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
