@@ -9,6 +9,7 @@ public class Interactable : MonoBehaviour
     public UnityEvent onInteract;
     public UnityEvent onLook;
     public UnityEvent onNoInteraction;
+    public AudioSource pickpage;
     // Start is called before the first frame update
     void Start()
     {

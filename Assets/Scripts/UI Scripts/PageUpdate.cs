@@ -12,7 +12,7 @@ public class PageUpdate : MonoBehaviour
 
     //-----public variables-----
     public GameObject[] pageParts; // game objects representing each part of a page in the notebook
-
+    
     //-----private variables-----
 
     /*----
@@ -26,6 +26,8 @@ public class PageUpdate : MonoBehaviour
     public void updatePart(int partNum) {
         pageParts[partNum].SetActive(true);
     }
+
+   
 
     //-----private class methods-----
 }
