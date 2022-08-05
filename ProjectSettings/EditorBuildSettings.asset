@@ -8,22 +8,22 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/menu.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/Floor 1.unity
     guid: b6076edd5b2e20247890262b1258ec88
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Instructions.unity
+    guid: 9801809a82d1e2f43935ee1aeddea1cc
+  - enabled: 1
+    path: Assets/Scenes/Options.unity
+    guid: 74449663ac9eedb448d43a67ee9bb4b0
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: f3713d7756c04194cbd72d7ec59529a8
+  - enabled: 1
+    path: Assets/Scenes/New Player.unity
+    guid: 1cc7b357a524eef48a0e44b945c6806f
   m_configObjects: {}
