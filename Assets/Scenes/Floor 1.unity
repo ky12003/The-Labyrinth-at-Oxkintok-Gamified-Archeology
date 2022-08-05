@@ -1360,6 +1360,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: 85c86b46469c8cc428682802c06e6f84, type: 2}
   soundmenubutton: {fileID: 0}
+--- !u!1 &208875305 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9019994422717673561, guid: 91c6c230a091fc449a0ca3bf287a5d2b, type: 3}
+  m_PrefabInstance: {fileID: 1424932808}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &225314158 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7857878665128834824, guid: 32a1757096276a34fa3d61783a993235, type: 3}
@@ -1772,6 +1777,11 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &320730329 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1931869580971259274, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+  m_PrefabInstance: {fileID: 2894125217358129890}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &324123674
 GameObject:
   m_ObjectHideFlags: 0
@@ -3317,7 +3327,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8338853859091374287, guid: bc12ebb8cdc07ba43818e9795f2ada52, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8924964685692023682, guid: bc12ebb8cdc07ba43818e9795f2ada52, type: 3}
       propertyPath: m_Pivot.x
@@ -3945,6 +3955,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioData: {fileID: 965940310}
   mouseon: {fileID: 1395005895}
+--- !u!1 &703874733 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3346189783386244780, guid: a5b294bcd3e4e10498633e1775803d4e, type: 3}
+  m_PrefabInstance: {fileID: 1063964310}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &726432383 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 796291089, guid: 5ad67968727e9224c8369021123b6f62, type: 3}
@@ -20796,6 +20811,11 @@ Transform:
   m_Father: {fileID: 669769679}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1135531315 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2894125217626026044, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+  m_PrefabInstance: {fileID: 2894125217358129890}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1158109301
 GameObject:
   m_ObjectHideFlags: 0
@@ -28390,6 +28410,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7285852430781865585, guid: 5ad67968727e9224c8369021123b6f62, type: 3}
   m_PrefabInstance: {fileID: 7285852432221864776}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1520184235 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2773243287469859868, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+  m_PrefabInstance: {fileID: 2894125217358129890}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1520768858
 GameObject:
   m_ObjectHideFlags: 0
@@ -28559,6 +28584,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!1 &1536490392 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8432996656378005096, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+  m_PrefabInstance: {fileID: 2894125217358129890}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1565656425
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29715,7 +29745,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8199793580062226402, guid: bc12ebb8cdc07ba43818e9795f2ada52, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bc12ebb8cdc07ba43818e9795f2ada52, type: 3}
 --- !u!1 &1759608261 stripped
 GameObject:
@@ -30607,6 +30638,11 @@ Transform:
   m_Father: {fileID: 479613280}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &2010253554 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2894125218560977902, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+  m_PrefabInstance: {fileID: 2894125217358129890}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2032757834
 GameObject:
   m_ObjectHideFlags: 0
@@ -30724,6 +30760,11 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &2051744181 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7865688720083586020, guid: 91c6c230a091fc449a0ca3bf287a5d2b, type: 3}
+  m_PrefabInstance: {fileID: 1424932808}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2060967051
 GameObject:
   m_ObjectHideFlags: 0
@@ -31300,6 +31341,158 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 457328627}
     m_Modifications:
+    - target: {fileID: 127516983885025742, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 38c7a0ea03ebee44f8119956c018e3f1, type: 3}
+    - target: {fileID: 699520123285412945, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_Name
+      value: Slot 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1931869580971259274, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_Name
+      value: Slot Choice Image 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2201814272730782159, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_Name
+      value: Down button 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2509274324198846862, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_Name
+      value: Down button 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2573745038977162676, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 38c7a0ea03ebee44f8119956c018e3f1, type: 3}
+    - target: {fileID: 2773243287469859868, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_Name
+      value: Slot Choice Image 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894125217254861345, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894125217254861345, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8924964686017014768}
+    - target: {fileID: 2894125217254861345, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: updateChoiceDecrement
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894125217254861345, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: combinationLockPuzzle, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894125217254861345, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894125217254861359, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_Name
+      value: Down button 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894125217329333258, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_Name
+      value: Up button 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894125217329333260, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894125217329333260, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8924964686017014768}
+    - target: {fileID: 2894125217329333260, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: updateChoiceIncrement
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894125217329333260, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: combinationLockPuzzle, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894125217329333260, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894125217626026044, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_Name
+      value: Slot Choice Image 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894125217626026046, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 38c7a0ea03ebee44f8119956c018e3f1, type: 3}
+    - target: {fileID: 2894125218006431888, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_Name
+      value: Slot 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894125218560977900, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_Name
+      value: Audio Source F2P5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3453380792152298006, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3453380792152298006, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8924964686017014768}
+    - target: {fileID: 3453380792152298006, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: updateChoiceDecrement
+      objectReference: {fileID: 0}
+    - target: {fileID: 3453380792152298006, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: combinationLockPuzzle, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3453380792152298006, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5068779957412656157, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8924964686017014768}
+    - target: {fileID: 5068779957412656157, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: processAnswer
+      objectReference: {fileID: 0}
+    - target: {fileID: 5068779957412656157, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: combinationLockPuzzle, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5139024943709061111, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5139024943709061111, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8924964686017014768}
+    - target: {fileID: 5139024943709061111, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: updateChoiceIncrement
+      objectReference: {fileID: 0}
+    - target: {fileID: 5139024943709061111, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: combinationLockPuzzle, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5139024943709061111, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5629612922783637029, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_Name
+      value: Up button 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6002254504683096967, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_Name
+      value: Slot 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6048940771536699659, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -31390,7 +31583,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6597897605501407814, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6615066771424226572, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 38c7a0ea03ebee44f8119956c018e3f1, type: 3}
+    - target: {fileID: 6697988861425209845, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6697988861425209845, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8924964686017014768}
+    - target: {fileID: 6697988861425209845, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: updateChoiceIncrement
+      objectReference: {fileID: 0}
+    - target: {fileID: 6697988861425209845, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: combinationLockPuzzle, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6697988861425209845, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7243966561255734758, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -31404,6 +31621,86 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
       objectReference: {fileID: 669769680}
+    - target: {fileID: 7805562596106472885, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7805562596106472885, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8924964686017014768}
+    - target: {fileID: 7805562596106472885, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: updateChoiceDecrement
+      objectReference: {fileID: 0}
+    - target: {fileID: 7805562596106472885, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: combinationLockPuzzle, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7805562596106472885, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7977996606383525813, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_Name
+      value: Up button 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8037281531673866427, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_Name
+      value: Up button 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8432996656378005096, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_Name
+      value: Slot Choice Image 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8652814361972635676, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8652814361972635676, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8924964686017014768}
+    - target: {fileID: 8652814361972635676, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: updateChoiceDecrement
+      objectReference: {fileID: 0}
+    - target: {fileID: 8652814361972635676, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: combinationLockPuzzle, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8652814361972635676, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8826695120128277496, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_Name
+      value: Down button 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876997089408921278, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_Name
+      value: Slot 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8941145939990515015, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8941145939990515015, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8924964686017014768}
+    - target: {fileID: 8941145939990515015, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: updateChoiceIncrement
+      objectReference: {fileID: 0}
+    - target: {fileID: 8941145939990515015, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: combinationLockPuzzle, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8941145939990515015, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
 --- !u!1001 &3794384738002045452
@@ -32839,6 +33136,41 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6048940771536699659, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
   m_PrefabInstance: {fileID: 2894125217358129890}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8924964686017014768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8338853859416766628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 061279c09c3382043b9794ca14a8a3d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spritesForNumber:
+  - {fileID: 21300000, guid: 38c7a0ea03ebee44f8119956c018e3f1, type: 3}
+  - {fileID: 21300000, guid: 6159ed16006bf024c8b203314c5672a2, type: 3}
+  - {fileID: 21300000, guid: 81e8b2585dc86ba43b04acc527b2af9c, type: 3}
+  - {fileID: 21300000, guid: 473845a983ee57741883e24075c30970, type: 3}
+  - {fileID: 21300000, guid: cf26e5fae41ee3d4b8c34c495fd1e18b, type: 3}
+  - {fileID: 21300000, guid: 70c5704db2397494b9882291bc4f794c, type: 3}
+  correctAnswer: 01000000020000000300000004000000
+  mainPlayerUI: {fileID: 939610025}
+  slotImageObjects:
+  - {fileID: 1135531315}
+  - {fileID: 320730329}
+  - {fileID: 1520184235}
+  - {fileID: 1536490392}
+  audioSource: {fileID: 2010253554}
+  correctSound: {fileID: 8300000, guid: 73df8b00878d80343b4abfbbb996fd65, type: 3}
+  incorrectSound: {fileID: 8300000, guid: 86882081ef6d71b4fac65e52f9025bac, type: 3}
+  uiEvents: {fileID: 1860796897}
+  puzzleStorage: {fileID: 357620444}
+  puzzleObject: {fileID: 703874733}
+  puzzleCompleteIndicator1: {fileID: 2051744181}
+  puzzleCompleteIndicator2: {fileID: 208875305}
+  player: {fileID: 781496428}
 --- !u!1001 &8975194437463485603
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -57,17 +57,6 @@ public class wheelmaya : MonoBehaviour
 
     */
 
-    // -----unity functions------
-    //void update()
-    //{
-    //    // process user answer if the answer is submitted
-    //    if (answerSubmitted)
-    //    {
-    //        answerSubmitted = false;
-    //        processAnswer();
-    //    }
-    //}
-
     // ------public functions------
     // process answers from the player
     public void processAnswer()
