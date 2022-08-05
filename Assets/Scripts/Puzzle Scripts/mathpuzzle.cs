@@ -37,7 +37,7 @@ public class mathpuzzle : MonoBehaviour
     int playerAnswer; // stores player's answer submission
     int currStep = 1; // current step
     int finStep; // final step
-    int[] answerList = new int[] { 1, 2, 3 }; // stores answers for steps (used documentation: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/single-dimensional-arrays)
+    int[] answerList = new int[] { 6, 2, 25 }; // stores answers for steps (used documentation: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/single-dimensional-arrays)
 
     void Awake() {
         finStep = answerList.Length;
