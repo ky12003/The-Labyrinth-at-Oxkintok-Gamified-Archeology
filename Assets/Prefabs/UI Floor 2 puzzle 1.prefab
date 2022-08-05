@@ -1603,31 +1603,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cdc1f94e0526cf48822198c815bd9f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puzzleUIF1P1: {fileID: 8338853859091374287}
-  player: {fileID: 0}
+  puzzleUIF2P1: {fileID: 8338853859091374287}
   userInput: {fileID: 2938056299446289801}
   questionObj: {fileID: 5241370685722219156}
   answerPromptObj: {fileID: 8573239601347890286}
-  triviaUI: {fileID: 0}
-  pageObject: {fileID: 0}
+  mainPlayerUI: {fileID: 0}
   audioSource: {fileID: 1788156263}
   correctSound: {fileID: 8300000, guid: 73df8b00878d80343b4abfbbb996fd65, type: 3}
   incorrectSound: {fileID: 8300000, guid: 86882081ef6d71b4fac65e52f9025bac, type: 3}
-  completionSound: {fileID: 8300000, guid: 5d288d2a407a5824cba821969b17fbd4, type: 3}
+  uiEvents: {fileID: 0}
+  puzzleStorage: {fileID: 0}
   puzzleObject: {fileID: 0}
-  doorObject: {fileID: 0}
+  puzzleCompleteIndicator1: {fileID: 0}
+  puzzleCompleteIndicator2: {fileID: 0}
+  player: {fileID: 0}
   puzzleQuestions:
   - {fileID: 21300000, guid: 9ce686574547d544c935a824f0edf593, type: 3}
   - {fileID: 21300000, guid: 0240748a1384adc4f965646c87bc312d, type: 3}
   - {fileID: 21300000, guid: 491d8062bd804ed46815bd1e65e179fa, type: 3}
-  - {fileID: 21300000, guid: 31b1a2b301468734aa705d850aa1e7b2, type: 3}
-  - {fileID: 21300000, guid: 3e5818f8aa102ae41a6a4d964a15cfed, type: 3}
   puzzlePrompts:
   - {fileID: 21300000, guid: 48ad18ddbb6948c48a0255b34fbf9ece, type: 3}
   - {fileID: 21300000, guid: 215f0a69c1b9a08499718f45d6e92aaa, type: 3}
   - {fileID: 21300000, guid: d8e399bdb06915f4cb7d2a865dcb5e74, type: 3}
-  - {fileID: 21300000, guid: 1db6cb0788cd1354c8006e955373e738, type: 3}
-  - {fileID: 21300000, guid: 8c4aa881e70bb0748b301f647c9e384a, type: 3}
 --- !u!1 &8550166402313325162
 GameObject:
   m_ObjectHideFlags: 0

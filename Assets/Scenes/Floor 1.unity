@@ -3287,10 +3287,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 376870201}
     - target: {fileID: 8199793580062226402, guid: bc12ebb8cdc07ba43818e9795f2ada52, type: 3}
-      propertyPath: puzzleUIF2P1
-      value: 
-      objectReference: {fileID: 541975985}
-    - target: {fileID: 8199793580062226402, guid: bc12ebb8cdc07ba43818e9795f2ada52, type: 3}
       propertyPath: puzzleStorage
       value: 
       objectReference: {fileID: 357620444}
@@ -3302,21 +3298,9 @@ PrefabInstance:
       propertyPath: puzzleCompleteIndicator2
       value: 
       objectReference: {fileID: 941765464}
-    - target: {fileID: 8199793580062226402, guid: bc12ebb8cdc07ba43818e9795f2ada52, type: 3}
-      propertyPath: puzzlePrompts.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8199793580062226402, guid: bc12ebb8cdc07ba43818e9795f2ada52, type: 3}
-      propertyPath: puzzleQuestions.Array.size
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 8338853859091374287, guid: bc12ebb8cdc07ba43818e9795f2ada52, type: 3}
       propertyPath: m_Name
       value: UI Floor 2 puzzle 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8338853859091374287, guid: bc12ebb8cdc07ba43818e9795f2ada52, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8924964685692023682, guid: bc12ebb8cdc07ba43818e9795f2ada52, type: 3}
       propertyPath: m_Pivot.x
@@ -3671,10 +3655,6 @@ PrefabInstance:
     - target: {fileID: 8338853859091374287, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: m_Name
       value: UI Floor 2 puzzle 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8338853859091374287, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8924964685692023682, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: m_Pivot.x
@@ -26416,16 +26396,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3933027633168174073, guid: 91c6c230a091fc449a0ca3bf287a5d2b, type: 3}
   m_PrefabInstance: {fileID: 1424932808}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1424932810 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9019994422717673561, guid: 91c6c230a091fc449a0ca3bf287a5d2b, type: 3}
-  m_PrefabInstance: {fileID: 1424932808}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1424932811 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7865688720083586020, guid: 91c6c230a091fc449a0ca3bf287a5d2b, type: 3}
-  m_PrefabInstance: {fileID: 1424932808}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1428148166
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30895,14 +30865,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 457328627}
     m_Modifications:
-    - target: {fileID: 1374702260057248, guid: ad027ab4a6cca1341b30161217420047, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 766490297582726044, guid: ad027ab4a6cca1341b30161217420047, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5524404848466256553, guid: ad027ab4a6cca1341b30161217420047, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -30918,10 +30880,6 @@ PrefabInstance:
     - target: {fileID: 8339942137827003657, guid: ad027ab4a6cca1341b30161217420047, type: 3}
       propertyPath: m_Name
       value: UI Floor 2 puzzle 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8339942137827003657, guid: ad027ab4a6cca1341b30161217420047, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8925917106019556932, guid: ad027ab4a6cca1341b30161217420047, type: 3}
       propertyPath: m_Pivot.x
@@ -31271,38 +31229,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 457328627}
     m_Modifications:
-    - target: {fileID: 2894125218188068117, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 781496428}
-    - target: {fileID: 2894125218188068117, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: uiEvents
-      value: 
-      objectReference: {fileID: 1860796897}
-    - target: {fileID: 2894125218188068117, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: soundwheel
-      value: 
-      objectReference: {fileID: 1345453541}
-    - target: {fileID: 2894125218188068117, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: mainPlayerUI
-      value: 
-      objectReference: {fileID: 939610025}
-    - target: {fileID: 2894125218188068117, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: puzzleObject
-      value: 
-      objectReference: {fileID: 703874733}
-    - target: {fileID: 2894125218188068117, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: puzzleStorage
-      value: 
-      objectReference: {fileID: 357620444}
-    - target: {fileID: 2894125218188068117, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: puzzleCompleteIndicator1
-      value: 
-      objectReference: {fileID: 1424932811}
-    - target: {fileID: 2894125218188068117, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: puzzleCompleteIndicator2
-      value: 
-      objectReference: {fileID: 1424932810}
     - target: {fileID: 6048940771536699659, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -31390,10 +31316,6 @@ PrefabInstance:
     - target: {fileID: 6597897605501407814, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
       propertyPath: m_Name
       value: UI Floor 2 puzzle 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6597897605501407814, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7243966561255734758, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
