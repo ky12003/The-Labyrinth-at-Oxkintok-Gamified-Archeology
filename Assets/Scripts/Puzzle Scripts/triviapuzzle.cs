@@ -12,18 +12,12 @@ public class triviapuzzle : MonoBehaviour
 
     */
 
-    // -----Public variables------
-    public Sprite[] dayExampleImages;
-
     // -----Serialized variables-----
     // UI elements:
     [SerializeField] GameObject puzzleUIF2P4;
-    [SerializeField] GameObject dayExampleImageObject;
+    [SerializeField] GameObject riddleTextObject;
     [SerializeField] GameObject mainPlayerUI;
-    [SerializeField] GameObject buttonOne;
-    [SerializeField] GameObject buttonTwo;
-    [SerializeField] GameObject buttonThree;
-    [SerializeField] GameObject buttonFour;
+    [SerializeField] GameObject[] buttonTextObjects;
 
     // sounds:
     [SerializeField] AudioSource audioSource;
@@ -39,12 +33,25 @@ public class triviapuzzle : MonoBehaviour
     [SerializeField] GameObject player;
 
     // -----Private variables-----
-    bool puzzleIsDone = false; // for noting down if the puzzle is complete
-    bool answerSubmitted = false; // for checking if an answer has been submitted
     int playerAnswer; // stores player's answer submission
     int currStep = 1; // current step
     int finStep; // final step
-    int[] answerList = new int[] { 3, 1, 2 }; // stores answers for steps (used documentation: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/single-dimensional-arrays)
+    int[] answerList = new int[] { 3, 1, 2, 4 }; // stores answers for steps (used documentation: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/single-dimensional-arrays)
+    // all riddles
+    string[] riddleList = new string[] {
+        "How many days does the Tzolkin calendar consist of?", 
+        "The last month of this calendar system consisted of 5 “unlucky” days?", 
+        "temp", 
+        "temp"
+    };
+    // all choices for each of the question parts (multidimentional array documentation: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/multidimensional-arrays)
+    string[,] choiceList = new string[,]
+    {
+        {"260", "360", "320", "100" },
+        {"Haab", "Long", "Tzolkin,", "Satunsat"},
+        {"ph", "ph", "ph", "ph" },
+        {"ph", "Ph", "ph", "Ph" }
+    };
 
     /*
     
@@ -65,28 +72,47 @@ public class triviapuzzle : MonoBehaviour
         {
             handlePuzzleCompletion();
         }
-        // if the user submitted the answer
-        else if (answerSubmitted)
-        {
-            answerSubmitted = false;
-            //processAnswer();
-        }
     }
 
     // ------public functions------
-    // set a certain button to be pressed (parameter description for button option: 1 = long calendar, 2 = haab calendar, 3 = tzolkin calendar)
-    public void setButtonPressed(int buttonOption)
+    // process an answer from the player (parameter: the button ID corresponding to the choice)
+    public void processAnswer(int buttonOption)
     {
-        playerAnswer = buttonOption;
-        answerSubmitted = true;
+        if (buttonOption == answerList[currStep-1])
+        {
+            currStep++;
+            loadStep(currStep);
+
+            if (currStep <= finStep)
+            {
+                audioSource.PlayOneShot(correctSound, 0.1f);
+            }
+
+            Debug.Log("Correct, CURRSTEP: " + currStep);
+        }
+        // otherwise, it's wrong, do stuff to denote that
+        else
+        {
+            // play sound for wrong answer
+            audioSource.PlayOneShot(incorrectSound, 0.1f);
+
+            Debug.Log("WRONG");
+        }
+
+
     }
 
     // ------private functions------
     // update UI for steps
     void loadStep(int step)
     {
-        dayExampleImageObject.GetComponent<Image>().sprite = dayExampleImages[step - 1];
+        riddleTextObject.GetComponent<TMP_Text>().text = riddleList[step - 1];
+        for (int i = 0; i < 4; i++)
+        {
+            buttonTextObjects[i].GetComponent<TMP_Text>().text = choiceList[step - 1, i];
+        }
     }
+
 
     // handle completion of the full puzzle
     void handlePuzzleCompletion()

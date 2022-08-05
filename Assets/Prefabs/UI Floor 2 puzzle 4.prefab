@@ -145,7 +145,7 @@ GameObject:
   - component: {fileID: 2634923753949190488}
   - component: {fileID: 4123190601957666869}
   m_Layer: 0
-  m_Name: Prompt Text
+  m_Name: Riddle text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -199,8 +199,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: To nurture all within this world, pots must be shattered so that the gods
-    may hear pleas for rain.
+  m_text: How many days does the Tzolkin calendar consist of?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 106b8db6ca900e64ab586f775573f26c, type: 2}
   m_sharedMaterial: {fileID: 7671445276034303805, guid: 106b8db6ca900e64ab586f775573f26c, type: 2}
@@ -281,7 +280,7 @@ GameObject:
   - component: {fileID: 2329270949928305904}
   - component: {fileID: 1834522854106116433}
   m_Layer: 0
-  m_Name: Prompt
+  m_Name: Riddle container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -468,14 +467,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: wheelmaya, Assembly-CSharp
+      - m_Target: {fileID: 3742628739508366543}
+        m_TargetAssemblyTypeName: triviapuzzle, Assembly-CSharp
         m_MethodName: processAnswer
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -546,7 +545,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Submit
+  m_text: 320
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -907,14 +906,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: wheelmaya, Assembly-CSharp
+      - m_Target: {fileID: 3742628739508366543}
+        m_TargetAssemblyTypeName: triviapuzzle, Assembly-CSharp
         m_MethodName: processAnswer
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1067,7 +1066,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Submit
+  m_text: 360
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1202,7 +1201,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Submit
+  m_text: 260
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1414,7 +1413,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Submit
+  m_text: 100
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1605,14 +1604,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: wheelmaya, Assembly-CSharp
+      - m_Target: {fileID: 3742628739508366543}
+        m_TargetAssemblyTypeName: triviapuzzle, Assembly-CSharp
         m_MethodName: processAnswer
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1739,14 +1738,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: wheelmaya, Assembly-CSharp
+      - m_Target: {fileID: 3742628739508366543}
+        m_TargetAssemblyTypeName: triviapuzzle, Assembly-CSharp
         m_MethodName: processAnswer
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1908,7 +1907,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8833852550187716010
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2138,16 +2137,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceafce5109b9ddf498d65050303a33b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dayExampleImages: []
-  puzzleUIF2P4: {fileID: 0}
-  dayExampleImageObject: {fileID: 0}
+  puzzleUIF2P4: {fileID: 8285059156906565351}
+  riddleTextObject: {fileID: 1081876575982208287}
   mainPlayerUI: {fileID: 0}
-  buttonLong: {fileID: 0}
-  buttonHaab: {fileID: 0}
-  buttonTzolkin: {fileID: 0}
-  audioSource: {fileID: 0}
-  correctSound: {fileID: 0}
-  incorrectSound: {fileID: 0}
+  buttonTextObjects:
+  - {fileID: 5560737810898560547}
+  - {fileID: 5157467727110479844}
+  - {fileID: 2889665741288253336}
+  - {fileID: 6985235742583196956}
+  audioSource: {fileID: 91195757941434191}
+  correctSound: {fileID: 8300000, guid: 73df8b00878d80343b4abfbbb996fd65, type: 3}
+  incorrectSound: {fileID: 8300000, guid: 86882081ef6d71b4fac65e52f9025bac, type: 3}
   uiEvents: {fileID: 0}
   puzzleStorage: {fileID: 0}
   puzzleObject: {fileID: 0}

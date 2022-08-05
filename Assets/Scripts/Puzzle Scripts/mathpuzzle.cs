@@ -72,9 +72,7 @@ public class mathpuzzle : MonoBehaviour
             loadStep(currStep);
 
             // play sound for correct answer
-            if (currStep <= finStep) {
-                audioSource.PlayOneShot(correctSound, 0.1f);
-            }
+            audioSource.PlayOneShot(correctSound, 0.1f);
 
             Debug.Log("Correct, CURRSTEP: " + currStep);
         }
