@@ -3229,6 +3229,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 457328627}
     m_Modifications:
+    - target: {fileID: 677275230400977098, guid: bc12ebb8cdc07ba43818e9795f2ada52, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6a706a3dd86b9a84da65af7930b54eca, type: 3}
     - target: {fileID: 958441105291950537, guid: bc12ebb8cdc07ba43818e9795f2ada52, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -3327,7 +3331,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8338853859091374287, guid: bc12ebb8cdc07ba43818e9795f2ada52, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8924964685692023682, guid: bc12ebb8cdc07ba43818e9795f2ada52, type: 3}
       propertyPath: m_Pivot.x
@@ -3473,9 +3477,9 @@ MonoBehaviour:
   puzzleCompleteIndicator2: {fileID: 941765464}
   player: {fileID: 781496428}
   puzzleQuestions:
-  - {fileID: 21300000, guid: 9f142980d5cb2f845afef780ee34c5c8, type: 3}
-  - {fileID: 21300000, guid: 9f142980d5cb2f845afef780ee34c5c8, type: 3}
-  - {fileID: 21300000, guid: 9f142980d5cb2f845afef780ee34c5c8, type: 3}
+  - {fileID: 21300000, guid: 6a706a3dd86b9a84da65af7930b54eca, type: 3}
+  - {fileID: 21300000, guid: ce35d5be34ab8a54da65bc2f9fd753ea, type: 3}
+  - {fileID: 21300000, guid: bd1ab69825ec8e440b8034a0c5667719, type: 3}
   puzzlePrompts:
   - {fileID: 21300000, guid: de58ff44ed2c21e42afd9b43123f289e, type: 3}
   - {fileID: 21300000, guid: de58ff44ed2c21e42afd9b43123f289e, type: 3}
@@ -31032,6 +31036,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 457328627}
     m_Modifications:
+    - target: {fileID: 2837037340889834463, guid: e3a6bda1de5ffa14e84a9197b1cce032, type: 3}
+      propertyPath: m_text
+      value: 360
+      objectReference: {fileID: 0}
     - target: {fileID: 3742628739508366543, guid: e3a6bda1de5ffa14e84a9197b1cce032, type: 3}
       propertyPath: player
       value: 
@@ -31072,6 +31080,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
       objectReference: {fileID: 669769680}
+    - target: {fileID: 7049672829841990840, guid: e3a6bda1de5ffa14e84a9197b1cce032, type: 3}
+      propertyPath: m_text
+      value: 260
+      objectReference: {fileID: 0}
     - target: {fileID: 8285059156906565351, guid: e3a6bda1de5ffa14e84a9197b1cce032, type: 3}
       propertyPath: m_Name
       value: UI Floor 2 puzzle 4
@@ -31382,6 +31394,34 @@ PrefabInstance:
     - target: {fileID: 6597897605501407814, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
       propertyPath: m_Name
       value: UI Floor 2 puzzle 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597897605501407814, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6615066771424226572, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 38c7a0ea03ebee44f8119956c018e3f1, type: 3}
+    - target: {fileID: 6697988861425209845, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6697988861425209845, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8924964686017014768}
+    - target: {fileID: 6697988861425209845, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: updateChoiceIncrement
+      objectReference: {fileID: 0}
+    - target: {fileID: 6697988861425209845, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: combinationLockPuzzle, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6697988861425209845, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7243966561255734758, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target

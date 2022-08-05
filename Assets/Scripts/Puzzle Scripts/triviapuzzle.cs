@@ -40,16 +40,16 @@ public class triviapuzzle : MonoBehaviour
     // all riddles
     string[] riddleList = new string[] {
         "How many days does the Tzolkin calendar consist of?", 
-        "The last month of this calendar system consisted of 5 “unlucky” days?", 
-        "Which calendar usually has as many days as our own Gregorian calendar?", 
+        "The last month of this calendar system consisted of 5 “unlucky” days.", 
+        "How many major calendars did the Mayans use?", 
         "Out of all the time periods in the Long Count calendar, which takes the longest?"
     };
     // all choices for each of the question parts (multidimentional array documentation: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/multidimensional-arrays)
     string[,] choiceList = new string[,]
     {
         {"360", "320", "260", "100" },
-        {"Wayeb'", "K'ank'in", "Pop", "Ch'en" },
-        {"Long", "Haab", "Tzolkin,", "Satunsat"},
+        {"Haab'", "Long", "Tzolkin", "Satunsat" },
+        {"2", "3", "4", "1"},
         {"Uinal", "K'in", "Tun", "B'aktun" }
     };
 
