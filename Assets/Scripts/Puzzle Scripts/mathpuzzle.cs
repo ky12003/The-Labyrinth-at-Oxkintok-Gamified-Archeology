@@ -102,7 +102,7 @@ public class mathpuzzle : MonoBehaviour
         puzzleObject.layer = 0;
 
         // let the event handler system know that this puzzle has been completed
-        puzzleStorage.GetComponent<FloorCompletion>().updateFloorTwoPuzzlesCompleted(puzzleCompleteIndicator1, puzzleCompleteIndicator2);
+        puzzleStorage.GetComponent<FloorCompletion>().updateFloorTwoPuzzlesCompleted(puzzleCompleteIndicator1, puzzleCompleteIndicator2, 1);
         Debug.Log("PUZZLE COMPLETE");
 
     }

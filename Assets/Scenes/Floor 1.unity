@@ -1777,11 +1777,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1 &320730329 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1931869580971259274, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-  m_PrefabInstance: {fileID: 2894125217358129890}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &324123674
 GameObject:
   m_ObjectHideFlags: 0
@@ -2284,6 +2279,11 @@ MonoBehaviour:
   notificationPopupObject: {fileID: 994157354}
   completionSound: {fileID: 8300000, guid: 5d288d2a407a5824cba821969b17fbd4, type: 3}
   indicatorMaterial: {fileID: 2100000, guid: 1167b11ff55c9654ab8e8a1e09ed678c, type: 2}
+  numberMaterials:
+  - {fileID: 2100000, guid: d6ed1d22298b7b0428443e6564374f39, type: 2}
+  - {fileID: 2100000, guid: d0e1ff2e2998ef04aad0edf10d4d6f4a, type: 2}
+  - {fileID: 2100000, guid: f426bba4b62db9740af6a0a25fc76027, type: 2}
+  - {fileID: 2100000, guid: 19129574a0cf9eb4c89181d9f65361be, type: 2}
 --- !u!1 &376870201 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3346189783386244780, guid: a5b294bcd3e4e10498633e1775803d4e, type: 3}
@@ -9773,6 +9773,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 408313827}
     m_Modifications:
     - target: {fileID: 404944377313614202, guid: 91c6c230a091fc449a0ca3bf287a5d2b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f03f25c771c99a141b31827f5cb901dc, type: 2}
+    - target: {fileID: 2022090785218396064, guid: 91c6c230a091fc449a0ca3bf287a5d2b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f03f25c771c99a141b31827f5cb901dc, type: 2}
@@ -20815,11 +20819,6 @@ Transform:
   m_Father: {fileID: 669769679}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1135531315 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2894125217626026044, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-  m_PrefabInstance: {fileID: 2894125217358129890}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1158109301
 GameObject:
   m_ObjectHideFlags: 0
@@ -28414,11 +28413,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7285852430781865585, guid: 5ad67968727e9224c8369021123b6f62, type: 3}
   m_PrefabInstance: {fileID: 7285852432221864776}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1520184235 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2773243287469859868, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-  m_PrefabInstance: {fileID: 2894125217358129890}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1520768858
 GameObject:
   m_ObjectHideFlags: 0
@@ -28588,11 +28582,6 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
---- !u!1 &1536490392 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8432996656378005096, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-  m_PrefabInstance: {fileID: 2894125217358129890}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1565656425
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29083,40 +29072,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7865688720083586020, guid: 91c6c230a091fc449a0ca3bf287a5d2b, type: 3}
   m_PrefabInstance: {fileID: 1651001231}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1651832762 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 477817736388088167, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-  m_PrefabInstance: {fileID: 2894125217358129890}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1651832767
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1651832762}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 669769680}
-          m_TargetAssemblyTypeName: exitclose, Assembly-CSharp
-          m_MethodName: mouserollon
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &1680654823
 GameObject:
   m_ObjectHideFlags: 0
@@ -30642,11 +30597,6 @@ Transform:
   m_Father: {fileID: 479613280}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &2010253554 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 2894125218560977902, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-  m_PrefabInstance: {fileID: 2894125217358129890}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2032757834
 GameObject:
   m_ObjectHideFlags: 0
@@ -31353,158 +31303,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 457328627}
     m_Modifications:
-    - target: {fileID: 127516983885025742, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_Sprite
+    - target: {fileID: 1651832767, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 21300000, guid: 38c7a0ea03ebee44f8119956c018e3f1, type: 3}
-    - target: {fileID: 699520123285412945, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_Name
-      value: Slot 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1931869580971259274, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_Name
-      value: Slot Choice Image 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2201814272730782159, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_Name
-      value: Down button 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 2509274324198846862, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_Name
-      value: Down button 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2573745038977162676, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 38c7a0ea03ebee44f8119956c018e3f1, type: 3}
-    - target: {fileID: 2773243287469859868, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_Name
-      value: Slot Choice Image 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2894125217254861345, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2894125217254861345, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 8924964686017014768}
-    - target: {fileID: 2894125217254861345, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: updateChoiceDecrement
-      objectReference: {fileID: 0}
-    - target: {fileID: 2894125217254861345, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: combinationLockPuzzle, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 2894125217254861345, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2894125217254861359, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_Name
-      value: Down button 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2894125217329333258, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_Name
-      value: Up button 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2894125217329333260, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2894125217329333260, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 8924964686017014768}
-    - target: {fileID: 2894125217329333260, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: updateChoiceIncrement
-      objectReference: {fileID: 0}
-    - target: {fileID: 2894125217329333260, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: combinationLockPuzzle, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 2894125217329333260, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2894125217626026044, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_Name
-      value: Slot Choice Image 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2894125217626026046, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 38c7a0ea03ebee44f8119956c018e3f1, type: 3}
-    - target: {fileID: 2894125218006431888, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_Name
-      value: Slot 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2894125218560977900, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_Name
-      value: Audio Source F2P5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3453380792152298006, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3453380792152298006, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 8924964686017014768}
-    - target: {fileID: 3453380792152298006, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: updateChoiceDecrement
-      objectReference: {fileID: 0}
-    - target: {fileID: 3453380792152298006, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: combinationLockPuzzle, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 3453380792152298006, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 5068779957412656157, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 8924964686017014768}
-    - target: {fileID: 5068779957412656157, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: processAnswer
-      objectReference: {fileID: 0}
-    - target: {fileID: 5068779957412656157, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: combinationLockPuzzle, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 5139024943709061111, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5139024943709061111, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 8924964686017014768}
-    - target: {fileID: 5139024943709061111, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: updateChoiceIncrement
-      objectReference: {fileID: 0}
-    - target: {fileID: 5139024943709061111, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: combinationLockPuzzle, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 5139024943709061111, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5629612922783637029, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_Name
-      value: Up button 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6002254504683096967, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_Name
-      value: Slot 4
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 669769680}
     - target: {fileID: 6048940771536699659, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -31633,86 +31435,34 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
       objectReference: {fileID: 669769680}
-    - target: {fileID: 7805562596106472885, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7805562596106472885, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+    - target: {fileID: 8924964686017014768, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: player
       value: 
-      objectReference: {fileID: 8924964686017014768}
-    - target: {fileID: 7805562596106472885, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: updateChoiceDecrement
-      objectReference: {fileID: 0}
-    - target: {fileID: 7805562596106472885, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: combinationLockPuzzle, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 7805562596106472885, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7977996606383525813, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_Name
-      value: Up button 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8037281531673866427, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_Name
-      value: Up button 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 8432996656378005096, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_Name
-      value: Slot Choice Image 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 8652814361972635676, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8652814361972635676, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      objectReference: {fileID: 781496428}
+    - target: {fileID: 8924964686017014768, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: uiEvents
       value: 
-      objectReference: {fileID: 8924964686017014768}
-    - target: {fileID: 8652814361972635676, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: updateChoiceDecrement
-      objectReference: {fileID: 0}
-    - target: {fileID: 8652814361972635676, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: combinationLockPuzzle, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 8652814361972635676, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8826695120128277496, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_Name
-      value: Down button 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8876997089408921278, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_Name
-      value: Slot 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8941145939990515015, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8941145939990515015, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      objectReference: {fileID: 1860796897}
+    - target: {fileID: 8924964686017014768, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: mainPlayerUI
       value: 
-      objectReference: {fileID: 8924964686017014768}
-    - target: {fileID: 8941145939990515015, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: updateChoiceIncrement
-      objectReference: {fileID: 0}
-    - target: {fileID: 8941145939990515015, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: combinationLockPuzzle, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 8941145939990515015, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 3
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 939610025}
+    - target: {fileID: 8924964686017014768, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: puzzleObject
+      value: 
+      objectReference: {fileID: 703874733}
+    - target: {fileID: 8924964686017014768, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: puzzleStorage
+      value: 
+      objectReference: {fileID: 357620444}
+    - target: {fileID: 8924964686017014768, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: puzzleCompleteIndicator1
+      value: 
+      objectReference: {fileID: 2051744181}
+    - target: {fileID: 8924964686017014768, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: puzzleCompleteIndicator2
+      value: 
+      objectReference: {fileID: 208875305}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
 --- !u!1001 &3794384738002045452
@@ -33148,41 +32898,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6048940771536699659, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
   m_PrefabInstance: {fileID: 2894125217358129890}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &8924964686017014768
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8338853859416766628}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 061279c09c3382043b9794ca14a8a3d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spritesForNumber:
-  - {fileID: 21300000, guid: 38c7a0ea03ebee44f8119956c018e3f1, type: 3}
-  - {fileID: 21300000, guid: 6159ed16006bf024c8b203314c5672a2, type: 3}
-  - {fileID: 21300000, guid: 81e8b2585dc86ba43b04acc527b2af9c, type: 3}
-  - {fileID: 21300000, guid: 473845a983ee57741883e24075c30970, type: 3}
-  - {fileID: 21300000, guid: cf26e5fae41ee3d4b8c34c495fd1e18b, type: 3}
-  - {fileID: 21300000, guid: 70c5704db2397494b9882291bc4f794c, type: 3}
-  correctAnswer: 01000000020000000300000004000000
-  mainPlayerUI: {fileID: 939610025}
-  slotImageObjects:
-  - {fileID: 1135531315}
-  - {fileID: 320730329}
-  - {fileID: 1520184235}
-  - {fileID: 1536490392}
-  audioSource: {fileID: 2010253554}
-  correctSound: {fileID: 8300000, guid: 73df8b00878d80343b4abfbbb996fd65, type: 3}
-  incorrectSound: {fileID: 8300000, guid: 86882081ef6d71b4fac65e52f9025bac, type: 3}
-  uiEvents: {fileID: 1860796897}
-  puzzleStorage: {fileID: 357620444}
-  puzzleObject: {fileID: 703874733}
-  puzzleCompleteIndicator1: {fileID: 2051744181}
-  puzzleCompleteIndicator2: {fileID: 208875305}
-  player: {fileID: 781496428}
 --- !u!1001 &8975194437463485603
 PrefabInstance:
   m_ObjectHideFlags: 0
