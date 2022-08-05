@@ -31779,7 +31779,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4149753448176529960, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_MaxValue
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 4367859361199599192, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_Colors.m_HighlightedColor.b
