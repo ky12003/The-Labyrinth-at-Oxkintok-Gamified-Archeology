@@ -57,17 +57,6 @@ public class wheelmaya : MonoBehaviour
 
     */
 
-    // -----unity functions------
-    //void update()
-    //{
-    //    // process user answer if the answer is submitted
-    //    if (answerSubmitted)
-    //    {
-    //        answerSubmitted = false;
-    //        processAnswer();
-    //    }
-    //}
-
     // ------public functions------
     // process answers from the player
     public void processAnswer()
@@ -248,7 +237,7 @@ public class wheelmaya : MonoBehaviour
         puzzleObject.layer = 0;
 
         // let the event handler system know that this puzzle has been completed
-        puzzleStorage.GetComponent<FloorCompletion>().updateFloorTwoPuzzlesCompleted(puzzleCompleteIndicator1, puzzleCompleteIndicator2);
+        puzzleStorage.GetComponent<FloorCompletion>().updateFloorTwoPuzzlesCompleted(puzzleCompleteIndicator1, puzzleCompleteIndicator2, 2);
         Debug.Log("PUZZLE COMPLETE");
     }
 

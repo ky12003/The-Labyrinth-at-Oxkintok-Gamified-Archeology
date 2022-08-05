@@ -1489,6 +1489,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: 85c86b46469c8cc428682802c06e6f84, type: 2}
   soundmenubutton: {fileID: 0}
+--- !u!1 &208875305 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9019994422717673561, guid: 91c6c230a091fc449a0ca3bf287a5d2b, type: 3}
+  m_PrefabInstance: {fileID: 1424932808}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &225314158 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7857878665128834824, guid: 32a1757096276a34fa3d61783a993235, type: 3}
@@ -2403,6 +2408,11 @@ MonoBehaviour:
   notificationPopupObject: {fileID: 994157354}
   completionSound: {fileID: 8300000, guid: 5d288d2a407a5824cba821969b17fbd4, type: 3}
   indicatorMaterial: {fileID: 2100000, guid: 1167b11ff55c9654ab8e8a1e09ed678c, type: 2}
+  numberMaterials:
+  - {fileID: 2100000, guid: d6ed1d22298b7b0428443e6564374f39, type: 2}
+  - {fileID: 2100000, guid: d0e1ff2e2998ef04aad0edf10d4d6f4a, type: 2}
+  - {fileID: 2100000, guid: f426bba4b62db9740af6a0a25fc76027, type: 2}
+  - {fileID: 2100000, guid: 19129574a0cf9eb4c89181d9f65361be, type: 2}
 --- !u!1 &376870201 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3346189783386244780, guid: a5b294bcd3e4e10498633e1775803d4e, type: 3}
@@ -4108,6 +4118,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioData: {fileID: 965940310}
   mouseon: {fileID: 1395005895}
+--- !u!1 &703874733 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3346189783386244780, guid: a5b294bcd3e4e10498633e1775803d4e, type: 3}
+  m_PrefabInstance: {fileID: 1063964310}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &726432383 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 796291089, guid: 5ad67968727e9224c8369021123b6f62, type: 3}
@@ -9918,6 +9933,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 408313827}
     m_Modifications:
     - target: {fileID: 404944377313614202, guid: 91c6c230a091fc449a0ca3bf287a5d2b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f03f25c771c99a141b31827f5cb901dc, type: 2}
+    - target: {fileID: 2022090785218396064, guid: 91c6c230a091fc449a0ca3bf287a5d2b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f03f25c771c99a141b31827f5cb901dc, type: 2}
@@ -29419,40 +29438,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7865688720083586020, guid: 91c6c230a091fc449a0ca3bf287a5d2b, type: 3}
   m_PrefabInstance: {fileID: 1651001231}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1651832762 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 477817736388088167, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-  m_PrefabInstance: {fileID: 2894125217358129890}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1651832767
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1651832762}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 669769680}
-          m_TargetAssemblyTypeName: exitclose, Assembly-CSharp
-          m_MethodName: mouserollon
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &1680654823
 GameObject:
   m_ObjectHideFlags: 0
@@ -30085,7 +30070,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8199793580062226402, guid: bc12ebb8cdc07ba43818e9795f2ada52, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bc12ebb8cdc07ba43818e9795f2ada52, type: 3}
 --- !u!1 &1759608261 stripped
 GameObject:
@@ -31096,6 +31082,11 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &2051744181 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7865688720083586020, guid: 91c6c230a091fc449a0ca3bf287a5d2b, type: 3}
+  m_PrefabInstance: {fileID: 1424932808}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2060967051
 GameObject:
   m_ObjectHideFlags: 0
@@ -31672,6 +31663,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 457328627}
     m_Modifications:
+    - target: {fileID: 1651832767, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 669769680}
     - target: {fileID: 6048940771536699659, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -31760,10 +31755,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI Floor 2 puzzle 5
       objectReference: {fileID: 0}
-    - target: {fileID: 6597897605501407814, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7243966561255734758, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -31776,6 +31767,34 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
       objectReference: {fileID: 669769680}
+    - target: {fileID: 8924964686017014768, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 781496428}
+    - target: {fileID: 8924964686017014768, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: uiEvents
+      value: 
+      objectReference: {fileID: 1860796897}
+    - target: {fileID: 8924964686017014768, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: mainPlayerUI
+      value: 
+      objectReference: {fileID: 939610025}
+    - target: {fileID: 8924964686017014768, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: puzzleObject
+      value: 
+      objectReference: {fileID: 703874733}
+    - target: {fileID: 8924964686017014768, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: puzzleStorage
+      value: 
+      objectReference: {fileID: 357620444}
+    - target: {fileID: 8924964686017014768, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: puzzleCompleteIndicator1
+      value: 
+      objectReference: {fileID: 2051744181}
+    - target: {fileID: 8924964686017014768, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
+      propertyPath: puzzleCompleteIndicator2
+      value: 
+      objectReference: {fileID: 208875305}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
 --- !u!1 &2894125217358129891 stripped

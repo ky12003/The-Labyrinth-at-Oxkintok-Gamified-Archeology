@@ -41,16 +41,16 @@ public class triviapuzzle : MonoBehaviour
     string[] riddleList = new string[] {
         "How many days does the Tzolkin calendar consist of?", 
         "The last month of this calendar system consisted of 5 “unlucky” days?", 
-        "temp", 
-        "temp"
+        "Which calendar usually has as many days as our own Gregorian calendar?", 
+        "Out of all the time periods in the Long Count calendar, which takes the longest?"
     };
     // all choices for each of the question parts (multidimentional array documentation: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/multidimensional-arrays)
     string[,] choiceList = new string[,]
     {
-        {"260", "360", "320", "100" },
-        {"Haab", "Long", "Tzolkin,", "Satunsat"},
-        {"ph", "ph", "ph", "ph" },
-        {"ph", "Ph", "ph", "Ph" }
+        {"360", "320", "260", "100" },
+        {"Wayeb'", "K'ank'in", "Pop", "Ch'en" },
+        {"Long", "Haab", "Tzolkin,", "Satunsat"},
+        {"Uinal", "K'in", "Tun", "B'aktun" }
     };
 
     /*
@@ -129,7 +129,7 @@ public class triviapuzzle : MonoBehaviour
         puzzleObject.layer = 0;
 
         // let the event handler system know that this puzzle has been completed
-        puzzleStorage.GetComponent<FloorCompletion>().updateFloorTwoPuzzlesCompleted(puzzleCompleteIndicator1, puzzleCompleteIndicator2);
+        puzzleStorage.GetComponent<FloorCompletion>().updateFloorTwoPuzzlesCompleted(puzzleCompleteIndicator1, puzzleCompleteIndicator2, 4);
         Debug.Log("PUZZLE COMPLETE");
     }
 }
