@@ -16,6 +16,7 @@ public class FloorCompletion : MonoBehaviour
     public GameObject notificationPopupObject; // object for notification popups
     public AudioClip completionSound; // sound for floor completion
     public Material indicatorMaterial; // material for updating the indicator for if a puzzle is complete
+    public Material[] numberMaterials; // material for updating the indicator's indicated number
 
     //void Start()
     //{
@@ -24,15 +25,23 @@ public class FloorCompletion : MonoBehaviour
     //}
 
     // update the number of completed puzzles/handle floor completion
-    public void updateFloorTwoPuzzlesCompleted(GameObject indicatorOne, GameObject indicatorTwo)
+    public void updateFloorTwoPuzzlesCompleted(GameObject indicatorOne, GameObject indicatorTwo, int puzzleID)
     {
         // update number of puzzles completed
         puzzlesCompletedF2++;
         // give a notification popup of how many puzzles are completed, then update the indicators
         notificationPopupObject.GetComponent<NotificationPopup>().activateNotif("Completed: " + puzzlesCompletedF2 + "/5 puzzles.");
         // used source: https://answers.unity.com/questions/59355/change-the-material-on-an-object-in-a-script.html
-        indicatorOne.GetComponent<MeshRenderer>().material = indicatorMaterial;
-        indicatorTwo.GetComponent<MeshRenderer>().material = indicatorMaterial;
+        if (puzzleID != 5)
+        {
+            indicatorOne.GetComponent<MeshRenderer>().material = indicatorMaterial;
+            indicatorTwo.GetComponent<MeshRenderer>().material = numberMaterials[puzzleID-1];
+        }
+        else
+        {
+
+        }
+
 
         // if all puzzles on floor 2 are completed, handle the completion
         if (puzzlesCompletedF2 == 5)

@@ -237,7 +237,7 @@ public class wheelmaya : MonoBehaviour
         puzzleObject.layer = 0;
 
         // let the event handler system know that this puzzle has been completed
-        puzzleStorage.GetComponent<FloorCompletion>().updateFloorTwoPuzzlesCompleted(puzzleCompleteIndicator1, puzzleCompleteIndicator2);
+        puzzleStorage.GetComponent<FloorCompletion>().updateFloorTwoPuzzlesCompleted(puzzleCompleteIndicator1, puzzleCompleteIndicator2, 2);
         Debug.Log("PUZZLE COMPLETE");
     }
 
