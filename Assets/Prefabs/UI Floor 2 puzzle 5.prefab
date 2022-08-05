@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4477925682561800022}
   - component: {fileID: 7862357136237098049}
   - component: {fileID: 7243966561255734758}
+  - component: {fileID: 1651832767}
   m_Layer: 5
   m_Name: Exit button
   m_TagString: Untagged
@@ -170,6 +171,35 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1651832767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477817736388088167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: exitclose, Assembly-CSharp
+          m_MethodName: mouserollon
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &699520123285412945
 GameObject:
   m_ObjectHideFlags: 0
@@ -180,7 +210,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2186517839163517207}
   m_Layer: 0
-  m_Name: Choice 2
+  m_Name: Slot 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -331,8 +361,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: wheelmaya, Assembly-CSharp
+      - m_Target: {fileID: 8924964686017014768}
+        m_TargetAssemblyTypeName: combinationLockPuzzle, Assembly-CSharp
         m_MethodName: processAnswer
         m_Mode: 1
         m_Arguments:
@@ -355,7 +385,7 @@ GameObject:
   - component: {fileID: 380251751785011507}
   - component: {fileID: 6615066771424226572}
   m_Layer: 0
-  m_Name: Choice Image
+  m_Name: Slot Choice Image 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -409,7 +439,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9f142980d5cb2f845afef780ee34c5c8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 38c7a0ea03ebee44f8119956c018e3f1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -432,7 +462,7 @@ GameObject:
   - component: {fileID: 5036888146148101383}
   - component: {fileID: 3453380792152298006}
   m_Layer: 0
-  m_Name: Up button 1
+  m_Name: Down button 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -540,14 +570,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: wheelmaya, Assembly-CSharp
-        m_MethodName: handleRightDownRotation
-        m_Mode: 1
+      - m_Target: {fileID: 8924964686017014768}
+        m_TargetAssemblyTypeName: combinationLockPuzzle, Assembly-CSharp
+        m_MethodName: updateChoiceDecrement
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -565,7 +595,7 @@ GameObject:
   - component: {fileID: 1140014652784071805}
   - component: {fileID: 8652814361972635676}
   m_Layer: 0
-  m_Name: Up button 1
+  m_Name: Down button 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -673,14 +703,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: wheelmaya, Assembly-CSharp
-        m_MethodName: handleRightDownRotation
-        m_Mode: 1
+      - m_Target: {fileID: 8924964686017014768}
+        m_TargetAssemblyTypeName: combinationLockPuzzle, Assembly-CSharp
+        m_MethodName: updateChoiceDecrement
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -697,7 +727,7 @@ GameObject:
   - component: {fileID: 9206572522913418062}
   - component: {fileID: 127516983885025742}
   m_Layer: 0
-  m_Name: Choice Image
+  m_Name: Slot Choice Image 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -751,7 +781,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9f142980d5cb2f845afef780ee34c5c8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 38c7a0ea03ebee44f8119956c018e3f1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -774,7 +804,7 @@ GameObject:
   - component: {fileID: 2894125217254861344}
   - component: {fileID: 2894125217254861345}
   m_Layer: 0
-  m_Name: Up button 1
+  m_Name: Down button 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -882,14 +912,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: wheelmaya, Assembly-CSharp
-        m_MethodName: handleRightDownRotation
-        m_Mode: 1
+      - m_Target: {fileID: 8924964686017014768}
+        m_TargetAssemblyTypeName: combinationLockPuzzle, Assembly-CSharp
+        m_MethodName: updateChoiceDecrement
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -907,7 +937,7 @@ GameObject:
   - component: {fileID: 2894125217329333263}
   - component: {fileID: 2894125217329333260}
   m_Layer: 0
-  m_Name: Down button 1
+  m_Name: Up button 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1015,14 +1045,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: wheelmaya, Assembly-CSharp
-        m_MethodName: handleRightUpRotation
-        m_Mode: 1
+      - m_Target: {fileID: 8924964686017014768}
+        m_TargetAssemblyTypeName: combinationLockPuzzle, Assembly-CSharp
+        m_MethodName: updateChoiceIncrement
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1039,7 +1069,7 @@ GameObject:
   - component: {fileID: 2894125217626026033}
   - component: {fileID: 2894125217626026046}
   m_Layer: 0
-  m_Name: Choice Image
+  m_Name: Slot Choice Image 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1093,7 +1123,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9f142980d5cb2f845afef780ee34c5c8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 38c7a0ea03ebee44f8119956c018e3f1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1113,7 +1143,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2894125218006431891}
   m_Layer: 0
-  m_Name: Choice 1
+  m_Name: Slot 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1153,7 +1183,7 @@ GameObject:
   - component: {fileID: 2894125218560977903}
   - component: {fileID: 2894125218560977902}
   m_Layer: 0
-  m_Name: Audio Source F2P1
+  m_Name: Audio Source F2P5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1423,7 +1453,7 @@ GameObject:
   - component: {fileID: 1310646961502956001}
   - component: {fileID: 8941145939990515015}
   m_Layer: 0
-  m_Name: Down button 1
+  m_Name: Up button 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1531,14 +1561,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: wheelmaya, Assembly-CSharp
-        m_MethodName: handleRightUpRotation
-        m_Mode: 1
+      - m_Target: {fileID: 8924964686017014768}
+        m_TargetAssemblyTypeName: combinationLockPuzzle, Assembly-CSharp
+        m_MethodName: updateChoiceIncrement
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1553,7 +1583,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5547628269259879479}
   m_Layer: 0
-  m_Name: Choice 4
+  m_Name: Slot 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1597,6 +1627,7 @@ GameObject:
   - component: {fileID: 1713122812244433460}
   - component: {fileID: 2931753567510199850}
   - component: {fileID: 5143982375003173963}
+  - component: {fileID: 8924964686017014768}
   m_Layer: 0
   m_Name: UI Floor 2 puzzle 5
   m_TagString: Untagged
@@ -1821,6 +1852,41 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8924964686017014768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6597897605501407814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 061279c09c3382043b9794ca14a8a3d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spritesForNumber:
+  - {fileID: 21300000, guid: 38c7a0ea03ebee44f8119956c018e3f1, type: 3}
+  - {fileID: 21300000, guid: 6159ed16006bf024c8b203314c5672a2, type: 3}
+  - {fileID: 21300000, guid: 81e8b2585dc86ba43b04acc527b2af9c, type: 3}
+  - {fileID: 21300000, guid: 473845a983ee57741883e24075c30970, type: 3}
+  - {fileID: 21300000, guid: cf26e5fae41ee3d4b8c34c495fd1e18b, type: 3}
+  - {fileID: 21300000, guid: 70c5704db2397494b9882291bc4f794c, type: 3}
+  correctAnswer: 01000000020000000300000004000000
+  mainPlayerUI: {fileID: 0}
+  slotImageObjects:
+  - {fileID: 2894125217626026044}
+  - {fileID: 1931869580971259274}
+  - {fileID: 2773243287469859868}
+  - {fileID: 8432996656378005096}
+  audioSource: {fileID: 2894125218560977902}
+  correctSound: {fileID: 8300000, guid: 73df8b00878d80343b4abfbbb996fd65, type: 3}
+  incorrectSound: {fileID: 8300000, guid: 86882081ef6d71b4fac65e52f9025bac, type: 3}
+  uiEvents: {fileID: 0}
+  puzzleStorage: {fileID: 0}
+  puzzleObject: {fileID: 0}
+  puzzleCompleteIndicator1: {fileID: 0}
+  puzzleCompleteIndicator2: {fileID: 0}
+  player: {fileID: 0}
 --- !u!1 &7224253265699777154
 GameObject:
   m_ObjectHideFlags: 0
@@ -2051,7 +2117,7 @@ GameObject:
   - component: {fileID: 6319980066764152870}
   - component: {fileID: 5139024943709061111}
   m_Layer: 0
-  m_Name: Down button 1
+  m_Name: Up button 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2159,14 +2225,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: wheelmaya, Assembly-CSharp
-        m_MethodName: handleRightUpRotation
-        m_Mode: 1
+      - m_Target: {fileID: 8924964686017014768}
+        m_TargetAssemblyTypeName: combinationLockPuzzle, Assembly-CSharp
+        m_MethodName: updateChoiceIncrement
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2184,7 +2250,7 @@ GameObject:
   - component: {fileID: 8883516659514771510}
   - component: {fileID: 6697988861425209845}
   m_Layer: 0
-  m_Name: Down button 1
+  m_Name: Up button 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2292,14 +2358,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: wheelmaya, Assembly-CSharp
-        m_MethodName: handleRightUpRotation
-        m_Mode: 1
+      - m_Target: {fileID: 8924964686017014768}
+        m_TargetAssemblyTypeName: combinationLockPuzzle, Assembly-CSharp
+        m_MethodName: updateChoiceIncrement
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2316,7 +2382,7 @@ GameObject:
   - component: {fileID: 4794434770511367098}
   - component: {fileID: 2573745038977162676}
   m_Layer: 0
-  m_Name: Choice Image
+  m_Name: Slot Choice Image 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2370,7 +2436,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9f142980d5cb2f845afef780ee34c5c8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 38c7a0ea03ebee44f8119956c018e3f1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2393,7 +2459,7 @@ GameObject:
   - component: {fileID: 8636103855879073576}
   - component: {fileID: 7805562596106472885}
   m_Layer: 0
-  m_Name: Up button 1
+  m_Name: Down button 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2501,14 +2567,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: wheelmaya, Assembly-CSharp
-        m_MethodName: handleRightDownRotation
-        m_Mode: 1
+      - m_Target: {fileID: 8924964686017014768}
+        m_TargetAssemblyTypeName: combinationLockPuzzle, Assembly-CSharp
+        m_MethodName: updateChoiceDecrement
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2600,7 +2666,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4799350376685704132}
   m_Layer: 0
-  m_Name: Choice 3
+  m_Name: Slot 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
