@@ -1871,7 +1871,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 473845a983ee57741883e24075c30970, type: 3}
   - {fileID: 21300000, guid: cf26e5fae41ee3d4b8c34c495fd1e18b, type: 3}
   - {fileID: 21300000, guid: 70c5704db2397494b9882291bc4f794c, type: 3}
-  correctAnswer: 01000000020000000300000004000000
+  correctAnswer: 03000000000000000100000005000000
   mainPlayerUI: {fileID: 0}
   slotImageObjects:
   - {fileID: 2894125217626026044}
@@ -1880,7 +1880,7 @@ MonoBehaviour:
   - {fileID: 8432996656378005096}
   audioSource: {fileID: 2894125218560977902}
   correctSound: {fileID: 8300000, guid: 73df8b00878d80343b4abfbbb996fd65, type: 3}
-  incorrectSound: {fileID: 8300000, guid: 86882081ef6d71b4fac65e52f9025bac, type: 3}
+  incorrectSound: {fileID: 8300000, guid: 8e316b92413457d49a67f9cbdb1968b9, type: 3}
   uiEvents: {fileID: 0}
   puzzleStorage: {fileID: 0}
   puzzleObject: {fileID: 0}
@@ -2358,7 +2358,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8924964686017014768}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: combinationLockPuzzle, Assembly-CSharp
         m_MethodName: updateChoiceIncrement
         m_Mode: 3
