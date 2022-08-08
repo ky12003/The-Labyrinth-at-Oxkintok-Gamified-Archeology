@@ -25,8 +25,8 @@ public class ShowMenu : MonoBehaviour
 
 
     public void playing() {
-        if (PlaySound.getOn())
-            audioData.Play();
+      /**  if (PlaySound.getOn())
+            audioData.Play();**/
         playtext.text = "Continue";
         showing(1);
         
