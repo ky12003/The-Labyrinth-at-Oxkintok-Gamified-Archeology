@@ -2947,7 +2947,7 @@ PrefabInstance:
     - target: {fileID: 958441105291950537, guid: bc12ebb8cdc07ba43818e9795f2ada52, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 541975986}
     - target: {fileID: 958441105291950537, guid: bc12ebb8cdc07ba43818e9795f2ada52, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: setAnswerSubmitted
@@ -3116,6 +3116,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8338853859091374287, guid: bc12ebb8cdc07ba43818e9795f2ada52, type: 3}
   m_PrefabInstance: {fileID: 541975983}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &541975986 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 541975990, guid: bc12ebb8cdc07ba43818e9795f2ada52, type: 3}
+  m_PrefabInstance: {fileID: 541975983}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 541975985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58b7c56e6b6bdb744a1e77c4fc3d2ea5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &565947318
 GameObject:
   m_ObjectHideFlags: 0
@@ -31130,7 +31141,7 @@ PrefabInstance:
     - target: {fileID: 6697988861425209845, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 8924964686017014762}
+      objectReference: {fileID: 0}
     - target: {fileID: 6697988861425209845, guid: ca4a881777d39ee458ae88ece54dd2f9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: updateChoiceIncrement
@@ -31883,7 +31894,7 @@ PrefabInstance:
     - target: {fileID: 311463550, guid: 32a1757096276a34fa3d61783a993235, type: 3}
       propertyPath: m_Texture
       value: 
-      objectReference: {fileID: 2800000, guid: 4d2c4e449f8e532498c4d486c169035f, type: 3}
+      objectReference: {fileID: 2800000, guid: 6f07698f007985949b2859b4e2cd863f, type: 3}
     - target: {fileID: 433849658, guid: 32a1757096276a34fa3d61783a993235, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -31999,7 +32010,7 @@ PrefabInstance:
     - target: {fileID: 1292188045, guid: 32a1757096276a34fa3d61783a993235, type: 3}
       propertyPath: m_Texture
       value: 
-      objectReference: {fileID: 2800000, guid: d97c128ca61041b4c8316e4eb1be6481, type: 3}
+      objectReference: {fileID: 2800000, guid: 1ffb2a53f73b18a499ce1d5321589900, type: 3}
     - target: {fileID: 1353892571, guid: 32a1757096276a34fa3d61783a993235, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -32007,11 +32018,11 @@ PrefabInstance:
     - target: {fileID: 1873946019, guid: 32a1757096276a34fa3d61783a993235, type: 3}
       propertyPath: m_Texture
       value: 
-      objectReference: {fileID: 2800000, guid: 22649470c82e1d54eb2f481df45d5760, type: 3}
+      objectReference: {fileID: 2800000, guid: 64bf8951ac96ff547ba1b8402e49bc47, type: 3}
     - target: {fileID: 1952663067, guid: 32a1757096276a34fa3d61783a993235, type: 3}
       propertyPath: m_Texture
       value: 
-      objectReference: {fileID: 2800000, guid: b82ca04d2d19ada4faaa2818badaed7b, type: 3}
+      objectReference: {fileID: 2800000, guid: d856282d853b3594ba3be67e91ab7d3a, type: 3}
     - target: {fileID: 654204674790963955, guid: 32a1757096276a34fa3d61783a993235, type: 3}
       propertyPath: m_IsActive
       value: 0
