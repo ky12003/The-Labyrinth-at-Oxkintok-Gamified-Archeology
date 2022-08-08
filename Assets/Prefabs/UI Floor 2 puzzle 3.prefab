@@ -6717,7 +6717,7 @@ MonoBehaviour:
   mainPlayerUI: {fileID: 0}
   audioSource: {fileID: 1374702260057249}
   correctSound: {fileID: 8300000, guid: 73df8b00878d80343b4abfbbb996fd65, type: 3}
-  incorrectSound: {fileID: 8300000, guid: 86882081ef6d71b4fac65e52f9025bac, type: 3}
+  incorrectSound: {fileID: 8300000, guid: 8e316b92413457d49a67f9cbdb1968b9, type: 3}
   uiEvents: {fileID: 0}
   puzzleStorage: {fileID: 0}
   puzzleObject: {fileID: 0}
