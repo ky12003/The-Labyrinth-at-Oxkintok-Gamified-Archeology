@@ -684,6 +684,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 8338853859091374287}
+        m_TargetAssemblyTypeName: wheelmaya, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1225218288
 GameObject:
   m_ObjectHideFlags: 0
@@ -1560,6 +1572,7 @@ GameObject:
   - component: {fileID: 1588985771761034719}
   - component: {fileID: 4986975337443083976}
   - component: {fileID: 5525427151025868655}
+  - component: {fileID: 894179556}
   m_Layer: 5
   m_Name: Exit button
   m_TagString: Untagged
@@ -1718,6 +1731,35 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &894179556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3353056632795669486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: exitclose, Assembly-CSharp
+          m_MethodName: mouserollon
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &4681573434774321992
 GameObject:
   m_ObjectHideFlags: 0
@@ -2502,6 +2544,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 5cab09a48d916e448b6faecb44afc3b1, type: 3}
   - {fileID: 21300000, guid: 3a732f462a058554cb8ff71ffd5c3278, type: 3}
   soundwheel: {fileID: 0}
+  onmouse: {fileID: 0}
+  onsubmit: {fileID: 0}
   wheelLeft: {fileID: 1355040396}
   wheelRight: {fileID: 627032757}
   mainPlayerUI: {fileID: 0}
@@ -2509,7 +2553,7 @@ MonoBehaviour:
   monthImageObject: {fileID: 1227532505}
   audioSource: {fileID: 1788156263}
   correctSound: {fileID: 8300000, guid: 73df8b00878d80343b4abfbbb996fd65, type: 3}
-  incorrectSound: {fileID: 8300000, guid: 86882081ef6d71b4fac65e52f9025bac, type: 3}
+  incorrectSound: {fileID: 8300000, guid: 8e316b92413457d49a67f9cbdb1968b9, type: 3}
   uiEvents: {fileID: 0}
   puzzleStorage: {fileID: 0}
   puzzleObject: {fileID: 0}
