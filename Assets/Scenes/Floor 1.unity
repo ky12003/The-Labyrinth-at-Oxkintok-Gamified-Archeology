@@ -2628,7 +2628,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ee3cf17498cc8941a6d34274ab09f5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Notes: Comment Here.
+  Notes: 'NOTATION: F#=floor #, P#=puzzle#
+
+
+    Puzzle 1: number puzzle
+
+    Puzzle
+    2: wheel puzzle
+
+    Puzzle 3: button press puzzle
+
+    Puzzle 4: trivia puzzle
+
+    Puzzle
+    5: combination lock puzzle'
 --- !u!1 &469347880
 GameObject:
   m_ObjectHideFlags: 0
@@ -3072,7 +3085,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8338853859091374287, guid: bc12ebb8cdc07ba43818e9795f2ada52, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8924964685692023682, guid: bc12ebb8cdc07ba43818e9795f2ada52, type: 3}
       propertyPath: m_Pivot.x
@@ -31406,7 +31419,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3068592034635071367, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7054708588398665161, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
