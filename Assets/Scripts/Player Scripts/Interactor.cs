@@ -13,7 +13,11 @@ public class Interactor : MonoBehaviour
     UnityEvent onNoInteraction;
     GameObject prevHit; // the previously hit game object
     public LayerMask interactableLayermask;
-    public int raycastRange = 20;
+    public int raycastRange = 25;
+    public int sphereCastRadius = 3;
+
+    private Vector3 origin; // origin location of spherecast
+    private Vector3 direction; // direction of spherecast
 
     // Start is called before the first frame update
     void Start()
@@ -25,13 +29,17 @@ public class Interactor : MonoBehaviour
     void Update()
     {
         // send ray from camera to check for interactable object
-        RaycastHit hit; 
+        RaycastHit hit;
+        origin = Camera.main.transform.position;
+        direction = Camera.main.transform.forward;
 
         Debug.DrawRay(Camera.main.transform.position, Camera.main.transform.forward);
         // (refer to documentation for Physics.Raycast: https://docs.unity3d.com/ScriptReference/Physics.Raycast.html)
-        // send raycast from origin (the center of the camera) torward where they are looking (forward). Output to "hit" variable. Max distance is 5. Make sure it hits an interactable.  
+        // (documentation for spherecast: https://www.youtube.com/watch?v=Nplcqwq_oJU)
+        // (tutorial for spherecast: https://www.youtube.com/watch?v=Nplcqwq_oJU)
+        // send spherecast from origin (the center of the camera) torward where they are looking (forward). Output to "hit" variable. Max distance is 5. Make sure it hits an interactable.  
         // also check if a popup is already open at the time, do not activate interactor if so.
-        if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, raycastRange, interactableLayermask) && !uiEvents.GetComponent<PopupToggle>().popupIsOpen) {
+        if (Physics.SphereCast(origin, sphereCastRadius, direction, out hit, raycastRange, interactableLayermask) && !uiEvents.GetComponent<PopupToggle>().popupIsOpen) {
             // get specific action of interactable (when looking at it)
             onLook = hit.collider.GetComponent<Interactable>().onLook;
             // get specific action of interactable (when interacting with it using mouse key)
