@@ -31233,6 +31233,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669769679}
     m_Modifications:
+    - target: {fileID: 311463550, guid: 32a1757096276a34fa3d61783a993235, type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 89eea0a70e8df0549a35f499f9f2732f, type: 3}
     - target: {fileID: 638063532, guid: 32a1757096276a34fa3d61783a993235, type: 3}
       propertyPath: m_Texture
       value: 
@@ -31264,7 +31268,7 @@ PrefabInstance:
     - target: {fileID: 1952663067, guid: 32a1757096276a34fa3d61783a993235, type: 3}
       propertyPath: m_Texture
       value: 
-      objectReference: {fileID: 2800000, guid: 72b69d455ae9f7c4d8831ee76d578824, type: 3}
+      objectReference: {fileID: 2800000, guid: 275e500feeee2c74ba05ff940b96a9ec, type: 3}
     - target: {fileID: 1614955205586055697, guid: 32a1757096276a34fa3d61783a993235, type: 3}
       propertyPath: pageObjects.Array.data[5]
       value: 
