@@ -1304,7 +1304,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 994157355}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: NotificationPopup, Assembly-CSharp
         m_MethodName: activateNotif
         m_Mode: 5
@@ -2182,7 +2182,7 @@ PrefabInstance:
     - target: {fileID: 6588977739919126199, guid: 2b382c974617b7f4fb8548468b1dccd3, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 994157355}
+      objectReference: {fileID: 0}
     - target: {fileID: 6588977739919126199, guid: 2b382c974617b7f4fb8548468b1dccd3, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
@@ -2578,7 +2578,7 @@ PrefabInstance:
     - target: {fileID: 6588977739919126199, guid: 2b382c974617b7f4fb8548468b1dccd3, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 994157355}
+      objectReference: {fileID: 0}
     - target: {fileID: 6588977739919126199, guid: 2b382c974617b7f4fb8548468b1dccd3, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
@@ -9937,17 +9937,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7248721989430409666, guid: f6a8a98534b6f59418d1653b7f1dc469, type: 3}
   m_PrefabInstance: {fileID: 7248721988506462259}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &994157355 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 994157355, guid: f6a8a98534b6f59418d1653b7f1dc469, type: 3}
-  m_PrefabInstance: {fileID: 7248721988506462259}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 994157354}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19f9f774143b9f34f92d7d02cd089c30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1013476961 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2521180715174639566, guid: a5b294bcd3e4e10498633e1775803d4e, type: 3}
@@ -10035,7 +10024,7 @@ PrefabInstance:
     - target: {fileID: 6588977739919126199, guid: 2b382c974617b7f4fb8548468b1dccd3, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 994157355}
+      objectReference: {fileID: 0}
     - target: {fileID: 6588977739919126199, guid: 2b382c974617b7f4fb8548468b1dccd3, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
@@ -27756,7 +27745,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: 85c86b46469c8cc428682802c06e6f84, type: 2}
   m_audioClip: {fileID: 8300000, guid: 4f60e2c958857a9449064f4e0edbab96, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.39
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -28088,7 +28077,7 @@ PrefabInstance:
     - target: {fileID: 6588977739919126199, guid: 2b382c974617b7f4fb8548468b1dccd3, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 994157355}
+      objectReference: {fileID: 0}
     - target: {fileID: 6588977739919126199, guid: 2b382c974617b7f4fb8548468b1dccd3, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
@@ -28352,7 +28341,7 @@ PrefabInstance:
     - target: {fileID: 6588977739919126199, guid: 2b382c974617b7f4fb8548468b1dccd3, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 994157355}
+      objectReference: {fileID: 0}
     - target: {fileID: 6588977739919126199, guid: 2b382c974617b7f4fb8548468b1dccd3, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
@@ -30699,7 +30688,7 @@ PrefabInstance:
     - target: {fileID: 6588977739919126199, guid: 2b382c974617b7f4fb8548468b1dccd3, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 994157355}
+      objectReference: {fileID: 0}
     - target: {fileID: 6588977739919126199, guid: 2b382c974617b7f4fb8548468b1dccd3, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
@@ -31364,6 +31353,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669769679}
     m_Modifications:
+    - target: {fileID: 415050324, guid: bae504bd54da39b47b9953286850d86a, type: 3}
+      propertyPath: m_Volume
+      value: 0.39
+      objectReference: {fileID: 0}
     - target: {fileID: 415050324, guid: bae504bd54da39b47b9953286850d86a, type: 3}
       propertyPath: m_Enabled
       value: 1
