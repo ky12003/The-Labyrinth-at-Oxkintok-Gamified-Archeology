@@ -30955,6 +30955,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669769679}
     m_Modifications:
+    - target: {fileID: 311463550, guid: 32a1757096276a34fa3d61783a993235, type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 69ec3a20cb6ae4e4f9bf92db568265b3, type: 3}
+    - target: {fileID: 638063532, guid: 32a1757096276a34fa3d61783a993235, type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 6f33ecf596ae9f24d8f785544ccd8e12, type: 3}
     - target: {fileID: 805406426, guid: 32a1757096276a34fa3d61783a993235, type: 3}
       propertyPath: mouseon
       value: 
@@ -30983,10 +30991,18 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 669769680}
-    - target: {fileID: 1952663067, guid: 32a1757096276a34fa3d61783a993235, type: 3}
+    - target: {fileID: 1292188045, guid: 32a1757096276a34fa3d61783a993235, type: 3}
       propertyPath: m_Texture
       value: 
       objectReference: {fileID: 2800000, guid: bfc29de0cd3536e46aa680b8539ae5e8, type: 3}
+    - target: {fileID: 1873946019, guid: 32a1757096276a34fa3d61783a993235, type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 1ffb2a53f73b18a499ce1d5321589900, type: 3}
+    - target: {fileID: 1952663067, guid: 32a1757096276a34fa3d61783a993235, type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 42ffb6398c74a8b4cbf79ace7ce1758d, type: 3}
     - target: {fileID: 8620535568463819152, guid: 32a1757096276a34fa3d61783a993235, type: 3}
       propertyPath: m_fontColor.b
       value: 0
