@@ -2605,7 +2605,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6588977739919126199, guid: 2b382c974617b7f4fb8548468b1dccd3, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6588977739919126199, guid: 2b382c974617b7f4fb8548468b1dccd3, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -25550,6 +25550,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 595651660d396cd44b99b8d60092b415, type: 3}
+--- !u!1 &1308469911 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9003720404058357242, guid: 32a1757096276a34fa3d61783a993235, type: 3}
+  m_PrefabInstance: {fileID: 8620535568385196331}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1345453540
 GameObject:
   m_ObjectHideFlags: 0
@@ -28115,7 +28120,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6588977739919126199, guid: 2b382c974617b7f4fb8548468b1dccd3, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6588977739919126199, guid: 2b382c974617b7f4fb8548468b1dccd3, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -30228,6 +30233,14 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 669769680}
+    - target: {fileID: 1974899493823554496, guid: e3a6bda1de5ffa14e84a9197b1cce032, type: 3}
+      propertyPath: m_text
+      value: 260
+      objectReference: {fileID: 0}
+    - target: {fileID: 2837037340889834463, guid: e3a6bda1de5ffa14e84a9197b1cce032, type: 3}
+      propertyPath: m_text
+      value: 360
+      objectReference: {fileID: 0}
     - target: {fileID: 3742628739508366543, guid: e3a6bda1de5ffa14e84a9197b1cce032, type: 3}
       propertyPath: player
       value: 
@@ -30268,6 +30281,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
       objectReference: {fileID: 669769680}
+    - target: {fileID: 7049672829841990840, guid: e3a6bda1de5ffa14e84a9197b1cce032, type: 3}
+      propertyPath: m_text
+      value: 320
+      objectReference: {fileID: 0}
     - target: {fileID: 8285059156906565351, guid: e3a6bda1de5ffa14e84a9197b1cce032, type: 3}
       propertyPath: m_Name
       value: UI Floor 2 puzzle 4
@@ -31248,6 +31265,10 @@ PrefabInstance:
       propertyPath: m_Texture
       value: 
       objectReference: {fileID: 2800000, guid: 72b69d455ae9f7c4d8831ee76d578824, type: 3}
+    - target: {fileID: 1614955205586055697, guid: 32a1757096276a34fa3d61783a993235, type: 3}
+      propertyPath: pageObjects.Array.data[5]
+      value: 
+      objectReference: {fileID: 1308469911}
     - target: {fileID: 8620535569190602720, guid: 32a1757096276a34fa3d61783a993235, type: 3}
       propertyPath: m_Pivot.x
       value: 0
