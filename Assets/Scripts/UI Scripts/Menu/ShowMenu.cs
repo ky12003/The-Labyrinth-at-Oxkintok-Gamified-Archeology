@@ -12,36 +12,26 @@ public class ShowMenu : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject Menu;
-    public GameObject play;
     public GameObject instructions;
     public GameObject options;
     public GameObject credits;
-    public GameObject mainsound;
     public TextMeshProUGUI playtext;
-    public AudioSource audioData, audiomouseon;
+    public AudioSource audioData;
     
     int active=0;
    
 
 
-    public void playing() {
-      /**  if (PlaySound.getOn())
-            audioData.Play();**/
-        playtext.text = "Continue";
-        showing(1);
-        
-        
     
-    }
 
     public void showinstructions()
     {
         
-        showing(2);
+        showing(1);
     }
 
-    public void showoptions() { showing(3); }
-    public void showcredits() { showing(4); }
+    public void showoptions() { showing(2); }
+    public void showcredits() { showing(3); }
     public void quit() { Application.Quit(); }
 
 
@@ -51,10 +41,9 @@ public class ShowMenu : MonoBehaviour
         if (PlaySound.getOn())
             audioData.Play();
         g[0] = Menu;
-        g[1] = play;
-        g[2] = instructions;
-        g[3] = options;
-        g[4] = credits;
+        g[1] = instructions;
+        g[2] = options;
+        g[3] = credits;
         
          g[active].SetActive(false);
         g[i].SetActive(true);
@@ -72,11 +61,7 @@ public class ShowMenu : MonoBehaviour
     }
 
    
- public void mouseon()
-    {
-        if (PlaySound.getOn())
-            audiomouseon.Play();
-    }
+ 
 
 
 }
