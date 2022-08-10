@@ -26485,6 +26485,14 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3910269109635824046, guid: 478463afb4f9acb4f8ab8805ca4340a8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -82.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910269109635824046, guid: 478463afb4f9acb4f8ab8805ca4340a8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -20.87
+      objectReference: {fileID: 0}
     - target: {fileID: 3910269109635824047, guid: 478463afb4f9acb4f8ab8805ca4340a8, type: 3}
       propertyPath: m_Layer
       value: 9
@@ -26780,6 +26788,30 @@ PrefabInstance:
     - target: {fileID: 3910269110100122556, guid: 478463afb4f9acb4f8ab8805ca4340a8, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910269110101181961, guid: 478463afb4f9acb4f8ab8805ca4340a8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 19.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910269110101181961, guid: 478463afb4f9acb4f8ab8805ca4340a8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99939084
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910269110101181961, guid: 478463afb4f9acb4f8ab8805ca4340a8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910269110101181961, guid: 478463afb4f9acb4f8ab8805ca4340a8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.034899585
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910269110101181961, guid: 478463afb4f9acb4f8ab8805ca4340a8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910269110101181961, guid: 478463afb4f9acb4f8ab8805ca4340a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 3910269110101181962, guid: 478463afb4f9acb4f8ab8805ca4340a8, type: 3}
       propertyPath: m_Layer
