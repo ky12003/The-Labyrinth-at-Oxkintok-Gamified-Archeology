@@ -2988,6 +2988,30 @@ PrefabInstance:
       propertyPath: puzzleCompleteIndicator2
       value: 
       objectReference: {fileID: 941765464}
+    - target: {fileID: 541975990, guid: bc12ebb8cdc07ba43818e9795f2ada52, type: 3}
+      propertyPath: puzzleQuestions.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 541975990, guid: bc12ebb8cdc07ba43818e9795f2ada52, type: 3}
+      propertyPath: puzzleQuestions.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 7888a7bb15c7d804d946df22baf2a916, type: 3}
+    - target: {fileID: 541975990, guid: bc12ebb8cdc07ba43818e9795f2ada52, type: 3}
+      propertyPath: puzzleQuestions.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: ee6686a22b8b4f44cb11611c7ccead67, type: 3}
+    - target: {fileID: 541975990, guid: bc12ebb8cdc07ba43818e9795f2ada52, type: 3}
+      propertyPath: puzzleQuestions.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 6a706a3dd86b9a84da65af7930b54eca, type: 3}
+    - target: {fileID: 541975990, guid: bc12ebb8cdc07ba43818e9795f2ada52, type: 3}
+      propertyPath: puzzleQuestions.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: 0d20f267bf90b35478df3885c30adb31, type: 3}
+    - target: {fileID: 541975990, guid: bc12ebb8cdc07ba43818e9795f2ada52, type: 3}
+      propertyPath: puzzleQuestions.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: bd1ab69825ec8e440b8034a0c5667719, type: 3}
     - target: {fileID: 1990288223, guid: bc12ebb8cdc07ba43818e9795f2ada52, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
