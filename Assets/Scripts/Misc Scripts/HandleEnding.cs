@@ -16,6 +16,7 @@ public class HandleEnding : MonoBehaviour
     public GameObject VideoOutputObject; // the player for the video
     public GameObject EndingUIContainer; // where stuff pertaining to the ending are displayed in the UI
     public GameObject MainPlayerUI;
+    public GameObject UIEvents;
     //public UnityEvent OnVideoEnd;
 
     /*
@@ -25,19 +26,25 @@ public class HandleEnding : MonoBehaviour
     */
 
     // -- public functions --
+    // (TEMPORARY ENDING SCREEN EVENT, BUT MAY REPURPOSE)
+    public void restartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 
     // -- private functions -- 
     void StartEndingSequence()
     {
         // activate the video
         EndingUIContainer.SetActive(true);
-        VideoOutputObject.SetActive(true);
+        //VideoOutputObject.SetActive(true);
         MainPlayerUI.SetActive(false);
+        UIEvents.GetComponent<PopupToggle>().popupIsOpen = true;
 
-        var videoPlayer = VideoOutputObject.GetComponent<VideoPlayer>();
+        //var videoPlayer = VideoOutputObject.GetComponent<VideoPlayer>();
 
 
-        videoPlayer.loopPointReached += EndReached;
+        //videoPlayer.loopPointReached += EndReached;
     }
 
     void EndReached(VideoPlayer vp)
