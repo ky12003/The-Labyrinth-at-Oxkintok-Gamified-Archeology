@@ -3370,6 +3370,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 357620444}
     - target: {fileID: 1155479452, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+      propertyPath: incorrectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 8e316b92413457d49a67f9cbdb1968b9, type: 3}
+    - target: {fileID: 1155479452, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: puzzleCompleteIndicator1
       value: 
       objectReference: {fileID: 429117270}
@@ -3481,7 +3485,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8019476324016555714, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
 --- !u!224 &624614527 stripped
 RectTransform:
@@ -27753,7 +27758,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: 85c86b46469c8cc428682802c06e6f84, type: 2}
   m_audioClip: {fileID: 8300000, guid: 4f60e2c958857a9449064f4e0edbab96, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.39
+  m_Volume: 0.29
   m_Pitch: 1
   Loop: 0
   Mute: 0

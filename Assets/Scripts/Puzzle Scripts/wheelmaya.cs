@@ -18,7 +18,7 @@ public class wheelmaya : MonoBehaviour
     public int DayAnswer; // stores answer dfor the "Day" portion of the answer
     public Sprite[] daySprites;
     public Sprite[] monthSprites;
-    public AudioSource soundwheel, onmouse, onsubmit;
+    public AudioSource soundwheel;
     
 
     // -----Serialized variables-----
@@ -241,17 +241,7 @@ public class wheelmaya : MonoBehaviour
         Debug.Log("PUZZLE COMPLETE");
     }
 
-    public void mouseon()
-    {
-        if (PlaySound.getOn())
-            onmouse.Play();
-    }
-
-    public void submiton()
-    {
-        if (PlaySound.getOn())
-            onsubmit.Play();
-    }
+   
 
 
 }
