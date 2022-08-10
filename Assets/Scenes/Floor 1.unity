@@ -31242,6 +31242,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 184834195}
     - target: {fileID: 833092030, guid: 32a1757096276a34fa3d61783a993235, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 833092030, guid: 32a1757096276a34fa3d61783a993235, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 833092030, guid: 32a1757096276a34fa3d61783a993235, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1860796900}
@@ -31249,6 +31257,26 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 939610025}
+    - target: {fileID: 833092030, guid: 32a1757096276a34fa3d61783a993235, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 669769680}
+    - target: {fileID: 833092030, guid: 32a1757096276a34fa3d61783a993235, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 833092030, guid: 32a1757096276a34fa3d61783a993235, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: soundclose
+      objectReference: {fileID: 0}
+    - target: {fileID: 833092030, guid: 32a1757096276a34fa3d61783a993235, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: exitclose, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 833092030, guid: 32a1757096276a34fa3d61783a993235, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1292188045, guid: 32a1757096276a34fa3d61783a993235, type: 3}
       propertyPath: m_Texture
       value: 
