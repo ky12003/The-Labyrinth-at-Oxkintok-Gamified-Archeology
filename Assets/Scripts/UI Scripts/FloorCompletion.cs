@@ -29,8 +29,18 @@ public class FloorCompletion : MonoBehaviour
     {
         // update number of puzzles completed
         puzzlesCompletedF2++;
-        // give a notification popup of how many puzzles are completed, then update the indicators
-        notificationPopupObject.GetComponent<NotificationPopup>().activateNotif("Completed: " + puzzlesCompletedF2 + "/5 puzzles.");
+
+        // if all puzzles on floor 2 are completed, handle the completion
+        if (puzzlesCompletedF2 == 5)
+        {
+            OnFloor2Completion.Invoke();
+            player.GetComponent<AudioSource>().PlayOneShot(completionSound, 0.5f);
+        } else
+        {
+            // give a notification popup of how many puzzles are completed, then update the indicators
+            notificationPopupObject.GetComponent<NotificationPopup>().activateNotif("Completed: " + puzzlesCompletedF2 + "/5 puzzles.");
+        }
+
         // used source: https://answers.unity.com/questions/59355/change-the-material-on-an-object-in-a-script.html
         if (puzzleID != 5)
         {
@@ -43,12 +53,7 @@ public class FloorCompletion : MonoBehaviour
         }
 
 
-        // if all puzzles on floor 2 are completed, handle the completion
-        if (puzzlesCompletedF2 == 5)
-        {
-            OnFloor2Completion.Invoke();
-            player.GetComponent<AudioSource>().PlayOneShot(completionSound, 0.5f);
-        }
+       
     }
 
     
