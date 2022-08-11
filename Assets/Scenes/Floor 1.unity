@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.00001851807, g: 0.000000033930043, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.000018518082, g: 0.000000033930043, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3394,6 +3394,10 @@ PrefabInstance:
       propertyPath: puzzleStorage
       value: 
       objectReference: {fileID: 357620444}
+    - target: {fileID: 1155479452, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+      propertyPath: incorrectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 8e316b92413457d49a67f9cbdb1968b9, type: 3}
     - target: {fileID: 1155479452, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: puzzleCompleteIndicator1
       value: 
@@ -9631,6 +9635,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 908636856, guid: bfe23471fc3acd24b8b4775988e9e664, type: 3}
+      propertyPath: m_ShowToolkit
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6537865498263537512, guid: bfe23471fc3acd24b8b4775988e9e664, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -30644,6 +30652,10 @@ PrefabInstance:
       propertyPath: puzzleStorage
       value: 
       objectReference: {fileID: 357620444}
+    - target: {fileID: 3742628739508366543, guid: e3a6bda1de5ffa14e84a9197b1cce032, type: 3}
+      propertyPath: incorrectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 8e316b92413457d49a67f9cbdb1968b9, type: 3}
     - target: {fileID: 3742628739508366543, guid: e3a6bda1de5ffa14e84a9197b1cce032, type: 3}
       propertyPath: puzzleCompleteIndicator1
       value: 
