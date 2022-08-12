@@ -89,4 +89,6 @@ public class PopupToggle : MonoBehaviour
         pauseMenu.SetActive(true);
         mainUI.SetActive(false);
     }
+
+    
 }
