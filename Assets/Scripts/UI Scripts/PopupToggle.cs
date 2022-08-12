@@ -11,6 +11,8 @@ public class PopupToggle : MonoBehaviour
 
     // check if another popup menu is currently open (currently set to false since there are no popups implemented yet)
     public bool popupIsOpen = false;
+    // check if puzzle is open (special case)
+    public bool puzzleIsOpen = false;
     // check if the player should be able to open the notebook (since notebook is not allowed to be opened until
     public bool notebookIsActive = false;
 
@@ -20,28 +22,73 @@ public class PopupToggle : MonoBehaviour
     [SerializeField] GameObject pauseMenu;
     public AudioSource audioSource;
 
+    GameObject currPuzzle;
+
     void Update()
     {
         // Check for button press, do corresponding actions (E key: open notebook)
         if ((Input.GetKeyDown(KeyCode.E)) && !popupIsOpen && notebookIsActive) {
-            popupIsOpen = true;
-            notebook.SetActive(true);
-            mainUI.SetActive(false);
+            openNotebook();
         } else if ((Input.GetKeyDown(KeyCode.Escape)) && !popupIsOpen) {
-            popupIsOpen = true;
-            pauseMenu.SetActive(true);
-            mainUI.SetActive(false);
+            openPauseMenu();
         }   
     }
 
     public void setPopupOpen(bool isOpen) 
     {
+        if (!puzzleIsOpen)
+        {
+            popupIsOpen = isOpen;
+        }
         
-        popupIsOpen = isOpen;
+    }
+
+    public void deactivateNotebook()
+    {
+        if (puzzleIsOpen)
+        {
+            notebook.SetActive(false);
+            currPuzzle.SetActive(true);
+        } else
+        {
+            notebook.SetActive(false);
+            mainUI.SetActive(true);
+            popupIsOpen = false;
+        }
+    }
+
+    public void setPuzzleOpen(bool puzzleOpen)
+    {
+        puzzleIsOpen = puzzleOpen;
+    }
+
+    public void setCurrentOpenPuzzle(GameObject puzzle)
+    {
+        currPuzzle = puzzle;
     }
 
     public void activateNotebook()
     {
         notebookIsActive = true;
     }
+
+    public void openNotebook()
+    {
+        setPopupOpen(true);
+        notebook.SetActive(true);
+        mainUI.SetActive(false);
+        if (puzzleIsOpen)
+        {
+            currPuzzle.SetActive(false);
+        }
+    }
+
+    public void openPauseMenu()
+    {
+        setPopupOpen(true);
+        pauseMenu.SetActive(true);
+        mainUI.SetActive(false);
+    }
+
+    
 }

@@ -54,6 +54,10 @@ public class mathpuzzle : MonoBehaviour
             processAnswer();
             userInput.GetComponent<TMP_InputField>().text = ""; // reset text input
         }
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            uiEvents.GetComponent<PopupToggle>().openNotebook();
+        }
     }
 
     // process answers from the player
@@ -67,14 +71,19 @@ public class mathpuzzle : MonoBehaviour
             
             // load next step and update step
             currStep++;
-            loadStep(currStep);
+            if (currStep <= finStep)
+            {
+                loadStep(currStep);
+                Debug.Log("Correct, CURRSTEP: " + currStep);
+            }
+            
 
             // play sound for correct answer
             if (currStep <= finStep) {
                 audioSource.PlayOneShot(correctSound, 0.1f);
             }
 
-            Debug.Log("Correct, CURRSTEP: " + currStep);
+            
         }
         // otherwise, it's wrong, display stuff to denote that
         else
@@ -94,6 +103,7 @@ public class mathpuzzle : MonoBehaviour
         // close puzzle & activate main player UI
         puzzleUIF2P1.SetActive(false);
         mainPlayerUI.SetActive(true);
+        uiEvents.GetComponent<PopupToggle>().setPuzzleOpen(false);
         uiEvents.GetComponent<PopupToggle>().setPopupOpen(false);
 
         // deactivate the puzzle object/don't let the player interact with it anymore (since it's not going to be used again if it's done)
