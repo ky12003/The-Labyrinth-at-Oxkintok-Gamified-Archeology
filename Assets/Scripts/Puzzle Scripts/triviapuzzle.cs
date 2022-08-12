@@ -72,6 +72,10 @@ public class triviapuzzle : MonoBehaviour
         {
             handlePuzzleCompletion();
         }
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            uiEvents.GetComponent<PopupToggle>().openNotebook();
+        }
     }
 
     // ------public functions------
@@ -123,6 +127,7 @@ public class triviapuzzle : MonoBehaviour
         // close puzzle & activate main player UI
         gameObject.SetActive(false);
         mainPlayerUI.SetActive(true);
+        uiEvents.GetComponent<PopupToggle>().setPuzzleOpen(false);
         uiEvents.GetComponent<PopupToggle>().setPopupOpen(false);
 
         // deactivate the puzzle object/don't let the player interact with it anymore (since it's not going to be used again if it's done)
@@ -131,5 +136,8 @@ public class triviapuzzle : MonoBehaviour
         // let the event handler system know that this puzzle has been completed
         puzzleStorage.GetComponent<FloorCompletion>().updateFloorTwoPuzzlesCompleted(puzzleCompleteIndicator1, puzzleCompleteIndicator2, 4);
         Debug.Log("PUZZLE COMPLETE");
+
+
     }
+
 }

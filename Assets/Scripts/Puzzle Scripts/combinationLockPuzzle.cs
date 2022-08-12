@@ -47,6 +47,14 @@ public class combinationLockPuzzle : MonoBehaviour
     FUNCTIONS
     
     */
+    // -----unity functions-----
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            uiEvents.GetComponent<PopupToggle>().openNotebook();
+        }
+    }
 
     // ------public functions------
 
@@ -142,7 +150,9 @@ public class combinationLockPuzzle : MonoBehaviour
         // close puzzle & activate main player UI
         gameObject.SetActive(false);
         mainPlayerUI.SetActive(true);
+        uiEvents.GetComponent<PopupToggle>().setPuzzleOpen(false);
         uiEvents.GetComponent<PopupToggle>().setPopupOpen(false);
+        
 
         // deactivate the puzzle object/don't let the player interact with it anymore (since it's not going to be used again if it's done)
         puzzleObject.layer = 0;
