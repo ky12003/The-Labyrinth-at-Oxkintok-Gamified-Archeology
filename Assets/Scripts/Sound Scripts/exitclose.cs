@@ -5,16 +5,12 @@ using UnityEngine;
 public class exitclose : MonoBehaviour
 {
     // Start is called before the first frame update
-    public AudioSource audioData, mouseon;
+    public AudioSource audioData;
     public void soundclose()
     {
         if(PlaySound.getOn())
           audioData.Play();
     }
 
-    public void mouserollon()
-    {
-        if (PlaySound.getOn())
-            mouseon.Play();
-    }
+   
 }
