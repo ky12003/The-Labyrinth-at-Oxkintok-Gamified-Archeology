@@ -3977,6 +3977,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 357620444}
     - target: {fileID: 1155479452, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+      propertyPath: incorrectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 8e316b92413457d49a67f9cbdb1968b9, type: 3}
+    - target: {fileID: 1155479452, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: puzzleCompleteIndicator1
       value: 
       objectReference: {fileID: 429117270}
@@ -4337,7 +4341,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioData: {fileID: 965940310}
-  mouseon: {fileID: 0}
 --- !u!1 &703874733 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3346189783386244780, guid: a5b294bcd3e4e10498633e1775803d4e, type: 3}
@@ -10604,6 +10607,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 908636856, guid: bfe23471fc3acd24b8b4775988e9e664, type: 3}
+      propertyPath: m_ShowToolkit
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6537865498263537512, guid: bfe23471fc3acd24b8b4775988e9e664, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -32360,6 +32367,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 357620444}
     - target: {fileID: 3742628739508366543, guid: e3a6bda1de5ffa14e84a9197b1cce032, type: 3}
+      propertyPath: incorrectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 8e316b92413457d49a67f9cbdb1968b9, type: 3}
+    - target: {fileID: 3742628739508366543, guid: e3a6bda1de5ffa14e84a9197b1cce032, type: 3}
       propertyPath: puzzleCompleteIndicator1
       value: 
       objectReference: {fileID: 1651001234}
@@ -34292,6 +34303,29 @@ PrefabInstance:
     - target: {fileID: 7880207144269871994, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8128357925282395221, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+      propertyPath: m_text
+      value: 'Client: Dominique Rissolo at the Cultural Heritage Engineering Initiative
+
+        Mentor:
+        David Manuel
+
+        Coach: Corly Huang
+
+        Artist: Michael Billingsley
+
+        Designer:
+        Logan Wayman
+
+        Programmers: Kenta Yamamoto and Juan Groening
+
+        Project
+        Manager: Ryan Sfiligoi
+
+        Sound Designer: Theodore Gigstad
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 8128357925282395221, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_fontAsset
