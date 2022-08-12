@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.000018518082, g: 0.000000033930043, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.00001851807, g: 0.000000033930043, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4269,7 +4269,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioData: {fileID: 965940310}
-  mouseon: {fileID: 0}
 --- !u!1 &703874733 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3346189783386244780, guid: a5b294bcd3e4e10498633e1775803d4e, type: 3}
@@ -34124,6 +34123,29 @@ PrefabInstance:
     - target: {fileID: 7880207144269871994, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8128357925282395221, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+      propertyPath: m_text
+      value: 'Client: Dominique Rissolo at the Cultural Heritage Engineering Initiative
+
+        Mentor:
+        David Manuel
+
+        Coach: Corly Huang
+
+        Artist: Michael Billingsley
+
+        Designer:
+        Logan Wayman
+
+        Programmers: Kenta Yamamoto and Juan Groening
+
+        Project
+        Manager: Ryan Sfiligoi
+
+        Sound Designer: Theodore Gigstad
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 8128357925282395221, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_fontAsset
