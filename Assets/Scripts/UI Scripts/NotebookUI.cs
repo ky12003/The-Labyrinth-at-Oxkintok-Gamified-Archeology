@@ -10,6 +10,7 @@ public class NotebookUI : MonoBehaviour
     //-----serialized variables-----
     [SerializeField] GameObject turnNextPageButton;
     [SerializeField] GameObject turnPrevPageButton;
+    [SerializeField] GameObject notificationPopupObject;
 
     //-----public variables-----
     public GameObject[] pageObjects; // game objects representing each page in the notebook
@@ -80,7 +81,6 @@ public class NotebookUI : MonoBehaviour
         }
     }
 
-    //-----private class methods-----
     // check if a page is available (returns the current page if it's not, returns the next/previous page number if there is a page available)
     public int availablePage(string position)
     {
@@ -102,7 +102,7 @@ public class NotebookUI : MonoBehaviour
             }
             // no new pages after the current page has been found
             return currPage;
-        } 
+        }
         // check for page before current page
         else if (position == "back")
         {
@@ -125,4 +125,17 @@ public class NotebookUI : MonoBehaviour
             return -1; // invalid input
         }
     }
+
+    // send a notification to the player if they do not have a corresponding notebook page availabe to a puzzle
+    public void checkCorrectNotebookPageActive(int pageNum)
+    {
+        if (!pagesActive[pageNum-1])
+        {
+            notificationPopupObject.GetComponent<NotificationPopup>().activateNotif("You might be missing the clue for this puzzle... explore to find a clue page");
+        }
+    }
+
+
+    //-----private class methods-----
+
 }
