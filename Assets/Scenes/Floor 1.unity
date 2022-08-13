@@ -3832,6 +3832,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 396014984, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a5ed065e328db6840a44a2b7d728996e, type: 3}
     - target: {fileID: 627032758, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -3871,7 +3875,7 @@ PrefabInstance:
     - target: {fileID: 766642491, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: a5ed065e328db6840a44a2b7d728996e, type: 3}
+      objectReference: {fileID: 21300000, guid: 267b952eea2125440808c9dd2987a5d3, type: 3}
     - target: {fileID: 788784937, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -3912,6 +3916,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 858584710, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 267b952eea2125440808c9dd2987a5d3, type: 3}
     - target: {fileID: 894179556, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -3952,6 +3960,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 1019173033, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a5ed065e328db6840a44a2b7d728996e, type: 3}
     - target: {fileID: 1155479452, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: player
       value: 
@@ -4180,7 +4192,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8338853859091374287, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8386819493033805979, guid: 1ca108d238114824aa45ada337667cd2, type: 3}
       propertyPath: m_Type
@@ -10052,14 +10064,12 @@ VideoPlayer:
   m_DataSource: 0
   m_PlaybackSpeed: 1.4
   m_AudioOutputMode: 2
-  m_TargetAudioSources:
-  - {fileID: 0}
-  m_DirectAudioVolumes:
-  - 1
+  m_TargetAudioSources: []
+  m_DirectAudioVolumes: []
   m_Url: 
-  m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
-  m_ControlledAudioTrackCount: 1
+  m_EnabledAudioTracks: 
+  m_DirectAudioMutes: 
+  m_ControlledAudioTrackCount: 0
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
   m_Looping: 0
@@ -33734,7 +33744,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3068592034635071367, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3096522094692740792, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_LocalScale.x
@@ -34891,7 +34901,7 @@ PrefabInstance:
     - target: {fileID: 8020930190975648491, guid: 32a1757096276a34fa3d61783a993235, type: 3}
       propertyPath: m_Texture
       value: 
-      objectReference: {fileID: 2800000, guid: f7e4704a84ae43c43b043f8ec3b09092, type: 3}
+      objectReference: {fileID: 2800000, guid: a092f0d40dbc5904890148caf1dc0aa6, type: 3}
     - target: {fileID: 8620535568436568467, guid: 32a1757096276a34fa3d61783a993235, type: 3}
       propertyPath: m_Type
       value: 0
