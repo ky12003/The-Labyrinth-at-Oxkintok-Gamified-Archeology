@@ -1540,7 +1540,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Sound Credits
+  m_text: Art Credits
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 106b8db6ca900e64ab586f775573f26c, type: 2}
   m_sharedMaterial: {fileID: 7671445276034303805, guid: 106b8db6ca900e64ab586f775573f26c, type: 2}
@@ -3149,12 +3149,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ee3cf17498cc8941a6d34274ab09f5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Notes: "EVENTS:\r\n(1-3) Set normal button color other than the one selected back
-    to default color settings (general credits button, art credits button)\r\n(4-6)
-    Set highlighted button color other than the one selected back to default color
-    settings (general credits button, art credits button) \r\n(7-9) Darken selected
-    button (sound credits button)\r\n(10-11) Deactivate text for general credits
-    button /art credits \r\n(12-13) Activate text for sound credits\r"
+  Notes: "EVENTS:\r\n(1-3) Make selection indicator for Sound Credits visible while
+    making other ones invisible using UI Events object\u2019s \u201CChangeColorObject.cs\u201D
+    script. (uses makeImageFullyVisible & makeImageInvisible methods)\r\n(4-6) Set
+    the text for the Sound Credits active. Set the text for the other 2 inactive\r"
 --- !u!114 &3169156565227713938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4496,7 +4494,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &8620978457515614366
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6447,26 +6445,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Client: Dominique Rissolo at the Cultural Heritage Engineering Initiative
-
-    Mentor:
-    David Manuel
-
-    Coach: Corly Huang
-
-    Artist: Michael Billingsley
-
-    Designer:
-    Logan Wayman
-
-    Programmers: Kenta Yamamoto and Juan Groening
-
-    Project
-    Manager: Ryan Sfiligoi
-
-    Sound Designer: Theodore Gigstad
-
-'
+  m_text: '"Atmosphere Cave (Loop)" by julius_galla (https://freesound.org/people/julius_galla/sounds/232685/)
+    is licenced under https://creativecommons.org/licenses/by/3.0/'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 106b8db6ca900e64ab586f775573f26c, type: 2}
   m_sharedMaterial: {fileID: 7671445276034303805, guid: 106b8db6ca900e64ab586f775573f26c, type: 2}
@@ -7325,7 +7305,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &5755366624610817917
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7510,7 +7490,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: General Credits
+  m_text: Sound Credits
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 106b8db6ca900e64ab586f775573f26c, type: 2}
   m_sharedMaterial: {fileID: 7671445276034303805, guid: 106b8db6ca900e64ab586f775573f26c, type: 2}
