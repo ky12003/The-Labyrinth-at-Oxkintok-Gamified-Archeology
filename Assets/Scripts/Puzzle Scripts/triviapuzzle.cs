@@ -40,7 +40,7 @@ public class triviapuzzle : MonoBehaviour
     // all riddles
     string[] riddleList = new string[] {
         "How many days does the Tzolkin calendar consist of?", 
-        "The last month of this calendar system consisted of 5 “unlucky” days.", 
+        "The last month of this calendar system consisted of 5 unlucky days.", 
         "How many major calendars did the Mayans use?", 
         "Out of all the time periods in the Long Count calendar, which takes the longest?"
     };
