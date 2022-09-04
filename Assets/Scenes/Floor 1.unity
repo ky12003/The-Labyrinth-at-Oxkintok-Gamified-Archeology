@@ -510,8 +510,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Its purpose is unknown, but theories have been stated that the Mayans trapped
-    prisoners within and forced them to run through.
+  m_text: The labyrinth may have witnessed the ritual reenactment of the Maya creation
+    myth. Or was it an ancient solar observatory? For those navigating its dark passageways
+    it was a perilous journey.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 106b8db6ca900e64ab586f775573f26c, type: 2}
   m_sharedMaterial: {fileID: 7671445276034303805, guid: 106b8db6ca900e64ab586f775573f26c, type: 2}
@@ -10743,7 +10744,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: Your goal now is to escape the labyrinth and find freedom. There are puzzles
-    throughout the labyrinth that may grant you escape if you complete them.
+    throughout the labyrinth that may grant you escape if you complete them. Can
+    you solve the mystery of the Maya maze?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 106b8db6ca900e64ab586f775573f26c, type: 2}
   m_sharedMaterial: {fileID: 7671445276034303805, guid: 106b8db6ca900e64ab586f775573f26c, type: 2}
@@ -26980,8 +26982,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You are an archaeologist, tasked with researching this building...and yet
-    you find yourself trapped inside.
+  m_text: You are an archaeologist, tasked with researching this enigmatic building...but
+    you have found yourself trapped inside.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 106b8db6ca900e64ab586f775573f26c, type: 2}
   m_sharedMaterial: {fileID: 7671445276034303805, guid: 106b8db6ca900e64ab586f775573f26c, type: 2}
@@ -28629,8 +28631,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Satunsat, a mysterious Mayan labyrinth in the archaeological site of Oxkintok
-    in the Yucatan Peninsula.
+  m_text: One of the most enigmatic buildings of the ancient Maya world, the labyrinth
+    of Satunsat is located in the archaeological site of Oxkintok in the Yucatan
+    Peninsula.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 106b8db6ca900e64ab586f775573f26c, type: 2}
   m_sharedMaterial: {fileID: 7671445276034303805, guid: 106b8db6ca900e64ab586f775573f26c, type: 2}
@@ -33463,22 +33466,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Menu components
       objectReference: {fileID: 0}
-    - target: {fileID: 3182177456552898433, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
-      propertyPath: m_text
-      value: '"Atmosphere Cave (Loop)" by julius_galla (https://freesound.org/people/julius_galla/sounds/232685/)
-        is licenced under https://creativecommons.org/licenses/by/3.0/'
-      objectReference: {fileID: 0}
-    - target: {fileID: 3954750039700010987, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
-      propertyPath: Notes
-      value: "EVENTS:\r\n(1-3) Make selection indicator for Sound Credits visible
-        while making other ones invisible using UI Events object\u2019s \u201CChangeColorObject.cs\u201D
-        script. (uses makeImageFullyVisible & makeImageInvisible methods)\r\n(4-6)
-        Set the text for the Sound Credits active. Set the text for the other 2 inactive\r"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4178063293667129737, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
-      propertyPath: m_text
-      value: Sound Credits
-      objectReference: {fileID: 0}
     - target: {fileID: 4390869359107467382, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -33495,9 +33482,9 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 1860796901}
-    - target: {fileID: 6687214310992274921, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
-      propertyPath: m_text
-      value: Art Credits
+    - target: {fileID: 6215035764113790665, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7054708588398665161, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -33599,10 +33586,44 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8128357925282395221, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+      propertyPath: m_text
+      value: 'Client: Dominique Rissolo at the Cultural Heritage Engineering Initiative
+
+        Ubisoft,
+        Sony Electronics, and Binar Media
+
+        Mentor: David Manuel from Ubisoft
+
+        Coach:
+        Corly Huang
+
+        Artist: Michael Billingsley
+
+        Designer: Logan
+        Wayman
+
+        Programmers: Kenta Yamamoto and Juan Groening
+
+        Project
+        Manager: Ryan Sfiligoi
+
+        Sound Designer: Theodore Gigstad
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677072373965584164, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8733750110356819658, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: audioData
       value: 
       objectReference: {fileID: 1063003750}
+    - target: {fileID: 8867822180707619346, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
 --- !u!1001 &7248721988506462259

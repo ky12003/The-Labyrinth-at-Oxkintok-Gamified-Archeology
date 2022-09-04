@@ -23,7 +23,6 @@ public class ChangeColorObject : MonoBehaviour
     public void makeImageFullyVisible(GameObject imgObject) {
         newImage = imgObject.GetComponent<Image>();
         newImage.color = new Color(newImage.color.r, newImage.color.g, newImage.color.b, 255f);
-        Debug.Log("Aa: " + newImage.color.a + "FOR: " + imgObject.name);
     }
 
     // make an image invisible
@@ -31,6 +30,5 @@ public class ChangeColorObject : MonoBehaviour
     {
         newImage = imgObject.GetComponent<Image>();
         newImage.color = new Color(newImage.color.r, newImage.color.g, newImage.color.b, 0f);
-        Debug.Log("A: " + newImage.color.a + "FOR: " + imgObject.name);
     }
 }
