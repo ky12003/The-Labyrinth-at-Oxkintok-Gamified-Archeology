@@ -2160,7 +2160,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Good luck, and may you find freedom.
+  m_text: Good luck, and may you find freedom, and the secrets of the Maya labyrinth.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 106b8db6ca900e64ab586f775573f26c, type: 2}
   m_sharedMaterial: {fileID: 7671445276034303805, guid: 106b8db6ca900e64ab586f775573f26c, type: 2}
@@ -33462,13 +33462,19 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 1860796901}
+    - target: {fileID: 1945497152139819029, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
+      propertyPath: m_text
+      value: NG, INAH, CHEI, Fabio Esteban Amador, Michael Hess, Oliver Huang, Jose
+        Huchim Ochoa, Falko Kuester, Eric Lo, Hilda Lozano, Scott McAvoy, Vid Petrovic,
+        Alejando Ravazzola, Dario Schvarzstein for the 3D Model
+      objectReference: {fileID: 0}
     - target: {fileID: 3068592034635071367, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_Name
       value: Menu components
       objectReference: {fileID: 0}
     - target: {fileID: 4390869359107467382, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5583121482143753603, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -33584,7 +33590,7 @@ PrefabInstance:
       objectReference: {fileID: 204279323}
     - target: {fileID: 7880207144269871994, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8128357925282395221, guid: 002b26fec56742a479a62b673b8b7b83, type: 3}
       propertyPath: m_text
